@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plist version="1.0">
+  <dict>
+    <key>scope</key>
+    <string>source.json.stylelint, source.js.stylelint, source.yaml.stylelint, source.shell.stylelint</string>
+    <key>settings</key>
+    <dict>
+      <key>icon</key>
+      <string>file_type_stylelint</string>
+    </dict>
+  </dict>
+</plist>
