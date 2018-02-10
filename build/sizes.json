@@ -1,0 +1,12 @@
+[
+  {
+    "size": 16,
+    "description": "16x16 is the default size of the Sublime Text icons.",
+    "suffix": false
+  },
+  {
+    "size": 32,
+    "description": "The size of @2x icons.",
+    "suffix": "@2x"
+  }
+]
