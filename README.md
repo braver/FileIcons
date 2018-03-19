@@ -3,6 +3,8 @@ Colored file icons for Sublime Text.
 
 Adds specific, colored icons for most file types for the sidebar in Sublime Text 3. Supports both the Default and Adaptive themes.
 
+<img width="432" src="https://raw.githubusercontent.com/braver/FileIcons/master/icons.png"> 
+
 Inspired by [A File Icon](https://packagecontrol.io/packages/A%20File%20Icon), but simpler:
 
 - Doesn't introduce "alias" languages like "Javascript (Gulpfile)"
