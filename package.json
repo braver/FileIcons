@@ -14,29 +14,16 @@
   },
   "devDependencies": {
     "color": "^0.11.3",
-    "colors": "^1.1.2",
-    "conventional-changelog": "^1.1.0",
-    "conventional-changelog-angular-ihodev": "github:ihodev/conventional-changelog-angular-ihodev",
-    "conventional-github-releaser": "^1.1.3",
     "gulp": "^3.9.1",
-    "gulp-batch": "^1.0.5",
-    "gulp-bump": "^2.4.0",
     "gulp-changed": "^1.3.2",
-    "gulp-data": "^1.2.1",
     "gulp-flatmap": "^1.0.0",
     "gulp-if": "^2.0.1",
     "gulp-imagemin": "^3.0.3",
     "gulp-load-plugins": "^1.3.0",
-    "gulp-markdown": "^1.2.0",
     "gulp-plumber": "^1.1.0",
     "gulp-recolor-svg": "^1.0.3",
     "gulp-rename": "^1.2.2",
     "gulp-svg2png": "^2.0.2",
-    "gulp-template": "^4.0.0",
-    "gulp-unescape-html": "^1.0.2",
-    "gulp-watch": "^4.3.10",
-    "gulp-wrap": "^0.13.0",
-    "merge-stream": "^1.0.0",
-    "yargs": "^6.0.0"
+    "merge-stream": "^1.0.0"
   }
 }

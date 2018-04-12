@@ -2,7 +2,6 @@
 
 var gulp = require("gulp");
 var color = require("color");
-var colors = require("colors");
 var path = require("path");
 var fs = require("fs");
 var merge = require("merge-stream");
@@ -52,25 +51,6 @@ gulp.task("build", function() {
             paletteReduction: false
           })], {verbose: true}))
           .pipe(gulp.dest("./theme"));
-
-        // var single = gulp.src(file.path)
-        //   .pipe($.recolorSvg.Replace(
-        //     [baseColor],
-        //     [color("white")]
-        //   ))
-        //   .pipe($.svg2png({
-        //     width: size.size,
-        //     height: size.size
-        //   }))
-        //   .pipe($.if(size.size, $.rename({suffix: size.suffix})))
-        //   .pipe($.imagemin([$.imagemin.optipng({
-        //     bitDepthReduction: false,
-        //     colorTypeReduction: false,
-        //     paletteReduction: false
-        //   })], {verbose: true}))
-        //   .pipe(gulp.dest("./icons/single"));
-
-        // return merge(multi, single);
         return multi;
       }));
 
