@@ -1,12 +1,12 @@
 {
-  "red": "#d52a29",
-  "orange": "#ea7130",
-  "yellow": "#e79627",
-  "green": "#6aab20",
-  "cyan": "#26a2c1",
-  "blue": "#497ce3",
-  "purple": "#7963e6",
-  "pink": "#f13c6f",
-  "sky": "#1e9cef",
-  "graphite": "#7a8387"
+  "red": "hsl(357, 79%, 65%)",
+  "orange": "hsl(13, 93%, 66%)",
+  "yellow": "hsl(32, 85%, 55%)",
+  "green": "hsl(114, 31%, 68%)",
+  "cyan": "hsl(180, 36%, 54%)",
+  "blue": "hsl(210, 50%, 60%)",
+  "purple": "hsl(210, 13%, 45%)",
+  "pink": "hsl(300, 30%, 68%)",
+  "sky": "hsl(219, 28%, 88%)",
+  "graphite": "hsl(221, 12%, 69%)"
 }
