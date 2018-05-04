@@ -8,5 +8,10 @@
     "size": 32,
     "description": "The size of @2x icons.",
     "suffix": "@2x"
+  },
+  {
+    "size": 48,
+    "description": "The size of @3x icons.",
+    "suffix": "@3x"
   }
 ]
