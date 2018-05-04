@@ -121,6 +121,7 @@
   "file_type_webpack": "blue",
   "file_type_windows": "cyan",
   "file_type_word": "blue",
+  "file_type_xml": "orange",
   "file_type_yaml": "red",
   "file_type_yarn": "blue"
 }
