@@ -48,7 +48,7 @@
   "file_type_indesign": "purple",
   "file_type_java": "red",
   "file_type_js": "yellow",
-  "file_type_json": "green",
+  "file_type_json": "orange",
   "file_type_jsp": "purple",
   "file_type_jsx": "blue",
   "file_type_julia": "purple",
@@ -110,7 +110,7 @@
   "file_type_tcl": "yellow",
   "file_type_tern": "graphite",
   "file_type_tex": "blue",
-  "file_type_text": "yellow",
+  "file_type_text": "graphite",
   "file_type_textile": "purple",
   "file_type_todo": "green",
   "file_type_twig": "green",
@@ -121,6 +121,6 @@
   "file_type_webpack": "blue",
   "file_type_windows": "cyan",
   "file_type_word": "blue",
-  "file_type_yaml": "yellow",
+  "file_type_yaml": "red",
   "file_type_yarn": "blue"
 }
