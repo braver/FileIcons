@@ -1,9 +1,9 @@
-# FileIcons
-Colored file icons for Sublime Text. [Also available in greyscale](https://packagecontrol.io/packages/FileIcons%20Mono).
+# FileIcons Mono
+Monochrome file icons for Sublime Text.
 
 Adds specific, colored icons for most file types for the sidebar in Sublime Text 3. Supports both the Default and Adaptive themes.
 
-<img width="432" src="https://raw.githubusercontent.com/braver/FileIcons/master/icons.png"> 
+<img width="432" src="https://raw.githubusercontent.com/braver/FileIcons/mono/icons.png"> 
 
 Inspired by [A File Icon](https://packagecontrol.io/packages/A%20File%20Icon), but simpler:
 
@@ -20,18 +20,18 @@ The following changes are made to Adaptive/Default.sublime-theme. You can overri
   {
     "class": "icon_file_type",
     "layer0.tint": [255, 255, 255],
-    "layer0.opacity": 0.75,
+    "layer0.opacity": 0.6,
     "content_margin": [8, 8]
   },
   {
     "class": "icon_file_type",
     "parents": [{"class": "tree_row", "attributes": ["hover"]}],
-    "layer0.opacity": 0.5
+    "layer0.opacity": 0.75
   },
   {
     "class": "icon_file_type",
     "parents": [{"class": "tree_row", "attributes": ["selected"]}],
-    "layer0.opacity": 1.0
+    "layer0.opacity": 0.9
   }
 ]
 ```
