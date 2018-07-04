@@ -1,15 +1,15 @@
 # FileIcons Mono
-Monochrome file icons for Sublime Text.
+Monochrome file icons for Sublime Text. [Also available in color](https://packagecontrol.io/packages/FileIcons).
 
-Adds specific, colored icons for most file types for the sidebar in Sublime Text. Supports both the Default and Adaptive themes.
+Adds specific icons for most file types for the sidebar in Sublime Text 3. Supports both the Default and Adaptive themes.
 
 <img width="432" src="https://raw.githubusercontent.com/braver/FileIcons/mono/icons.png"> 
 
 Inspired by [A File Icon](https://packagecontrol.io/packages/A%20File%20Icon), but simpler:
 
 - Doesn't introduce "alias" languages like "Javascript (Gulpfile)"
-- No runtime code, no restarting required
-- Zero configuration
+- No runtime code: no manipulation of settings or themes, no restarting
+- No configuration: just uses existing theme override behavior
 
 ## Customize
 
@@ -70,4 +70,4 @@ To get file icons in any theme other than Default or Adaptive, take the followin
 
 ☕️👌🏻
 
-If you enjoy this package, feel free to make a little [donation via PayPal](https://paypal.me/koenlageveen) towards the coffee that keeps this project running. It's much appreciated!
+If you enjoy this package, feel free to make a little [donation via PayPal](https://paypal.me/pools/c/8aninMZJ3D) towards the coffee that keeps this project running. It's much appreciated!
