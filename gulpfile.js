@@ -16,7 +16,7 @@ var getIconOpts = function() {
   return JSON.parse(fs.readFileSync("./build/icons.json", "utf8"));
 };
 
-gulp.task("build", function() {
+var build = function() {
   var baseColor = $.recolorSvg.ColorMatcher(color("#000"));
 
   opts.icons = getIconOpts();
@@ -56,6 +56,7 @@ gulp.task("build", function() {
 
       return iconImages;
     }));
-});
+};
 
-gulp.task("default", ["build"]);
+gulp.task("default", build);
+
