@@ -65,3 +65,10 @@ To get file icons in any theme other than Default or Adaptive, take the followin
 - In your settings, check what theme you're using (e.g. 'itg.flat.dark.sublime-theme').
 - In the FileIcons directory, open the "theme" directory. At the top you should see both "Adaptive.sublime-theme" and "Default.sublime-theme". You can rename either of those to the filename you just found in your settings. 
 - Restart Sublime Text and you should see icons in the sidebar!
+
+
+## Buy me a coffee 
+
+☕️👌🏻
+
+If you enjoy this package, feel free to make a little [donation via PayPal](https://paypal.me/pools/c/8aninMZJ3D) towards the coffee that keeps this project running. It's much appreciated!
