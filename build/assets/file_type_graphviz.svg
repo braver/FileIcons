@@ -1,18 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
-    <title>file_type_graphviz copy</title>
+    <title>file_type_graphviz</title>
     <desc>Created with Sketch.</desc>
-    <g id="file_type_graphviz-copy" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <ellipse id="Oval-Copy-2" fill="#000000" cx="1.99991996" cy="10.25" rx="1.75" ry="1.25"></ellipse>
-        <ellipse id="Oval-Copy-5" fill="#000000" cx="6.54800251" cy="11.2604708" rx="1.75" ry="1.25"></ellipse>
-        <ellipse id="Oval-Copy-3" fill="#000000" cx="6.5" cy="2.50221384" rx="2" ry="1.5"></ellipse>
-        <path d="M6.5,5.01268468 L6.5,5.01268468 C6.77614237,5.01268468 7,5.23654231 7,5.51268468 L7,8.5 C7,8.77614237 6.77614237,9 6.5,9 L6.5,9 C6.22385763,9 6,8.77614237 6,8.5 L6,5.51268468 C6,5.23654231 6.22385763,5.01268468 6.5,5.01268468 Z" id="Rectangle" fill="#000000"></path>
-        <g id="Group" transform="translate(9.099843, 8.510471)" stroke="#000000">
-            <circle id="Oval-2" cx="2.40015683" cy="2.98952915" r="2"></circle>
-            <path d="M4.57515683,4.209935 L4.57515683,6.11912331" id="Line" stroke-width="1.25" stroke-linecap="round" transform="translate(4.575157, 5.164529) rotate(-45.000000) translate(-4.575157, -5.164529) "></path>
-        </g>
-        <rect id="Rectangle" fill="#000000" transform="translate(3.412104, 6.091739) rotate(25.000000) translate(-3.412104, -6.091739) " x="2.91210435" y="4.04254544" width="1" height="4.09838742" rx="0.5"></rect>
-        <rect id="Rectangle-Copy" fill="#000000" transform="translate(9.580953, 6.095618) rotate(-25.000000) translate(-9.580953, -6.095618) " x="9.08095273" y="4.04561817" width="1" height="4.1" rx="0.5"></rect>
+    <g id="file_type_graphviz" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <circle id="Oval" stroke="#000000" cx="4.5" cy="11.5" r="2"></circle>
+        <circle id="Oval-Copy-2" stroke="#000000" cx="8" cy="3.5" r="2"></circle>
+        <circle id="Oval-Copy" stroke="#000000" cx="11.5" cy="11.5" r="2"></circle>
+        <rect id="Rectangle" fill="#000000" transform="translate(6.315435, 7.606788) rotate(25.000000) translate(-6.315435, -7.606788) " x="5.8154346" y="5.10678795" width="1" height="5"></rect>
+        <rect id="Rectangle" fill="#000000" transform="translate(9.694252, 7.627562) rotate(-25.000000) translate(-9.694252, -7.627562) " x="9.19425241" y="5.12756179" width="1" height="5"></rect>
     </g>
 </svg>
