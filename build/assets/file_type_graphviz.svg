@@ -4,10 +4,10 @@
     <title>file_type_graphviz</title>
     <desc>Created with Sketch.</desc>
     <g id="file_type_graphviz" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <circle id="Oval" stroke="#000000" cx="4.5" cy="11.5" r="2"></circle>
-        <circle id="Oval-Copy-2" stroke="#000000" cx="8" cy="3.5" r="2"></circle>
-        <circle id="Oval-Copy" stroke="#000000" cx="11.5" cy="11.5" r="2"></circle>
-        <rect id="Rectangle" fill="#000000" transform="translate(6.315435, 7.606788) rotate(25.000000) translate(-6.315435, -7.606788) " x="5.8154346" y="5.10678795" width="1" height="5"></rect>
-        <rect id="Rectangle" fill="#000000" transform="translate(9.694252, 7.627562) rotate(-25.000000) translate(-9.694252, -7.627562) " x="9.19425241" y="5.12756179" width="1" height="5"></rect>
+        <circle id="Oval" stroke="#000000" stroke-width="1.5" cx="4" cy="12" r="2.25"></circle>
+        <circle id="Oval-Copy-2" stroke="#000000" stroke-width="1.5" cx="8" cy="4" r="2.25"></circle>
+        <rect id="Rectangle" fill="#000000" transform="translate(5.972670, 7.955427) rotate(26.000000) translate(-5.972670, -7.955427) " x="5.22475369" y="5.45542679" width="1.49583294" height="5"></rect>
+        <circle id="Oval-Copy" stroke="#000000" stroke-width="1.5" cx="12" cy="12" r="2.25"></circle>
+        <rect id="Rectangle" fill="#000000" transform="translate(10.027330, 7.955427) rotate(-26.000000) translate(-10.027330, -7.955427) " x="9.27941337" y="5.45542679" width="1.49583294" height="5"></rect>
     </g>
 </svg>
