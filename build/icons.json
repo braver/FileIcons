@@ -33,6 +33,8 @@
   "file_type_ex": "purple",
   "file_type_excel": "green",
   "file_type_font": "green",
+  "file_type_modern-fortran": "orange",
+  "file_type_fixedform-fortran": "blue",
   "file_type_git": "orange",
   "file_type_go": "cyan",
   "file_type_gradle": "cyan",

@@ -2,11 +2,11 @@
 <plist version="1.0">
   <dict>
     <key>scope</key>
-    <string>source.cs, embedding.ashx</string>
+    <string>source.modern-fortran</string>
     <key>settings</key>
     <dict>
       <key>icon</key>
-      <string>file_type_csharp</string>
+      <string>file_type_modern-fortran</string>
     </dict>
   </dict>
 </plist>

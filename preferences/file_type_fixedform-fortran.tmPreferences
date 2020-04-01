@@ -2,11 +2,11 @@
 <plist version="1.0">
   <dict>
     <key>scope</key>
-    <string>source.cs, embedding.ashx</string>
+    <string>source.fixedform-fortran</string>
     <key>settings</key>
     <dict>
       <key>icon</key>
-      <string>file_type_csharp</string>
+      <string>file_type_fixedform-fortran</string>
     </dict>
   </dict>
 </plist>

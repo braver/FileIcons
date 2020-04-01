@@ -2,7 +2,7 @@
 <plist version="1.0">
   <dict>
     <key>scope</key>
-    <string>source.asp, text.html.asp</string>
+    <string>source.asp, text.html.asp, embedding.cshtml</string>
     <key>settings</key>
     <dict>
       <key>icon</key>
