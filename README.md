@@ -59,10 +59,10 @@ To add an icon:
 
 To get file icons in any theme other than Default or Adaptive, take the following steps:
 
-- After installing `FileIcons` through `Package Control`, go to the Sublime Text "Packages" directory (e.g. via the command "Browse Packages").
+- After installing [FileIcons](https://packagecontrol.io/packages/FileIcons) through [Package Control](https://packagecontrol.io), go to the Sublime Text "Packages" directory (e.g. via the command "Browse Packages").
 - Create a "FileIcons/theme" directory structure in your "Packages" directory.
 - In your settings, check what theme you're using (e.g. 'itg.flat.dark.sublime-theme').
-- In the "theme" directory, create a file with name matching the name of the theme you are using and copy the contents of included [Adaptive.sublime-theme](https://github.com/braver/FileIcons/blob/master/theme/Adaptive.sublime-theme) overrides into it.
+- In the "FileIcons/theme" directory, create a file with the name of the theme you are using and copy the [theme overrides](https://github.com/braver/FileIcons/blob/master/theme/Adaptive.sublime-theme) that make FileIcons work into it.
 - Restart Sublime Text and you should see icons in the sidebar!
 
 
