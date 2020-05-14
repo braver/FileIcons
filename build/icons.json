@@ -77,6 +77,7 @@
   "file_type_nsis": "purple",
   "file_type_ocaml": "yellow",
   "file_type_onenote": "purple",
+  "file_type_pcb": "cyan",
   "file_type_pdf": "red",
   "file_type_perl": "graphite",
   "file_type_php": "blue",
