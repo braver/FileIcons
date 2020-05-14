@@ -1,0 +1,18 @@
+%YAML 1.2
+---
+# http://www.sublimetext.com/docs/3/syntax.html
+name: MS Word
+file_extensions:
+  - doc
+  - docx
+  - docm
+  - docxml
+  - dotm
+  - dotx
+  - wri
+scope: text.plain.word
+hidden: true
+contexts:
+  main:
+    - include: scope:text.plain#prototype
+    - include: scope:text.plain
