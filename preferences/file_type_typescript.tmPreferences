@@ -2,7 +2,7 @@
 <plist version="1.0">
   <dict>
     <key>scope</key>
-    <string>source.ts</string>
+    <string>source.ts, source.js.typescript</string>
     <key>settings</key>
     <dict>
       <key>icon</key>
