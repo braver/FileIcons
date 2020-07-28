@@ -30,6 +30,7 @@
   "file_type_docker": "cyan",
   "file_type_dotnet": "cyan",
   "file_type_editorconfig": "yellow",
+  "file_type_ejs": "green",
   "file_type_elm": "cyan",
   "file_type_erlang": "red",
   "file_type_eslint": "blue",
