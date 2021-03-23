@@ -2,7 +2,7 @@
 <plist version="1.0">
   <dict>
     <key>scope</key>
-    <string>source.modern-fortran</string>
+    <string>source.fortran, source.modern-fortran</string>
     <key>settings</key>
     <dict>
       <key>icon</key>
