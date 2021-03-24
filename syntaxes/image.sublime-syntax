@@ -1,6 +1,7 @@
 %YAML 1.2
 ---
 # http://www.sublimetext.com/docs/3/syntax.html
+# Used for image formats that ST doesn't support natively
 name: Image
 file_extensions:
   - emf
