@@ -4,6 +4,7 @@
 # Used for image formats that ST doesn't support natively
 name: Image
 file_extensions:
+  - avif
   - emf
   - jp2
   - pnm
