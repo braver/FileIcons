@@ -2,7 +2,7 @@
 <plist version="1.0">
   <dict>
     <key>scope</key>
-    <string>source.shell, source.fish</string>
+    <string>source.shell, source.fish, source.dosbatch</string>
     <key>settings</key>
     <dict>
       <key>icon</key>
