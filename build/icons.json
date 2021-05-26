@@ -21,6 +21,7 @@
   "file_type_coffeescript": "orange",
   "file_type_composer": "orange",
   "file_type_cpp": "cyan",
+  "file_type_crystal": "graphite",
   "file_type_csharp": "blue",
   "file_type_css": "blue",
   "file_type_csv": "green",
