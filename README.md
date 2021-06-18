@@ -1,7 +1,7 @@
 # FileIcons
 Colored file icons for Sublime Text. [Also available in greyscale](https://packagecontrol.io/packages/FileIcons%20Mono).
 
-Adds specific, colored icons for most file types for the sidebar in Sublime Text 3. Supports both the Default and Adaptive themes.
+Adds specific, colored icons for most file types for the sidebar in Sublime Text. Supports both the Default and Adaptive themes.
 
 <img width="432" src="https://raw.githubusercontent.com/braver/FileIcons/master/icons.png"> 
 
