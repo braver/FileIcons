@@ -8,8 +8,8 @@ Adds specific, colored icons for most file types for the sidebar in Sublime Text
 Inspired by [A File Icon](https://packagecontrol.io/packages/A%20File%20Icon), but simpler:
 
 - Doesn't introduce "alias" languages like "Javascript (Gulpfile)"
-- No runtime code: no manipulation of settings or themes, no restarting
-- No configuration: just uses existing theme override behavior
+- No runtime code, no restarting required
+- Zero configuration
 
 ## Customize
 
