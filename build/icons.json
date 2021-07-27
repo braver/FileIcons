@@ -115,6 +115,7 @@
   "file_type_stylelint": "graphite",
   "file_type_stylus": "green",
   "file_type_sublime": "orange",
+  "file_type_svelte": "red",
   "file_type_svg": "orange",
   "file_type_swift": "orange",
   "file_type_tcl": "yellow",
