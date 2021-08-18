@@ -120,6 +120,7 @@
   "file_type_swift": "orange",
   "file_type_tcl": "yellow",
   "file_type_tern": "graphite",
+  "file_type_terraform": "graphite",
   "file_type_tex": "blue",
   "file_type_text": "graphite",
   "file_type_textile": "purple",
