@@ -1,62 +1,13 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg
-   width="16"
-   height="16"
-   viewBox="0 0 16 16"
-   version="1.1"
-   id="svg137901"
-   sodipodi:docname="file_type_svelte.svg"
-   inkscape:version="1.1 (c4e8f9ed74, 2021-05-24)"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <sodipodi:namedview
-     id="namedview137903"
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1.0"
-     inkscape:pageshadow="2"
-     inkscape:pageopacity="0.0"
-     inkscape:pagecheckerboard="0"
-     showgrid="true"
-     inkscape:zoom="27.28125"
-     inkscape:cx="3.1340206"
-     inkscape:cy="10.061856"
-     inkscape:window-width="1280"
-     inkscape:window-height="997"
-     inkscape:window-x="1036"
-     inkscape:window-y="1693"
-     inkscape:window-maximized="0"
-     inkscape:current-layer="svg137901">
-    <inkscape:grid
-       type="xygrid"
-       id="grid720" />
-  </sodipodi:namedview>
-  <defs
-     id="defs137898">
-    <style
-       id="style137896">
-      .i-color {
-        fill: #000;
-        fill-rule: evenodd;
-      }
-    </style>
-  </defs>
-  <g
-     inkscape:groupmode="layer"
-     id="layer3"
-     inkscape:label="Layer 1" />
-  <g
-     style="fill:#000000;opacity:1;fill-opacity:1;stroke:#000000;stroke-opacity:1;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none"
-     id="g43"
-     transform="matrix(0.88038741,0,0,0.81788406,1.303641,1.724283)">
-    <path
-       fill-rule="evenodd"
-       clip-rule="evenodd"
-       d="m 13.2829,1.94409 c 0.9254,1.48102 0.7631,3.33238 -0.2701,4.62167 0.85,1.8073 0.2334,4.00554 -1.5024,5.09024 L 7.27012,14.3056 C 5.39667,15.4763 2.92892,14.9066 1.75825,13.0331 0.832798,11.5521 0.99519,9.70071 2.02833,8.41145 1.17829,6.60415 1.79488,4.40587 3.53076,3.32117 L 7.771,0.671576 C 9.64446,-0.499089 12.1122,0.070635 13.2829,1.94409 Z M 8.30092,1.51962 C 9.70601,0.641625 11.5568,1.06892 12.4348,2.47401 13.0645,3.48168 13.023,4.71945 12.4301,5.66263 11.8046,4.92992 10.9523,4.46839 10.0447,4.31762 L 10.7691,3.86494 10.2392,3.0169 5.15088,6.19641 5.6808,7.04446 7.80091,5.71967 c 1.40509,-0.878 3.25589,-0.45068 4.13389,0.95441 0.878,1.4051 0.4507,3.25591 -0.9544,4.13392 L 6.7402,13.4576 C 5.33511,14.3356 3.4843,13.9083 2.6063,12.5032 1.97665,11.4955 2.01814,10.2578 2.61103,9.31458 3.23653,10.0473 4.08885,10.5088 4.99651,10.6596 L 4.27222,11.1122 4.80214,11.9602 9.89043,8.78071 9.36051,7.93267 7.24023,9.25756 C 5.83514,10.1356 3.98429,9.70821 3.10629,8.30312 2.2283,6.89803 2.65559,5.04722 4.06068,4.16922 Z"
-       fill="#000000"
-       id="path34"
-       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none" />
-  </g>
+<svg width="100%" height="100%" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+   <defs>
+     <style>
+       .i-color {
+         fill: #000;
+         fill-rule: evenodd;
+       }
+     </style>
+   </defs>
+    <g id="path34" transform="matrix(0.941816,0,0,0.874952,0.917004,1.44783)">
+        <path class="i-color" d="M13.283,1.944C14.208,3.425 14.046,5.276 13.013,6.566C13.863,8.373 13.246,10.571 11.51,11.656L7.27,14.306C5.397,15.476 2.929,14.907 1.758,13.033C0.833,11.552 0.995,9.701 2.028,8.411C1.178,6.604 1.795,4.406 3.531,3.321L7.771,0.672C9.644,-0.499 12.112,0.071 13.283,1.944ZM8.301,1.52C9.706,0.642 11.557,1.069 12.435,2.474C13.065,3.482 13.023,4.719 12.43,5.663C11.805,4.93 10.952,4.468 10.045,4.318L10.769,3.865L10.239,3.017L5.151,6.196L5.681,7.044L7.801,5.72C9.206,4.842 11.057,5.269 11.935,6.674C12.813,8.079 12.385,9.93 10.98,10.808L6.74,13.458C5.335,14.336 3.484,13.908 2.606,12.503C1.977,11.496 2.018,10.258 2.611,9.315C3.237,10.047 4.089,10.509 4.997,10.66L4.272,11.112L4.802,11.96L9.89,8.781L9.361,7.933L7.24,9.258C5.835,10.136 3.984,9.708 3.106,8.303C2.228,6.898 2.656,5.047 4.061,4.169L8.301,1.52Z"/>
+    </g>
 </svg>
