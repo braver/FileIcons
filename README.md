@@ -40,10 +40,10 @@ The following changes are made to Adaptive/Default.sublime-theme. You can overri
 
 The "build" directory contains svg assets. Each icon is assigned a color in icons.json, available colors are listed in colors.json. 
 
-To produce png files:
+PNG icons are built using a small app written in [Rust](https://www.rust-lang.org):
 
-- `npm install`
-- `npm run build`
+- `cd build`
+- `cargo run`
 
 To add an icon:
 
