@@ -14,6 +14,7 @@
   "file_type_bower": "yellow",
   "file_type_c": "blue",
   "file_type_cad": "orange",
+  "file_type_cairo": "red",
   "file_type_circleci": "graphite",
   "file_type_cf": "cyan",
   "file_type_clojure": "green",
