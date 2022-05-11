@@ -60,6 +60,7 @@
   "file_type_jsp": "purple",
   "file_type_jsx": "blue",
   "file_type_julia": "purple",
+  "file_type_ksp": "graphite",
   "file_type_kotlin": "blue",
   "file_type_less": "blue",
   "file_type_license": "cyan",
