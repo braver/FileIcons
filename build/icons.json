@@ -135,5 +135,6 @@
   "file_type_word": "blue",
   "file_type_xml": "orange",
   "file_type_yaml": "red",
-  "file_type_yarn": "blue"
+  "file_type_yarn": "blue",
+  "file_type_zig": "orange"
 }

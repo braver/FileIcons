@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 16 16"
+   version="1.1"
+   id="svg147"
+   width="16"
+   height="16"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs151" />
+  <g
+     id="g38"
+     transform="matrix(0.09434381,0,0,0.10606641,0.75282,0.57573401)">
+    <g
+       fill="#000"
+       id="g125">
+      <g
+         id="g103">
+        <polygon
+           points="28,44 19,30 46,22 "
+           id="polygon97" />
+        <polygon
+           points="22,44 22,95 31,95 20,100 12,117 0,117 0,22 46,22 33,33 28,44 "
+           shape-rendering="crispEdges"
+           id="polygon99" />
+        <polygon
+           points="12,117 4,106 31,95 "
+           id="polygon101" />
+      </g>
+      <g
+         id="g115">
+        <polygon
+           points="62,36 37,44 56,22 "
+           id="polygon105" />
+        <polygon
+           points="37,44 56,32 56,22 111,22 111,44 "
+           shape-rendering="crispEdges"
+           id="polygon107" />
+        <polygon
+           points="97,117 90,104 116,95 "
+           id="polygon109" />
+        <polygon
+           points="42,117 42,95 116,95 100,104 97,117 "
+           shape-rendering="crispEdges"
+           id="polygon111" />
+        <polygon
+           points="52,117 3,140 101,22 150,0 "
+           id="polygon113" />
+      </g>
+      <g
+         id="g123">
+        <polygon
+           points="140,40 122,45 141,22 "
+           id="polygon117" />
+        <polygon
+           points="120,105 125,95 131,95 131,45 122,45 132,36 141,22 153,22 153,117 106,117 "
+           shape-rendering="crispEdges"
+           id="polygon119" />
+        <polygon
+           points="130,110 106,117 125,95 "
+           id="polygon121" />
+      </g>
+    </g>
+  </g>
+  <g
+     fill="#000"
+     id="g145">
+    <g
+       id="g133" />
+    <g
+       id="g143" />
+  </g>
+</svg>
