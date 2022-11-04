@@ -1,0 +1,13 @@
+<svg width="100%" height="100%" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <defs>
+      <style>
+        .i-color {
+          fill: #000;
+          fill-rule: nonzero;
+        }
+      </style>
+    </defs>
+    <g transform="matrix(0.03125,0,0,0.03125,0,0)">
+        <path class="i-color" d="M178.072,499.58L334.647,499.58L412.964,360.383L334.647,221.246L256.389,360.383L99.815,360.383L178.072,499.58ZM412.125,151.617L333.868,12.42L177.293,12.42L99.036,151.617L177.293,290.754L255.551,151.617L412.125,151.617Z"/>
+    </g>
+</svg>
