@@ -78,6 +78,7 @@
   "file_type_mint": "green",
   "file_type_mustache": "orange",
   "file_type_nginx": "green",
+  "file_type_nim": "yellow",
   "file_type_nodejs": "green",
   "file_type_note": "green",
   "file_type_npm": "red",
