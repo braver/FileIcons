@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="16" height="16" version="1.1" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+<svg width="100%" height="100%" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
   <defs>
     <style>
       .i-color {
@@ -8,5 +7,5 @@
       }
     </style>
   </defs>
- <path class="i-color" d="m10 2h3v12h-3zm-4.1402 4.481h4.2804v3h-4.2804zm-2.8598-4.481h3v12h-3z" stroke-width="1.1654"/>
+  <path class="i-color" d="M6,9.481L6,14L3,14L3,2L6,2L6,6.481L10,6.481L10,2L13,2L13,14L10,14L10,9.481L6,9.481Z"/>
 </svg>
