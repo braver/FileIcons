@@ -1,0 +1,11 @@
+<svg width="100%" height="100%" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <defs>
+      <style>
+        .i-color {
+          fill: #000;
+          fill-rule: evenodd;
+        }
+      </style>
+    </defs>
+    <path class="i-color" d="M1.904,8.211L1.904,13.953L0.704,13.953L0.704,1.953L1.904,1.953L1.904,7.011L5.881,7.011L5.881,1.953L7.081,1.953L7.081,13.953L5.881,13.953L5.881,8.211L1.904,8.211ZM8.787,8.166L7.291,8.166L7.291,7.166L8.787,7.166L8.787,5.686L9.787,5.686L9.787,7.166L11.291,7.166L11.291,8.166L9.787,8.166L9.787,9.686L8.787,9.686L8.787,8.166ZM12.972,8.161L11.476,8.161L11.476,7.161L12.972,7.161L12.972,5.681L13.972,5.681L13.972,7.161L15.476,7.161L15.476,8.161L13.972,8.161L13.972,9.681L12.972,9.681L12.972,8.161Z"/>
+</svg>
