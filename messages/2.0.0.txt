@@ -1,0 +1,11 @@
+# FileIcons Mono 2.0.0
+
+In this latest version of FileIcons Mono,
+we've changed the icon files to pure white. 
+
+This allows full control over the color and contrast of the icons. 
+Of course we updated our built-in support for the default themes.
+To update your custom theme, adjust the "layer0.tint" to your taste.
+
+Credits for the idea go to @jwortmann.
+See https://github.com/braver/FileIcons/issues/60

@@ -1,10 +1,10 @@
 {
-  "red": "hsl(0, 0%, 50%)",
-  "orange": "hsl(0, 0%, 50%)",
-  "yellow": "hsl(0, 0%, 50%)",
-  "green": "hsl(0, 0%, 50%)",
-  "cyan": "hsl(0, 0%, 50%)",
-  "blue": "hsl(0, 0%, 50%)",
-  "purple": "hsl(0, 0%, 50%)",
-  "graphite": "hsl(0, 0%,50%)"
+  "red": "hsl(0, 0%, 100%)",
+  "orange": "hsl(0, 0%, 100%)",
+  "yellow": "hsl(0, 0%, 100%)",
+  "green": "hsl(0, 0%, 100%)",
+  "cyan": "hsl(0, 0%, 100%)",
+  "blue": "hsl(0, 0%, 100%)",
+  "purple": "hsl(0, 0%, 100%)",
+  "graphite": "hsl(0, 0%, 100%)"
 }

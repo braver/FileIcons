@@ -19,7 +19,7 @@ The following changes are made to Adaptive/Default.sublime-theme. You can overri
 [
   {
     "class": "icon_file_type",
-    "layer0.tint": [255, 255, 255],
+    "layer0.tint": [128, 128, 128],
     "layer0.opacity": 0.6,
     "content_margin": [8, 8]
   },
@@ -35,6 +35,8 @@ The following changes are made to Adaptive/Default.sublime-theme. You can overri
   }
 ]
 ```
+
+For instance, the `layer0.tint` can be adjusted to create higher or lower contrast, or to a non-grey monochromatic color. 
 
 ## Contributing
 
