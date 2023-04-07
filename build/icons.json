@@ -132,6 +132,7 @@
   "file_type_text": "graphite",
   "file_type_textile": "purple",
   "file_type_todo": "green",
+  "file_type_tsx": "blue",
   "file_type_twig": "green",
   "file_type_typescript": "cyan",
   "file_type_video": "cyan",
