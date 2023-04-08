@@ -36,6 +36,7 @@
   "file_type_editorconfig": "yellow",
   "file_type_ejs": "green",
   "file_type_elm": "cyan",
+  "file_type_email": "graphite",
   "file_type_erlang": "red",
   "file_type_eslint": "blue",
   "file_type_ex": "purple",

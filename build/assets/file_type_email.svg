@@ -1,0 +1,14 @@
+<svg width="100%" height="100%" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <defs>
+      <style>
+        .i-color {
+          fill: #000;
+          fill-rule: evenodd;
+        }
+      </style>
+    </defs>
+
+    <g transform="matrix(0.875,0,0,0.875,1,0.25)">
+        <path id="file_type_email.svg" class="i-color" d="M1.75,2L14.25,2C15.216,2 16,2.784 16,3.75L16,12.25C16,13.21 15.21,14 14.25,14L1.75,14C0.79,14 0,13.21 0,12.25L0,3.75C0,2.784 0.784,2 1.75,2ZM1.5,12.251C1.5,12.389 1.612,12.501 1.75,12.501L14.25,12.501C14.387,12.501 14.5,12.388 14.5,12.251L14.5,5.809L8.38,9.397C8.146,9.535 7.854,9.535 7.62,9.397L1.5,5.809L1.5,12.251ZM14.5,4.07L14.5,3.75C14.5,3.613 14.387,3.5 14.25,3.5L1.75,3.5C1.613,3.5 1.5,3.613 1.5,3.75L1.5,4.07L8,7.88L14.5,4.07Z" style="fill-rule:nonzero;"/>
+    </g>
+</svg>
