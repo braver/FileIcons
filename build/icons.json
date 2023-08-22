@@ -8,6 +8,7 @@
   "file_type_archive": "graphite",
   "file_type_arduino": "cyan",
   "file_type_audio": "red",
+  "file_type_awk": "blue",
   "file_type_babel": "yellow",
   "file_type_binary": "graphite",
   "file_type_blade": "orange",
