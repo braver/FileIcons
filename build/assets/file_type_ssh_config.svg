@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:serif="http://www.serif.com/" width="100%" height="100%" viewBox="0 0 16 16" version="1.1" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+  <defs>
+    <style>
+      .i-color {
+        fill: #000;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="file_type_ssh_config.svg" class="i-color" d="M15,8.776l0,-1.6l-1.94,-0.641l-0.45,-1.095l0.88,-1.84l-1.13,-1.135l-1.81,0.912l-1.09,-0.452l-0.69,-1.925l-1.6,0l-0.63,1.945l-1.11,0.455l-1.84,-0.885l-1.13,1.132l0.91,1.813l-0.45,1.092l-1.92,0.682l0,1.593l1.94,0.641l0.45,1.092l-0.88,1.84l1.13,1.132l1.81,-0.912l1.09,0.451l0.69,1.929l1.59,0l0.63,-1.944l1.11,-0.451l1.84,0.882l1.13,-1.132l-0.92,-1.815l0.47,-1.092l1.92,-0.692l0,0.02Zm-7,2.235c-0,0 -0.004,0 -0.006,0c-1.649,0 -3.006,-1.357 -3.006,-3.006c0,-1.649 1.357,-3.006 3.006,-3.006c1.647,0 3.003,1.354 3.006,3.001c0,0.004 0,0.007 0,0.011c0,1.646 -1.354,3 -3,3Z"/>
+</svg>
