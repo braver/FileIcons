@@ -32,6 +32,7 @@
   "file_type_csv": "green",
   "file_type_dart": "cyan",
   "file_type_default": "graphite",
+  "file_type_diff": "red",
   "file_type_dlang": "red",
   "file_type_docker": "cyan",
   "file_type_dotnet": "cyan",
