@@ -1,11 +1,11 @@
 # FileIcons
-Colored file icons for Sublime Text. [Also available in greyscale](https://packagecontrol.io/packages/FileIcons%20Mono).
+Colored file icons for Sublime Text. [Also available in greyscale](https://packages.sublimetext.com/packages/FileIcons%20Mono).
 
 Adds specific, colored icons for most file types for the sidebar in Sublime Text. Supports both the Default and Adaptive themes.
 
 <img width="432" src="https://raw.githubusercontent.com/braver/FileIcons/master/icons.png"> 
 
-Inspired by [A File Icon](https://packagecontrol.io/packages/A%20File%20Icon), but simpler:
+Inspired by [A File Icon](https://packages.sublimetext.com/packages/A%20File%20Icon), but simpler:
 
 - Doesn't introduce "alias" languages like "Javascript (Gulpfile)"
 - No runtime code, no restarting required
@@ -59,7 +59,7 @@ To add an icon:
 
 To get file icons in any theme other than Default or Adaptive, take the following steps:
 
-- After installing [FileIcons](https://packagecontrol.io/packages/FileIcons) through [Package Control](https://packagecontrol.io), go to the Sublime Text "Packages" directory (e.g. via the command "Browse Packages").
+- After installing [FileIcons](https://packages.sublimetext.com/packages/FileIcons) through [Package Control](https://packages.sublimetext.com/), go to the Sublime Text "Packages" directory (e.g. via the command "Browse Packages").
 - Create a "FileIcons/theme" directory structure in your "Packages" directory.
 - In your settings, check what theme you're using (e.g. 'itg.flat.dark.sublime-theme').
 - In the "FileIcons/theme" directory, create a file with the name of the theme you are using and copy the [theme overrides](https://github.com/braver/FileIcons/blob/master/theme/Adaptive.sublime-theme) that make FileIcons work into it.
