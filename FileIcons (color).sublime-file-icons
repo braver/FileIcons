@@ -1,0 +1,453 @@
+{
+	"icons": {
+		// archives
+		"7z":   "file_type_archive",
+		"7zip": "file_type_archive",
+		"gz":   "file_type_archive",
+		"pzip": "file_type_archive",
+		"rar":  "file_type_archive",
+		"tar":  "file_type_archive",
+		"tgz":  "file_type_archive",
+		"wim":  "file_type_archive",
+		"zip":  "file_type_archive",
+
+		// MS office
+		"xls":  "file_type_excel",
+		"xlsb": "file_type_excel",
+		"xlsm": "file_type_excel",
+		"xlsx": "file_type_excel",
+		"xlt":  "file_type_excel",
+
+		"pps":  "file_type_powerpoint",
+		"ppsx": "file_type_powerpoint",
+		"ppt":  "file_type_powerpoint",
+		"pptx": "file_type_powerpoint",
+
+		"doc": "file_type_word",
+		"docm": "file_type_word",
+		"docx": "file_type_word",
+		"docxml": "file_type_word",
+		"dotm": "file_type_word",
+		"dotx": "file_type_word",
+		"wri": "file_type_word",
+
+		// images
+		"avif": "file_type_image",
+		"emf": "file_type_image",
+		"jp2": "file_type_image",
+		"pnm": "file_type_image",
+		"ppm": "file_type_image",
+		"tga": "file_type_image",
+		"tif": "file_type_image",
+		"tiff": "file_type_image",
+		"webp": "file_type_image",
+		"xbm": "file_type_image",
+		"xpm": "file_type_image",
+
+		/////////////////////////////////////////
+		// from sublimehq/Packages
+		/////////////////////////////////////////
+
+		"applescript": "file_type_applescript",
+		"scpt": "file_type_applescript",
+		"scptd": "file_type_applescript",
+
+		"as": "file_type_actionscript",
+
+		"asp": "file_type_dotnet",
+		"asa": "file_type_dotnet",
+		"vbs": "file_type_dotnet",
+
+		"bat": "file_type_windows",
+		"cmd": "file_type_windows",
+
+		"diff": "file_type_diff",
+		"patch": "file_type_diff",
+		"diff.eml": "file_type_diff",
+		"patch.eml": "file_type_diff",
+		"diff.mbox": "file_type_diff",
+		"patch.mbox": "file_type_diff",
+
+		"erl": "file_type_erlang",
+		"escript": "file_type_erlang",
+		"hrl": "file_type_erlang",
+		"yaws": "file_type_erlang",
+
+		"DOT": "file_type_graphviz",
+		"dot": "file_type_graphviz",
+		"gv": "file_type_graphviz",
+
+		"gradle": "file_type_groovy",
+		"groovy": "file_type_groovy",
+		"gvy": "file_type_groovy",
+
+		"CODEOWNERS": "file_type_git",
+		"git": "file_type_git",
+		"git-blame-ignore-revs": "file_type_git",
+		"gitattributes": "file_type_git",
+		"gitconfig": "file_type_git",
+		"gitmodules": "file_type_git",
+		"mailmap": "file_type_git",
+
+		"haml": "file_type_haml",
+
+		"cabal": "file_type_haskell",
+		"cabal.project": "file_type_haskell",
+		"lhs": "file_type_haskell",
+		"hs": "file_type_haskell",
+		"hs-boot": "file_type_haskell",
+		"hsig": "file_type_haskell",
+
+		"htm": "file_type_html",
+		"html": "file_type_html",
+		"shtml": "file_type_html",
+		"xhtml": "file_type_html",
+		"gohtml": "file_type_html",
+		"gotmpl": "file_type_html",
+		"go.html": "file_type_html",
+		"go.tmpl": "file_type_html",
+		"rails": "file_type_html",
+		"rhtml": "file_type_html",
+		"erb": "file_type_html",
+		"html.erb": "file_type_html",
+		"adp": "file_type_html",
+
+		"css": "file_type_css",
+		"gocss": "file_type_css",
+		"go.css": "file_type_css",
+		"css.php": "file_type_css",
+		"css.erb": "file_type_css",
+
+		"d": "file_type_dlang",
+		"di": "file_type_dlang",
+
+		"js": "file_type_js",
+		"gojs": "file_type_js",
+		"go.js": "file_type_js",
+		"mjs": "file_type_js",
+		"cjs": "file_type_js",
+		"htc": "file_type_js",
+		"js.php": "file_type_js",
+		"js.erb": "file_type_js",
+
+		"jsx": "file_type_jsx",
+
+		"tsx": "file_type_typescript",
+		"ts": "file_type_typescript",
+		"mts": "file_type_typescript",
+		"cts": "file_type_typescript",
+
+		"jsp": "file_type_jsp",
+		"jspf": "file_type_jsp",
+		"jspx": "file_type_jsp",
+		"jstl": "file_type_jsp",
+
+		"java": "file_type_java",
+		"bsh": "file_type_java",
+		"properties": "file_type_java",
+
+		"json": "file_type_json",
+		"jsonc": "file_type_json",
+		"ipynb": "file_type_json",
+		"gltf": "file_type_json",
+		"avsc": "file_type_json",
+		"json.php": "file_type_json",
+		"json.erb": "file_type_json",
+
+		"sublime-build": "file_type_sublime",
+		"sublime-color-scheme": "file_type_sublime",
+		"sublime-commands": "file_type_sublime",
+		"sublime-completions": "file_type_sublime",
+		"sublime-file-icons": "file_type_sublime",
+		"sublime-keymap": "file_type_sublime",
+		"sublime-macro": "file_type_sublime",
+		"sublime-menu": "file_type_sublime",
+		"sublime-mousemap": "file_type_sublime",
+		"sublime-project": "file_type_sublime",
+		"sublime-settings": "file_type_sublime",
+		"sublime-theme": "file_type_sublime",
+		"sublime-merge-theme": "file_type_sublime",
+		"sublime-workspace": "file_type_sublime",
+		"sublime-syntax": "file_type_sublime",
+
+		"bib": "file_type_tex",
+		"ins": "file_type_tex",
+		"tex": "file_type_tex",
+		"ltx": "file_type_tex",
+		"sty": "file_type_tex",
+		"cls": "file_type_tex",
+
+		"lisp": "file_type_lisp",
+		"cl": "file_type_lisp",
+		"clisp": "file_type_lisp",
+		"l": "file_type_lisp",
+		"mud": "file_type_lisp",
+		"el": "file_type_lisp",
+		"scm": "file_type_lisp",
+		"ss": "file_type_lisp",
+		"lsp": "file_type_lisp",
+		"fasl": "file_type_lisp",
+		"sld": "file_type_lisp",
+
+		"lua": "file_type_lua",
+
+		// todo: icon for make?
+		"mk": "file_type_shell",
+		"mak": "file_type_shell",
+		"make": "file_type_shell",
+		"GNUmakefile": "file_type_shell",
+		"Makefile": "file_type_shell",
+		"OCamlMakefile": "file_type_shell",
+
+		"sh": "file_type_shell",
+		"bash": "file_type_shell",
+		"bashrc": "file_type_shell",
+		"ash": "file_type_shell",
+		"zsh": "file_type_shell",
+
+		"matlab": "file_type_matlab",
+
+		"go": "file_type_go",
+
+		"md": "file_type_markdown",
+		"mdown": "file_type_markdown",
+		"mdwn": "file_type_markdown",
+		"markdown": "file_type_markdown",
+		"markdn": "file_type_markdown",
+		"gomd": "file_type_markdown",
+		"go.md": "file_type_markdown",
+		"hugo": "file_type_markdown",
+
+		"php": "file_type_php",
+		"php3": "file_type_php",
+		"php4": "file_type_php",
+		"php5": "file_type_php",
+		"php7": "file_type_php",
+		"php8": "file_type_php",
+		"phps": "file_type_php",
+		"phpt": "file_type_php",
+		"phtml": "file_type_php",
+
+		"py": "file_type_python",
+		"py3": "file_type_python",
+		"pyw": "file_type_python",
+		"pyi": "file_type_python",
+		"pyx": "file_type_python",
+		"pyx.in": "file_type_python",
+		"pxd": "file_type_python",
+		"pxd.in": "file_type_python",
+		"pxi": "file_type_python",
+		"pxi.in": "file_type_python",
+		"rpy": "file_type_python",
+		"cpy": "file_type_python",
+		"gyp": "file_type_python",
+		"gypi": "file_type_python",
+		"vpy": "file_type_python",
+		"smk": "file_type_python",
+		"wscript": "file_type_python",
+		"bazel": "file_type_python",
+		"bzl": "file_type_python",
+
+		"cs": "file_type_csharp",
+		"csx": "file_type_csharp",
+
+		"R": "file_type_r",
+		"rd": "file_type_r",
+
+		// todo source.regexp
+		// "re": "",
+
+		"rb": "file_type_ruby",
+		"rbi": "file_type_ruby",
+		"rbx": "file_type_ruby",
+		"rjs": "file_type_ruby",
+		"rabl": "file_type_ruby",
+		"rake": "file_type_ruby",
+		"capfile": "file_type_ruby",
+		"jbuilder": "file_type_ruby",
+		"gemspec": "file_type_ruby",
+		"podspec": "file_type_ruby",
+		"irbrc": "file_type_ruby",
+		"pryrc": "file_type_ruby",
+		"prawn": "file_type_ruby",
+		"thor": "file_type_ruby",
+
+		"ruby.rail": "file_type_rails",
+		"rxml": "file_type_rails",
+		"builder": "file_type_rails",
+		"arb": "file_type_rails",
+
+		"rs": "file_type_rust",
+
+		// todo: reStructuredText
+		// "rst": "",
+		// "rest": "",
+
+		"sbt": "file_type_scala",
+		"sc": "file_type_scala",
+		"scala": "file_type_scala",
+
+		"sql.erb": "file_type_sql",
+		"erbsql": "file_type_sql",
+		"cql": "file_type_sql",
+		"pgsql": "file_type_sql",
+		"psql": "file_type_sql",
+		"sql": "file_type_sql",
+		"ddl": "file_type_sql",
+		"dml": "file_type_sql",
+
+		"textile": "file_type_textile",
+
+		"tcl": "file_type_tcl",
+
+		"c": "file_type_c",
+		"h": "file_type_c",
+		"mm": "file_type_c",
+		"m": "file_type_c",
+		"M": "file_type_c",
+		"h": "file_type_c",
+
+		"C": "file_type_cpp",
+		"cc": "file_type_cpp",
+		"cp": "file_type_cpp",
+		"cpp": "file_type_cpp",
+		"cppm": "file_type_cpp",
+		"cxx": "file_type_cpp",
+		"hh": "file_type_cpp",
+		"hpp": "file_type_cpp",
+		"hxx": "file_type_cpp",
+		"inl": "file_type_cpp",
+		"ino": "file_type_cpp",
+		"ipp": "file_type_cpp",
+		"ixx": "file_type_cpp",
+
+		"clj": "file_type_clojure",
+		"cljc": "file_type_clojure",
+		"edn": "file_type_clojure",
+		"cljs": "file_type_clojure",
+
+		"ml": "file_type_ocaml",
+		"mli": "file_type_ocaml",
+		"mll": "file_type_ocaml",
+		"mly": "file_type_ocaml",
+
+		// todo: pascal
+		// "pas": "??",
+		// "p": "??",
+		// "dpr": "??",
+
+		"pl": "file_type_perl",
+		"pc": "file_type_perl",
+		"pm": "file_type_perl",
+		"pmc": "file_type_perl",
+		"pod": "file_type_perl",
+		"t": "file_type_perl",
+
+		// TOML
+		"toml": "file_type_preferences",
+		"tml": "file_type_preferences",
+		"Pipfile": "file_type_preferences",
+
+		"pc": "file_type_xml",
+		"pl": "file_type_xml",
+		"pm": "file_type_xml",
+		"pmc": "file_type_xml",
+		"pod": "file_type_xml",
+		"t": "file_type_xml",
+		"dtd": "file_type_xml",
+		"ent": "file_type_xml",
+		"mod": "file_type_xml",
+		"xml": "file_type_xml",
+		"tld": "file_type_xml",
+		"dtml": "file_type_xml",
+		"rng": "file_type_xml",
+		"rss": "file_type_xml",
+		"opml": "file_type_xml",
+		"slnx": "file_type_xml",
+		"svg": "file_type_xml",
+		"xaml": "file_type_xml",
+
+		"sublime-snippet": "file_type_sublime",
+		"tmLanguage": "file_type_xml",
+		"tmPreferences": "file_type_xml",
+		"tmSnippet": "file_type_xml",
+		"tmTheme": "file_type_xml",
+
+		"yaml": "file_type_yaml",
+		"yml": "file_type_yaml",
+		"goyaml": "file_type_yaml",
+		"go.yaml": "file_type_yaml",
+		"goyml": "file_type_yaml",
+		"go.yml": "file_type_yaml",
+
+		/////////////////////////////////////////
+		// community packages (https://packages.sublimetext.com/packages/<name>)
+		/////////////////////////////////////////
+
+		// Kotlin
+		"kt": "file_type_kotlin",
+		"kts": "file_type_kotlin",
+
+		// ApacheConf
+		"conf": "file_type_preferences",
+		"CONF": "file_type_preferences",
+		"envvars": "file_type_preferences",
+		"htaccess": "file_type_preferences",
+		"HTACCESS": "file_type_preferences",
+		"htgroups": "file_type_preferences",
+		"HTGROUPS": "file_type_preferences",
+		"htpasswd": "file_type_preferences",
+		"HTPASSWD": "file_type_preferences",
+
+		// Arduino-like IDE
+		"ino": "file_type_arduino",
+		"pde": "file_type_arduino",
+
+		// SSH Config
+		"authorized_keys": "file_type_authorized_keys",
+		"known_hosts": "file_type_known_hosts",
+		"pem": "file_type_pem",
+		"pub": "file_type_public_key",
+		"ssh_config": "file_type_ssh_config",
+		"sshd_config": "file_type_sshd_config",
+
+		// Sass
+		"sass": "file_type_sass",
+		"scss": "file_type_scss",
+
+		// Less
+		"less": "file_type_less",
+
+		// Vue
+		"vue": "file_type_vue",
+		"we": "file_type_vue",
+		"wpy": "file_type_vue",
+
+		// CoffeeScript
+		"coffee": "file_type_coffeescript",
+		"Cakefile": "file_type_coffeescript",
+		"coffee.erb": "file_type_coffeescript",
+		"cson": "file_type_coffeescript",
+		"cjsx": "file_type_coffeescript",
+
+		// Dockerfile Syntax Highlighting (sic)
+		"Dockerfile": "file_type_docker",
+		"dockerfile": "file_type_docker",
+
+		// EditorConfig
+		"editorconfig": "file_type_editorconfig",
+
+		// Twig
+		"twig": "file_type_twig",
+		"css.twig": "file_type_twig",
+		"htm.twig": "file_type_twig",
+		"html.twig": "file_type_twig",
+		"js.twig": "file_type_twig",
+		"json.twig": "file_type_twig",
+
+		// PowerShell
+		"ps1": "file_type_powershell",
+		"psm1": "file_type_powershell",
+		"psd1": "file_type_powershell",
+	}
+}

@@ -21,7 +21,7 @@ fn theme_dir() -> PathBuf {
         .parent().unwrap()
         .parent().unwrap()
         .to_path_buf();
-    path.push("theme");
+    path.push("icons");
     return path;
 }
 
