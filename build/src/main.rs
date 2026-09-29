@@ -67,7 +67,8 @@ fn main() {
         let rtree = usvg::Tree::from_data(svg_data.as_bytes(), &opt.to_ref()).unwrap();
 
         for size_desc in sizes.members() {
-            let size = size_desc["size"].as_u32().unwrap();
+            let width = size_desc["width"].as_u32().unwrap();
+            let height = size_desc["height"].as_u32().unwrap();
             let suffix = if size_desc["suffix"].is_string() {
                 size_desc["suffix"].as_str().unwrap()
             } else {
@@ -79,8 +80,8 @@ fn main() {
             full_output_path.push(format!("{}{}.png", kvp.0, suffix));
 
             println!("Building {} to {}", full_icon_path.display(), full_output_path.display());
-            let mut pixmap = tiny_skia::Pixmap::new(size, size).unwrap();
-            resvg::render(&rtree, usvg::FitTo::Size(size, size), pixmap.as_mut()).unwrap();
+            let mut pixmap = tiny_skia::Pixmap::new(height, width).unwrap();
+            resvg::render(&rtree, usvg::FitTo::Size(height, width), pixmap.as_mut()).unwrap();
 
             pixmap.save_png(full_output_path).unwrap();
         }
