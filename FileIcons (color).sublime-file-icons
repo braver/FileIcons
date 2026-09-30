@@ -16,6 +16,13 @@
 		"PSD": "file_type_psd",
 		"PSB": "file_type_psd",
 
+		"ae": "file_type_ae",
+		"aep": "file_type_ae",
+		"aepx": "file_type_ae",
+		"aet": "file_type_ae",
+
+		"prproj": "file_type_premiere",
+
 		"ai": "file_type_ai",
 		"eps": "file_type_ai",
 
@@ -62,6 +69,13 @@
 		"dotx": "file_type_word",
 		"wri": "file_type_word",
 
+		// (auto) cad
+		"cad": "file_type_cad",
+		"stl": "file_type_cad",
+		"stp": "file_type_cad",
+		"step": "file_type_cad",
+		"wrl": "file_type_cad",
+
 		// media
 		"pdf": "file_type_pdf",
 		"PDF": "file_type_pdf",
@@ -73,6 +87,8 @@
 
 		"3g2": "file_type_video",
 		"3gp": "file_type_video",
+		"aaf": "file_type_video",
+		"AAF": "file_type_video",
 		"asf": "file_type_video",
 		"avi": "file_type_video",
 		"drc": "file_type_video",
@@ -160,6 +176,21 @@
 		"webp": "file_type_image",
 		"xbm": "file_type_image",
 		"xpm": "file_type_image",
+
+		"bdf": "file_type_font",
+		"BDF": "file_type_font",
+		"dfont": "file_type_font",
+		"eot": "file_type_font",
+		"fon": "file_type_font",
+		"FON": "file_type_font",
+		"otf": "file_type_font",
+		"pcf": "file_type_font",
+		"PCF": "file_type_font",
+		"ttc": "file_type_font",
+		"ttf": "file_type_font",
+		"ufo": "file_type_font",
+		"woff": "file_type_font",
+		"woff2": "file_type_font",
 
 		/////////////////////////////////////////
 		// from sublimehq/Packages
@@ -636,5 +667,26 @@
 
 		// plist
 		"plist": "file_type_plist",
+
+		// AngularJS
+		"ng.html": "file_type_angular",
+
+		// Awk
+		"awk": "file_type_awk",
+
+		// Babel
+		"babel": "file_type_babel",
+		"es6": "file_type_babel",
+
+		// Laravel Blade
+		"blade": "file_type_blade",
+		"blade.php": "file_type_blade",
+
+		// Ethereum
+		"cairo": "file_type_cairo",
+ 		"vy": "file_type_vyper",
+ 		"sol": "file_type_solidity",
+ 		"yul": "file_type_solidity",
+ 		"yulp": "file_type_solidity",
 	}
 }
