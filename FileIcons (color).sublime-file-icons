@@ -368,6 +368,7 @@
 		"xaml": "file_type_xml",
 
 		"sublime-snippet": "file_type_sublime",
+		// todo: TextMate icon?
 		"tmLanguage": "file_type_xml",
 		"tmPreferences": "file_type_xml",
 		"tmSnippet": "file_type_xml",
@@ -389,7 +390,7 @@
 		"kts": "file_type_kotlin",
 
 		// ApacheConf
-		"conf": "file_type_preferences",
+		// "conf": "file_type_preferences", // doubles ini
 		"CONF": "file_type_preferences",
 		"envvars": "file_type_preferences",
 		"htaccess": "file_type_preferences",
@@ -400,7 +401,7 @@
 		"HTPASSWD": "file_type_preferences",
 
 		// Arduino-like IDE
-		"ino": "file_type_arduino",
+		// "ino": "file_type_arduino", // doubles c++
 		"pde": "file_type_arduino",
 
 		// SSH Config
@@ -449,5 +450,72 @@
 		"ps1": "file_type_powershell",
 		"psm1": "file_type_powershell",
 		"psd1": "file_type_powershell",
+
+		// Stylus
+		"styl": "file_type_stylus",
+		"stylus": "file_type_stylus",
+
+		// Handlebars
+		"handlebars": "file_type_mustache",
+		"handlebars.html": "file_type_mustache",
+		"hbr": "file_type_mustache",
+		"hbrs": "file_type_mustache",
+		"hbs": "file_type_mustache",
+		"hdbs": "file_type_mustache",
+		"hjs": "file_type_mustache",
+		"mu": "file_type_mustache",
+		"mustache": "file_type_mustache",
+		"rac": "file_type_mustache",
+		"stache": "file_type_mustache",
+		"template": "file_type_mustache",
+		"tmpl": "file_type_mustache",
+
+		// INI
+		"ini": "file_type_settings",
+		"cfg": "file_type_settings",
+		"conf": "file_type_settings",
+
+		// EJS
+		"ejs": "file_type_ejs",
+
+		// nginx
+		"conf.erb": "file_type_nginx",
+		// "conf": "file_type_nginx", // doubles ini
+		"nginx.conf": "file_type_nginx",
+		"mime.types": "file_type_nginx",
+		"fastcgi_params": "file_type_nginx",
+		"scgi_params": "file_type_nginx",
+		"uwsgi_params": "file_type_nginx",
+
+		// Swift
+		"swift": "file_type_swift",
+
+		// Advanced CSV
+		"csv": "file_type_csv",
+		"tsv": "file_type_csv",
+
+		// Pug
+		"pug": "file_type_pug",
+
+		// todo: Verilog
+		// "v": "file_type_verilog",
+		// "V": "file_type_verilog",
+
+		// VBScript
+		"vbs": "file_type_dotnet",
+		"vba": "file_type_dotnet",
+		"bas": "file_type_dotnet",
+		"cls": "file_type_dotnet",
+		"frm": "file_type_dotnet",
+		"vbe": "file_type_dotnet",
+		"wsf": "file_type_dotnet",
+		"wsc": "file_type_dotnet",
+		"acm": "file_type_dotnet",
+		"acr": "file_type_dotnet",
+		"acf": "file_type_dotnet",
+
+		// Terraform
+		"tf": "file_type_terraform",
+		"nomad": "file_type_terraform",
 	}
 }
