@@ -368,11 +368,10 @@
 		"xaml": "file_type_xml",
 
 		"sublime-snippet": "file_type_sublime",
-		// todo: TextMate icon?
-		"tmLanguage": "file_type_xml",
-		"tmPreferences": "file_type_xml",
-		"tmSnippet": "file_type_xml",
-		"tmTheme": "file_type_xml",
+		"tmLanguage": "file_type_textmate",
+		"tmPreferences": "file_type_textmate",
+		"tmSnippet": "file_type_textmate",
+		"tmTheme": "file_type_textmate",
 
 		"yaml": "file_type_yaml",
 		"yml": "file_type_yaml",
