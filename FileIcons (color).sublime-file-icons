@@ -42,6 +42,8 @@
 		"dng": "file_type_image",
 		"DNG": "file_type_image",
 
+		"sketch": "file_type_sketch",
+
 		// MS office
 		"adn": "file_type_access",
 		"accda": "file_type_access",
@@ -444,8 +446,32 @@
 		// Odin
 		"odin": "file_type_odin",
 
+		// Puppet
+		"pp": "file_type_puppet",
+		"epp": "file_type_puppet",
 
+		// Ruby Slim
+		"slim": "file_type_slim",
+		"skim": "file_type_slim",
 
+		// Stata Improved Editor
+		"do": "file_type_stata",
+        "ado": "file_type_stata",
+        "doh": "file_type_stata",
+        "mata": "file_type_stata",
+
+        // Svelte
+        "svelte": "file_type_svelte",
+        "svx": "file_type_svelte",
+        "mdsv": "file_type_svelte",
+        "mdsvex": "file_type_svelte",
+
+        // Toit
+        "toit": "file_type_toit",
+
+        // Zig Language
+        "zig": "file_type_zig",
+        "zon": "file_type_zig",
 
  		/////////////////////////////////////////
  		// not actual syntaxes, but package management files etc.
@@ -507,6 +533,49 @@
 		"postcss.config.js": "file_type_postcss",
 		"postcss.config.cjs": "file_type_postcss",
 		"postcss.config.mjs": "file_type_postcss",
+
+		".stylelintrc": "file_type_stylelint",
+		".stylelintrc.json": "file_type_stylelint",
+		".stylelintrc.js": "file_type_stylelint",
+		".stylelintrc.cjs": "file_type_stylelint",
+		".stylelintrc.mjs": "file_type_stylelint",
+		"stylelint.config.js": "file_type_stylelint",
+		"stylelint.config.cjs": "file_type_stylelint",
+		"stylelint.config.mjs": "file_type_stylelint",
+		".stylelintrc.yaml": "file_type_stylelint",
+		".stylelintrc.yml": "file_type_stylelint",
+		".stylelintignore": "file_type_stylelint",
+
+		"TASKS": "file_type_todo",
+		"tasks": "file_type_todo",
+		"TODO": "file_type_todo",
+		"todo": "file_type_todo",
+		"todolist.txt": "file_type_todo",
+
+		".vimrc": "file_type_vim",
+		".gvimrc": "file_type_vim",
+		"_vimrc": "file_type_vim",
+		"_gvimrc": "file_type_vim",
+
+		"webpack.config.js": "file_type_webpack",
+		"webpack.config.cjs": "file_type_webpack",
+		"webpack.config.mjs": "file_type_webpack",
+		"webpack.config.babel.js": "file_type_webpack",
+		"webpack.config.babel.cjs": "file_type_webpack",
+		"webpack.config.babel.mjs": "file_type_webpack",
+		"webpack.dev.js": "file_type_webpack",
+		"webpack.dev.cjs": "file_type_webpack",
+		"webpack.dev.mjs": "file_type_webpack",
+		"webpack.mix.js": "file_type_webpack",
+		"webpack.mix.cjs": "file_type_webpack",
+		"webpack.mix.mjs": "file_type_webpack",
+
+		".yarnclean": "file_type_yarn",
+		".yarnrc": "file_type_yarn",
+		".yarn-integrity": "file_type_yarn",
+		".yarn-metadata.json": "file_type_yarn",
+		".yarnrc.yaml": "file_type_yarn",
+		".yarnrc.yml": "file_type_yarn",
 
  		/////////////////////////////////////////
  		// from sublimehq/Packages
