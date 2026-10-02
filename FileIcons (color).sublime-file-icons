@@ -174,8 +174,13 @@
 		"wv": "color_audio",
 
 		"avif": "color_image",
+		"bmp": "color_image",
 		"emf": "color_image",
+		"gif": "color_image",
 		"jp2": "color_image",
+		"jpeg": "color_image",
+		"jpg": "color_image",
+		"png": "color_image",
 		"pnm": "color_image",
 		"ppm": "color_image",
 		"tga": "color_image",

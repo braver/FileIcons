@@ -174,8 +174,13 @@
 		"wv": "mono_audio",
 
 		"avif": "mono_image",
+		"bmp": "mono_image",
 		"emf": "mono_image",
+		"gif": "mono_image",
 		"jp2": "mono_image",
+		"jpeg": "mono_image",
+		"jpg": "mono_image",
+		"png": "mono_image",
 		"pnm": "mono_image",
 		"ppm": "mono_image",
 		"tga": "mono_image",
