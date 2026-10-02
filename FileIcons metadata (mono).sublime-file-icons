@@ -1,0 +1,92 @@
+{
+	"icons": {
+		/////////////////////////////////////////
+ 		// not actual syntaxes, but package management files etc.
+ 		/////////////////////////////////////////
+
+ 		"circle.yml": "mono_circleci",
+
+ 		"composer.json": "mono_composer",
+		"composer.lock": "mono_composer",
+
+		".eslintrc": "mono_eslint",
+		".eslintrc.json": "mono_eslint",
+		".eslintrc.js": "mono_eslint",
+		".eslintrc.cjs": "mono_eslint",
+		".eslintrc.mjs": "mono_eslint",
+		".eslintrc.yaml": "mono_eslint",
+		".eslintrc.yml": "mono_eslint",
+		".eslintignore": "mono_eslint",
+		".eslintcache": "mono_eslint",
+
+		"gruntfile.js": "mono_gruntfile",
+		"gruntfile.cjs": "mono_gruntfile",
+		"gruntfile.mjs": "mono_gruntfile",
+
+		"gulpfile.js": "mono_gulpfile",
+		"gulpfile.cjs": "mono_gulpfile",
+		"gulpfile.mjs": "mono_gulpfile",
+		"gulpfile.babel.js": "mono_gulpfile",
+		"gulpfile.babel.cjs": "mono_gulpfile",
+		"gulpfile.babel.mjs": "mono_gulpfile",
+
+		"package-lock.json": "mono_lock",
+		".cargo-lock": "mono_lock",
+
+		".node-version": "mono_nodejs",
+		".nvmrc": "mono_nodejs",
+
+		".npmignore": "mono_npm",
+		".npmrc": "mono_npm",
+		"npmrc": "mono_npm",
+		"package.json": "mono_npm",
+
+		".postcssrc": "mono_postcss",
+		"postcss.config.js": "mono_postcss",
+		"postcss.config.cjs": "mono_postcss",
+		"postcss.config.mjs": "mono_postcss",
+
+		".stylelintrc": "mono_stylelint",
+		".stylelintrc.json": "mono_stylelint",
+		".stylelintrc.js": "mono_stylelint",
+		".stylelintrc.cjs": "mono_stylelint",
+		".stylelintrc.mjs": "mono_stylelint",
+		"stylelint.config.js": "mono_stylelint",
+		"stylelint.config.cjs": "mono_stylelint",
+		"stylelint.config.mjs": "mono_stylelint",
+		".stylelintrc.yaml": "mono_stylelint",
+		".stylelintrc.yml": "mono_stylelint",
+		".stylelintignore": "mono_stylelint",
+
+		"TASKS": "mono_todo",
+		"tasks": "mono_todo",
+		"TODO": "mono_todo",
+		"todo": "mono_todo",
+		"todolist.txt": "mono_todo",
+
+		".vimrc": "mono_vim",
+		".gvimrc": "mono_vim",
+		"_vimrc": "mono_vim",
+		"_gvimrc": "mono_vim",
+
+		"webpack.config.js": "mono_webpack",
+		"webpack.config.cjs": "mono_webpack",
+		"webpack.config.mjs": "mono_webpack",
+		"webpack.config.babel.js": "mono_webpack",
+		"webpack.config.babel.cjs": "mono_webpack",
+		"webpack.config.babel.mjs": "mono_webpack",
+		"webpack.dev.js": "mono_webpack",
+		"webpack.dev.cjs": "mono_webpack",
+		"webpack.dev.mjs": "mono_webpack",
+		"webpack.mix.js": "mono_webpack",
+		"webpack.mix.cjs": "mono_webpack",
+		"webpack.mix.mjs": "mono_webpack",
+
+		".yarnclean": "mono_yarn",
+		".yarnrc": "mono_yarn",
+		".yarn-integrity": "mono_yarn",
+		".yarn-metadata.json": "mono_yarn",
+		".yarnrc.yaml": "mono_yarn",
+		".yarnrc.yml": "mono_yarn",
+	}
+}

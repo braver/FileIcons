@@ -1,0 +1,828 @@
+{
+	"icons": {
+		/////////////////////////////////////////
+		// media/binary file types
+		/////////////////////////////////////////
+
+		// archives
+		"7z": "mono_archive",
+		"7zip": "mono_archive",
+		"gz": "mono_archive",
+		"pzip": "mono_archive",
+		"rar": "mono_archive",
+		"tar": "mono_archive",
+		"tgz": "mono_archive",
+		"wim": "mono_archive",
+		"zip": "mono_archive",
+
+		"bin": "mono_binary",
+
+		// Adobe
+		"psd": "mono_psd",
+		"PSD": "mono_psd",
+		"PSB": "mono_psd",
+
+		"ae": "mono_ae",
+		"aep": "mono_ae",
+		"aepx": "mono_ae",
+		"aet": "mono_ae",
+
+		"prproj": "mono_premiere",
+
+		"ai": "mono_ai",
+		"eps": "mono_ai",
+
+		"indd": "mono_indesign",
+		"indl": "mono_indesign",
+		"indt": "mono_indesign",
+		"indb": "mono_indesign",
+		"inx": "mono_indesign",
+		"idml": "mono_indesign",
+		"pmd": "mono_indesign",
+		"xqx": "mono_indesign",
+
+		"dng": "mono_image",
+		"DNG": "mono_image",
+
+		"sketch": "mono_sketch",
+
+		// MS office
+		"adn": "mono_access",
+		"accda": "mono_access",
+		"accdb": "mono_access",
+		"accde": "mono_access",
+		"accdr": "mono_access",
+		"accdt": "mono_access",
+		"accdu": "mono_access",
+
+		"xls": "mono_excel",
+		"xlsb": "mono_excel",
+		"xlsm": "mono_excel",
+		"xlsx": "mono_excel",
+		"xlt": "mono_excel",
+
+		"one": "mono_onenote",
+		"onepkg": "mono_onenote",
+
+		"pps": "mono_powerpoint",
+		"ppsx": "mono_powerpoint",
+		"ppt": "mono_powerpoint",
+		"pptx": "mono_powerpoint",
+
+		"doc": "mono_word",
+		"docm": "mono_word",
+		"docx": "mono_word",
+		"docxml": "mono_word",
+		"dotm": "mono_word",
+		"dotx": "mono_word",
+		"wri": "mono_word",
+
+		// (auto) cad
+		"cad": "mono_cad",
+		"stl": "mono_cad",
+		"stp": "mono_cad",
+		"step": "mono_cad",
+		"wrl": "mono_cad",
+
+		// media
+		"pdf": "mono_pdf",
+		"PDF": "mono_pdf",
+
+		"eml": "mono_email",
+		"emlx": "mono_email",
+		"mbox": "mono_email",
+		"msg": "mono_email", // outlook
+
+		"3g2": "mono_video",
+		"3gp": "mono_video",
+		"aaf": "mono_video",
+		"AAF": "mono_video",
+		"asf": "mono_video",
+		"avi": "mono_video",
+		"drc": "mono_video",
+		"f4a": "mono_video",
+		"f4b": "mono_video",
+		"f4p": "mono_video",
+		"f4v": "mono_video",
+		"flv": "mono_video",
+		"gifv": "mono_video",
+		"m2v": "mono_video",
+		"m4p": "mono_video",
+		"m4v": "mono_video",
+		"mkv": "mono_video",
+		"mov": "mono_video",
+		"mp2": "mono_video",
+		"mp4": "mono_video",
+		"mpe": "mono_video",
+		"mpeg": "mono_video",
+		"mpg": "mono_video",
+		"mpv": "mono_video",
+		"mxf": "mono_video",
+		"nsv": "mono_video",
+		"ogv": "mono_video",
+		"qt": "mono_video",
+		"rm": "mono_video",
+		"rmvb": "mono_video",
+		"svi": "mono_video",
+		"viv": "mono_video",
+		"vob": "mono_video",
+		"webm": "mono_video",
+		"wmv": "mono_video",
+
+		"8svx": "mono_audio",
+		"aa": "mono_audio",
+		"aac": "mono_audio",
+		"aax": "mono_audio",
+		"act": "mono_audio",
+		"aiff": "mono_audio",
+		"alac": "mono_audio",
+		"amr": "mono_audio",
+		"ape": "mono_audio",
+		"au": "mono_audio",
+		"awb": "mono_audio",
+		"cda": "mono_audio",
+		"dss": "mono_audio",
+		"dvf": "mono_audio",
+		"flac": "mono_audio",
+		"gsm": "mono_audio",
+		"iklax": "mono_audio",
+		"ivs": "mono_audio",
+		"m4a": "mono_audio",
+		"m4b": "mono_audio",
+		"m4p": "mono_audio",
+		"mmf": "mono_audio",
+		"movpkg": "mono_audio",
+		"mp1": "mono_audio",
+		"mp2": "mono_audio",
+		"mp3": "mono_audio",
+		"mpc": "mono_audio",
+		"msv": "mono_audio",
+		"nmf": "mono_audio",
+		"ogg,": "mono_audio",
+		"opus": "mono_audio",
+		"qoa": "mono_audio",
+		"ra,": "mono_audio",
+		"raw": "mono_audio",
+		"rf64": "mono_audio",
+		"sln": "mono_audio",
+		"tta": "mono_audio",
+		"voc": "mono_audio",
+		"vox": "mono_audio",
+		"wav": "mono_audio",
+		"webm": "mono_audio",
+		"wma": "mono_audio",
+		"wv": "mono_audio",
+
+		"avif": "mono_image",
+		"emf": "mono_image",
+		"jp2": "mono_image",
+		"pnm": "mono_image",
+		"ppm": "mono_image",
+		"tga": "mono_image",
+		"tif": "mono_image",
+		"tiff": "mono_image",
+		"webp": "mono_image",
+		"xbm": "mono_image",
+		"xpm": "mono_image",
+
+		"bdf": "mono_font",
+		"BDF": "mono_font",
+		"dfont": "mono_font",
+		"eot": "mono_font",
+		"fon": "mono_font",
+		"FON": "mono_font",
+		"otf": "mono_font",
+		"pcf": "mono_font",
+		"PCF": "mono_font",
+		"ttc": "mono_font",
+		"ttf": "mono_font",
+		"ufo": "mono_font",
+		"woff": "mono_font",
+		"woff2": "mono_font",
+
+		"COPYING": "mono_license",
+		"copying": "mono_license",
+		"COPYRIGHT": "mono_license",
+		"copyright": "mono_license",
+		"LICENSE": "mono_license",
+		"license": "mono_license",
+		"license.apache": "mono_license",
+		"license.bsd": "mono_license",
+		"license.gpl": "mono_license",
+		"license.gpl2": "mono_license",
+		"license.gpl3": "mono_license",
+		"license.mit": "mono_license",
+
+		"lock": "mono_lock",
+		"log": "mono_log",
+
+		/////////////////////////////////////////
+		// community packages (https://packages.sublimetext.com/packages/<name>)
+		/////////////////////////////////////////
+
+		// Kotlin
+		"kt": "mono_kotlin",
+		"kts": "mono_kotlin",
+
+		// ApacheConf
+		// "conf": "mono_preferences", // doubles ini
+		"CONF": "mono_preferences",
+		"envvars": "mono_preferences",
+		"htaccess": "mono_preferences",
+		"HTACCESS": "mono_preferences",
+		"htgroups": "mono_preferences",
+		"HTGROUPS": "mono_preferences",
+		"htpasswd": "mono_preferences",
+		"HTPASSWD": "mono_preferences",
+
+		// Arduino-like IDE
+		// "ino": "mono_arduino", // doubles c++
+		"pde": "mono_arduino",
+
+		// SSH Config
+		"authorized_keys": "mono_authorized_keys",
+		"known_hosts": "mono_known_hosts",
+		"pem": "mono_pem",
+		"pub": "mono_public_key",
+		"ssh_config": "mono_ssh_config",
+		"sshd_config": "mono_sshd_config",
+
+		// Sass
+		"sass": "mono_sass",
+		"scss": "mono_scss",
+
+		// Less
+		"less": "mono_less",
+
+		// Vue
+		"vue": "mono_vue",
+		"we": "mono_vue",
+		"wpy": "mono_vue",
+
+		// CoffeeScript
+		"coffee": "mono_coffeescript",
+		"Cakefile": "mono_coffeescript",
+		"coffee.erb": "mono_coffeescript",
+		"cson": "mono_coffeescript",
+		"cjsx": "mono_coffeescript",
+
+		// Dockerfile Syntax Highlighting (sic)
+		"Dockerfile": "mono_docker",
+		"dockerfile": "mono_docker",
+
+		// EditorConfig
+		"editorconfig": "mono_editorconfig",
+
+		// Twig
+		"twig": "mono_twig",
+		"css.twig": "mono_twig",
+		"htm.twig": "mono_twig",
+		"html.twig": "mono_twig",
+		"js.twig": "mono_twig",
+		"json.twig": "mono_twig",
+
+		// PowerShell
+		"ps1": "mono_powershell",
+		"psm1": "mono_powershell",
+		"psd1": "mono_powershell",
+
+		// Stylus
+		"styl": "mono_stylus",
+		"stylus": "mono_stylus",
+
+		// Handlebars
+		"handlebars": "mono_mustache",
+		"handlebars.html": "mono_mustache",
+		"hbr": "mono_mustache",
+		"hbrs": "mono_mustache",
+		"hbs": "mono_mustache",
+		"hdbs": "mono_mustache",
+		"hjs": "mono_mustache",
+		"mu": "mono_mustache",
+		"mustache": "mono_mustache",
+		"rac": "mono_mustache",
+		"stache": "mono_mustache",
+		"template": "mono_mustache",
+		"tmpl": "mono_mustache",
+
+		// INI
+		"ini": "mono_settings",
+		"cfg": "mono_settings",
+		"conf": "mono_settings",
+
+		// EJS
+		"ejs": "mono_ejs",
+
+		// nginx
+		"conf.erb": "mono_nginx",
+		// "conf": "mono_nginx", // doubles ini
+		"nginx.conf": "mono_nginx",
+		"mime.types": "mono_nginx",
+		"fastcgi_params": "mono_nginx",
+		"scgi_params": "mono_nginx",
+		"uwsgi_params": "mono_nginx",
+
+		// Swift
+		"swift": "mono_swift",
+
+		// Advanced CSV
+		"csv": "mono_csv",
+		"tsv": "mono_csv",
+
+		// Pug
+		"pug": "mono_pug",
+
+		// todo: Verilog
+		// "v": "mono_verilog",
+		// "V": "mono_verilog",
+
+		// VBScript
+		"vbs": "mono_dotnet",
+		"vba": "mono_dotnet",
+		"bas": "mono_dotnet",
+		"cls": "mono_dotnet",
+		"frm": "mono_dotnet",
+		"vbe": "mono_dotnet",
+		"wsf": "mono_dotnet",
+		"wsc": "mono_dotnet",
+		"acm": "mono_dotnet",
+		"acr": "mono_dotnet",
+		"acf": "mono_dotnet",
+
+		// Terraform
+		"tf": "mono_terraform",
+		"nomad": "mono_terraform",
+
+		// plist
+		"plist": "mono_plist",
+
+		// AngularJS
+		"ng.html": "mono_angular",
+
+		// Awk
+		"awk": "mono_awk",
+
+		// Babel
+		"babel": "mono_babel",
+		"es6": "mono_babel",
+
+		// Laravel Blade
+		"blade": "mono_blade",
+		"blade.php": "mono_blade",
+
+		// Ethereum
+		"cairo": "mono_cairo",
+ 		"vy": "mono_vyper",
+ 		"sol": "mono_solidity",
+ 		"yul": "mono_solidity",
+ 		"yulp": "mono_solidity",
+
+ 		// CFML
+ 		"cfc": "mono_cf",
+ 		"cfm": "mono_cf",
+ 		"cfml": "mono_cf",
+ 		"cfs": "mono_cf",
+
+ 		// CMake
+ 		"CMakeLists.txt": "mono_cmake",
+ 		"cmake": "mono_cmake",
+
+ 		// Crystal
+ 		"cr": "mono_crystal",
+
+ 		// Dart
+ 		"dart": "mono_dart",
+
+ 		// Elm Syntax Highlighting (sic)
+ 		"elm": "mono_elm",
+
+ 		// Fortran
+ 		"f": "mono_fixedform-fortran",
+ 		"F": "mono_fixedform-fortran",
+		"f77": "mono_fixedform-fortran",
+		"F77": "mono_fixedform-fortran",
+		"for": "mono_fixedform-fortran",
+		"FOR": "mono_fixedform-fortran",
+		"fpp": "mono_fixedform-fortran",
+		"FPP": "mono_fixedform-fortran",
+ 		"f90": " color_modern-fortran",
+ 		"F90": " color_modern-fortran",
+ 		"f95": " color_modern-fortran",
+		"F95": " color_modern-fortran",
+		"f03": " color_modern-fortran",
+		"F03": " color_modern-fortran",
+		"f08": " color_modern-fortran",
+		"F08": " color_modern-fortran",
+ 		"namelist": " color_modern-fortran",
+
+ 		// Gradle_Language
+ 		"gradle": "mono_gradle",
+
+ 		// Haxe
+ 		"hx": "mono_haxe",
+		"hxsl": "mono_haxe",
+		"hscript": "mono_haxe",
+
+		// Julia
+		"jl": "mono_julia",
+
+		// KSP (Kontakt Script Processor)
+ 		"ksp": "mono_ksp",
+
+ 		// Liquid
+ 		"liquid": "mono_liquid",
+
+		// LSL
+		"lsl": "mono_lsl",
+		"ossl": "mono_lsl",
+
+		// MayaSublime
+		"mel": "mono_maya",
+		"ma": "mono_maya",
+
+		// Mint Lang
+		"mint": "mono_mint",
+
+		// Nim
+		"nim": "mono_nim",
+		"nims": "mono_nim",
+		"nimble": "mono_nim",
+		"nif": "mono_nim",
+		"nimf": "mono_nim",
+		// "nim.cfg" // opting to leave this covered by .cfg
+
+		// PlainNotes
+		"note": "mono_note",
+
+		// NSIS
+		"nsi": "mono_nsis",
+		"nsh": "mono_nsis",
+		"bnsi": "mono_nsis",
+		"bnsh": "mono_nsis",
+		"nsdinc": "mono_nsis",
+
+		// Odin
+		"odin": "mono_odin",
+
+		// Puppet
+		"pp": "mono_puppet",
+		"epp": "mono_puppet",
+
+		// Ruby Slim
+		"slim": "mono_slim",
+		"skim": "mono_slim",
+
+		// Stata Improved Editor
+		"do": "mono_stata",
+        "ado": "mono_stata",
+        "doh": "mono_stata",
+        "mata": "mono_stata",
+
+        // Svelte
+        "svelte": "mono_svelte",
+        "svx": "mono_svelte",
+        "mdsv": "mono_svelte",
+        "mdsvex": "mono_svelte",
+
+        // Toit
+        "toit": "mono_toit",
+
+        // Zig Language
+        "zig": "mono_zig",
+        "zon": "mono_zig",
+
+ 		/////////////////////////////////////////
+ 		// from sublimehq/Packages
+ 		/////////////////////////////////////////
+
+ 		"applescript": "mono_applescript",
+ 		"scpt": "mono_applescript",
+ 		"scptd": "mono_applescript",
+
+ 		"as": "mono_actionscript",
+
+ 		"asp": "mono_dotnet",
+ 		"asa": "mono_dotnet",
+ 		"vbs": "mono_dotnet",
+
+ 		"bat": "mono_windows",
+ 		"cmd": "mono_windows",
+
+ 		"diff": "mono_diff",
+ 		"patch": "mono_diff",
+ 		"diff.eml": "mono_diff",
+ 		"patch.eml": "mono_diff",
+ 		"diff.mbox": "mono_diff",
+ 		"patch.mbox": "mono_diff",
+
+ 		"erl": "mono_erlang",
+ 		"escript": "mono_erlang",
+ 		"hrl": "mono_erlang",
+ 		"yaws": "mono_erlang",
+
+ 		"DOT": "mono_graphviz",
+ 		"dot": "mono_graphviz",
+ 		"gv": "mono_graphviz",
+
+ 		"gradle": "mono_groovy",
+ 		"groovy": "mono_groovy",
+ 		"gvy": "mono_groovy",
+
+ 		"CODEOWNERS": "mono_git",
+ 		"git": "mono_git",
+ 		"git-blame-ignore-revs": "mono_git",
+ 		"gitattributes": "mono_git",
+ 		"gitconfig": "mono_git",
+ 		"gitignore": "mono_git",
+ 		"gitmodules": "mono_git",
+ 		"mailmap": "mono_git",
+
+ 		"haml": "mono_haml",
+
+ 		"cabal": "mono_haskell",
+ 		"cabal.project": "mono_haskell",
+ 		"lhs": "mono_haskell",
+ 		"hs": "mono_haskell",
+ 		"hs-boot": "mono_haskell",
+ 		"hsig": "mono_haskell",
+
+ 		"htm": "mono_html",
+ 		"html": "mono_html",
+ 		"shtml": "mono_html",
+ 		"xhtml": "mono_html",
+ 		"gohtml": "mono_html",
+ 		"gotmpl": "mono_html",
+ 		"go.html": "mono_html",
+ 		"go.tmpl": "mono_html",
+ 		"rails": "mono_html",
+ 		"rhtml": "mono_html",
+ 		"erb": "mono_html",
+ 		"html.erb": "mono_html",
+ 		"adp": "mono_html",
+
+ 		"css": "mono_css",
+ 		"gocss": "mono_css",
+ 		"go.css": "mono_css",
+ 		"css.php": "mono_css",
+ 		"css.erb": "mono_css",
+
+ 		"d": "mono_dlang",
+ 		"di": "mono_dlang",
+
+ 		"js": "mono_js",
+ 		"gojs": "mono_js",
+ 		"go.js": "mono_js",
+ 		"mjs": "mono_js",
+ 		"cjs": "mono_js",
+ 		"htc": "mono_js",
+ 		"js.php": "mono_js",
+ 		"js.erb": "mono_js",
+
+ 		"jsx": "mono_jsx",
+
+ 		"tsx": "mono_tsx",
+ 		"ts": "mono_typescript",
+ 		"mts": "mono_typescript",
+ 		"cts": "mono_typescript",
+
+ 		"jsp": "mono_jsp",
+ 		"jspf": "mono_jsp",
+ 		"jspx": "mono_jsp",
+ 		"jstl": "mono_jsp",
+
+ 		"java": "mono_java",
+ 		"bsh": "mono_java",
+ 		"properties": "mono_java",
+
+ 		"json": "mono_json",
+ 		"jsonc": "mono_json",
+ 		"ipynb": "mono_json",
+ 		"gltf": "mono_json",
+ 		"avsc": "mono_json",
+ 		"json.php": "mono_json",
+ 		"json.erb": "mono_json",
+
+ 		"sublime-build": "mono_sublime",
+ 		"sublime-color-scheme": "mono_sublime",
+ 		"sublime-commands": "mono_sublime",
+ 		"sublime-completions": "mono_sublime",
+ 		"sublime-file-icons": "mono_sublime",
+ 		"sublime-keymap": "mono_sublime",
+ 		"sublime-macro": "mono_sublime",
+ 		"sublime-menu": "mono_sublime",
+ 		"sublime-mousemap": "mono_sublime",
+ 		"sublime-project": "mono_sublime",
+ 		"sublime-settings": "mono_sublime",
+ 		"sublime-theme": "mono_sublime",
+ 		"sublime-merge-theme": "mono_sublime",
+ 		"sublime-workspace": "mono_sublime",
+ 		"sublime-syntax": "mono_sublime",
+
+ 		"bib": "mono_tex",
+ 		"ins": "mono_tex",
+ 		"tex": "mono_tex",
+ 		"ltx": "mono_tex",
+ 		"sty": "mono_tex",
+ 		"cls": "mono_tex",
+
+ 		"lisp": "mono_lisp",
+ 		"cl": "mono_lisp",
+ 		"clisp": "mono_lisp",
+ 		"l": "mono_lisp",
+ 		"mud": "mono_lisp",
+ 		"el": "mono_lisp",
+ 		"scm": "mono_lisp",
+ 		"ss": "mono_lisp",
+ 		"lsp": "mono_lisp",
+ 		"fasl": "mono_lisp",
+ 		"sld": "mono_lisp",
+
+ 		"lua": "mono_lua",
+
+ 		// todo: icon for make?
+ 		"mk": "mono_shell",
+ 		"mak": "mono_shell",
+ 		"make": "mono_shell",
+ 		"GNUmakefile": "mono_shell",
+ 		"Makefile": "mono_shell",
+ 		"OCamlMakefile": "mono_shell",
+
+ 		"sh": "mono_shell",
+ 		"bash": "mono_shell",
+ 		"bashrc": "mono_shell",
+ 		"ash": "mono_shell",
+ 		"zsh": "mono_shell",
+
+ 		"matlab": "mono_matlab",
+
+ 		"go": "mono_go",
+
+ 		"md": "mono_markdown",
+ 		"mdown": "mono_markdown",
+ 		"mdwn": "mono_markdown",
+ 		"markdown": "mono_markdown",
+ 		"markdn": "mono_markdown",
+ 		"gomd": "mono_markdown",
+ 		"go.md": "mono_markdown",
+ 		"hugo": "mono_markdown",
+
+ 		"php": "mono_php",
+ 		"php3": "mono_php",
+ 		"php4": "mono_php",
+ 		"php5": "mono_php",
+ 		"php7": "mono_php",
+ 		"php8": "mono_php",
+ 		"phps": "mono_php",
+ 		"phpt": "mono_php",
+ 		"phtml": "mono_php",
+
+ 		"py": "mono_python",
+ 		"py3": "mono_python",
+ 		"pyw": "mono_python",
+ 		"pyi": "mono_python",
+ 		"pyx": "mono_python",
+ 		"pyx.in": "mono_python",
+ 		"pxd": "mono_python",
+ 		"pxd.in": "mono_python",
+ 		"pxi": "mono_python",
+ 		"pxi.in": "mono_python",
+ 		"rpy": "mono_python",
+ 		"cpy": "mono_python",
+ 		"gyp": "mono_python",
+ 		"gypi": "mono_python",
+ 		"vpy": "mono_python",
+ 		"smk": "mono_python",
+ 		"wscript": "mono_python",
+ 		"bazel": "mono_python",
+ 		"bzl": "mono_python",
+
+ 		"cs": "mono_csharp",
+ 		"csx": "mono_csharp",
+
+ 		"R": "mono_r",
+ 		"rd": "mono_r",
+
+ 		// todo source.regexp (? what's a regex file)
+ 		// "re": "",
+
+ 		"rb": "mono_ruby",
+ 		"rbi": "mono_ruby",
+ 		"rbx": "mono_ruby",
+ 		"rjs": "mono_ruby",
+ 		"rabl": "mono_ruby",
+ 		"rake": "mono_ruby",
+ 		"capfile": "mono_ruby",
+ 		"jbuilder": "mono_ruby",
+ 		"gemspec": "mono_ruby",
+ 		"podspec": "mono_ruby",
+ 		"irbrc": "mono_ruby",
+ 		"pryrc": "mono_ruby",
+ 		"prawn": "mono_ruby",
+ 		"thor": "mono_ruby",
+
+ 		"ruby.rail": "mono_rails",
+ 		"rxml": "mono_rails",
+ 		"builder": "mono_rails",
+ 		"arb": "mono_rails",
+
+ 		"rs": "mono_rust",
+
+ 		"rst": "mono_restructuredtext",
+ 		"rest": "mono_restructuredtext",
+
+ 		"sbt": "mono_scala",
+ 		"sc": "mono_scala",
+ 		"scala": "mono_scala",
+
+ 		"sql.erb": "mono_sql",
+ 		"erbsql": "mono_sql",
+ 		"cql": "mono_sql",
+ 		"pgsql": "mono_sql",
+ 		"psql": "mono_sql",
+ 		"sql": "mono_sql",
+ 		"ddl": "mono_sql",
+ 		"dml": "mono_sql",
+
+ 		"textile": "mono_textile",
+
+ 		"tcl": "mono_tcl",
+
+ 		"c": "mono_c",
+ 		"C": "mono_c",
+ 		"mm": "mono_c",
+ 		"m": "mono_c",
+ 		"M": "mono_c",
+ 		"h": "mono_cheader",
+
+ 		"cc": "mono_cpp",
+ 		"cp": "mono_cpp",
+ 		"cpp": "mono_cpp",
+ 		"cppm": "mono_cpp",
+ 		"cxx": "mono_cpp",
+ 		"inl": "mono_cpp",
+ 		"ino": "mono_cpp",
+ 		"ipp": "mono_cpp",
+ 		"ixx": "mono_cpp",
+ 		"hh": "mono_cppheader",
+ 		"hpp": "mono_cppheader",
+ 		"hxx": "mono_cppheader",
+
+ 		"clj": "mono_clojure",
+ 		"cljc": "mono_clojure",
+ 		"edn": "mono_clojure",
+ 		"cljs": "mono_clojure",
+
+ 		"ml": "mono_ocaml",
+ 		"mli": "mono_ocaml",
+ 		"mll": "mono_ocaml",
+ 		"mly": "mono_ocaml",
+
+ 		"pas": "mono_delphi",
+ 		"p": "mono_delphi",
+ 		"dpr": "mono_delphi",
+
+ 		"pl": "mono_perl",
+ 		"pc": "mono_perl",
+ 		"pm": "mono_perl",
+ 		"pmc": "mono_perl",
+ 		"pod": "mono_perl",
+ 		"t": "mono_perl",
+
+ 		"toml": "mono_toml",
+ 		"tml": "mono_toml",
+
+ 		"Pipfile": "mono_preferences",
+
+ 		"pc": "mono_xml",
+ 		"pl": "mono_xml",
+ 		"pm": "mono_xml",
+ 		"pmc": "mono_xml",
+ 		"pod": "mono_xml",
+ 		"t": "mono_xml",
+ 		"dtd": "mono_xml",
+ 		"ent": "mono_xml",
+ 		"mod": "mono_xml",
+ 		"xml": "mono_xml",
+ 		"tld": "mono_xml",
+ 		"dtml": "mono_xml",
+ 		"rng": "mono_xml",
+ 		"rss": "mono_xml",
+ 		"opml": "mono_xml",
+ 		"slnx": "mono_xml",
+ 		"svg": "mono_svg",
+ 		"xaml": "mono_xml",
+
+ 		"sublime-snippet": "mono_sublime",
+ 		"tmLanguage": "mono_textmate",
+ 		"tmPreferences": "mono_textmate",
+ 		"tmSnippet": "mono_textmate",
+ 		"tmTheme": "mono_textmate",
+
+ 		"yaml": "mono_yaml",
+ 		"yml": "mono_yaml",
+ 		"goyaml": "mono_yaml",
+ 		"go.yaml": "mono_yaml",
+ 		"goyml": "mono_yaml",
+ 		"go.yml": "mono_yaml",
+	}
+}

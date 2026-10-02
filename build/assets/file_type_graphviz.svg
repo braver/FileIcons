@@ -7,7 +7,7 @@
         fill: none;
       }
       .i-fill {
-        fill: #000;
+        fill: #FFFFFF;
         fill-rule: evenodd;
       }
     </style>
