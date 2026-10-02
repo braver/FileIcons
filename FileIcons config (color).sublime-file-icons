@@ -58,10 +58,6 @@
 		".stylelintrc.yml": "color_stylelint",
 		".stylelintignore": "color_stylelint",
 
-		"TASKS": "color_todo",
-		"tasks": "color_todo",
-		"TODO": "color_todo",
-		"todo": "color_todo",
 		"todolist.txt": "color_todo",
 
 		".vimrc": "color_vim",

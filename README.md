@@ -1,69 +1,64 @@
-# FileIcons
-Colored file icons for Sublime Text. [Also available in greyscale](https://packages.sublimetext.com/packages/FileIcons%20Mono).
+# FileIcons theme
 
-Adds specific, colored icons for most file types for the sidebar in Sublime Text. Supports both the Default and Adaptive themes.
+Adds specific icons for most file types for the sidebar in Sublime Text, in both color and monochrome, for any theme.
 
 <img width="432" src="https://raw.githubusercontent.com/braver/FileIcons/master/icons.png"> 
 
-Inspired by [A File Icon](https://packages.sublimetext.com/packages/A%20File%20Icon), but simpler:
+Inspired by [A File Icon](https://packages.sublimetext.com/packages/A%20File%20Icon), and based on [FileIcons](https://packages.sublimetext.com/packages/FileIcons), but now uses the new [file icon theme](https://www.sublimetext.com/docs/themes.html#file-icon-themes) mechanism.
 
-- Doesn't introduce "alias" languages like "Javascript (Gulpfile)"
-- No runtime code, no restarting required
-- Zero configuration
 
-## Customize
+## How to use
 
-The following changes are made to Adaptive/Default.sublime-theme. You can override them by creating a theme file with the same name in your Packages/User directory.
+Once you've installed the package, add the following to your user preferences:
 
 ```json
-[
-  {
-    "class": "icon_file_type",
-    "layer0.tint": [255, 255, 255],
-    "layer0.opacity": 0.75,
-    "content_margin": [8, 8]
-  },
-  {
-    "class": "icon_file_type",
-    "parents": [{"class": "tree_row", "attributes": ["hover"]}],
-    "layer0.opacity": 0.5
-  },
-  {
-    "class": "icon_file_type",
-    "parents": [{"class": "tree_row", "attributes": ["selected"]}],
-    "layer0.opacity": 1.0
-  }
-]
+{
+  "file_icon_theme": [
+    "FileIcons (mono).sublime-file-icons"
+  ],
+}
 ```
+
+For the colored icons replace "mono" with "color". 
+
+By default various configuration file formats are not recognized and matched to their natural file extension. For example `gruntfile.js` will get the icon for JavaScript rather than one specific to Grunt. To enable specific icons for this example and others like `.eslintrc.mjs`, `package.json`, etc. also add the "config" icon theme:
+
+
+```json
+{
+  "file_icon_theme": [
+    "FileIcons (color).sublime-file-icons",
+    "FileIcons config (color).sublime-file-icons"
+  ],
+}
+```
+
+Icons are 18x16 to work well withe Sublime's default themes. To adjust dimensions on any other theme, [customize](https://www.sublimetext.com/docs/themes.html#customization) it by adding this to its `rules`:
+
+```json
+{
+    "class": "icon_file_type",
+    "content_margin": [9, 8]
+}
+```
+
 
 ## Contributing
 
 The "build" directory contains svg assets. Each icon is assigned a color in icons.json, available colors are listed in colors.json. 
 
-PNG icons are built using a small app written in [Rust](https://www.rust-lang.org):
-
-- `cd build`
-- `cargo run`
+PNG icons are built using a small app written in [Rust](https://www.rust-lang.org).
 
 To add an icon:
 
 - add an svg asset with the correct name
-- add an entry to icons.json and assign it a color
+- check that the svg matches the format of the other icons
+- add an entry to `build/icons.json` and assign it a color
 - add an entry to the preferences directory
-- run the build
+- run `make`
 - commit the files
 - open a PR
 - 💃
-
-## Enable file icons for 3rd party themes
-
-To get file icons in any theme other than Default or Adaptive, take the following steps:
-
-- After installing [FileIcons](https://packages.sublimetext.com/packages/FileIcons) through [Package Control](https://packages.sublimetext.com/), go to the Sublime Text "Packages" directory (e.g. via the command "Browse Packages").
-- Create a "FileIcons/theme" directory structure in your "Packages" directory.
-- In your settings, check what theme you're using (e.g. 'itg.flat.dark.sublime-theme').
-- In the "FileIcons/theme" directory, create a file with the name of the theme you are using and copy the [theme overrides](https://github.com/braver/FileIcons/blob/master/theme/Adaptive.sublime-theme) that make FileIcons work into it.
-- Restart Sublime Text and you should see icons in the sidebar!
 
 
 ## Buy me a coffee 

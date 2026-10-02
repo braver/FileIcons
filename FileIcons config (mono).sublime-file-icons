@@ -58,10 +58,6 @@
 		".stylelintrc.yml": "mono_stylelint",
 		".stylelintignore": "mono_stylelint",
 
-		"TASKS": "mono_todo",
-		"tasks": "mono_todo",
-		"TODO": "mono_todo",
-		"todo": "mono_todo",
 		"todolist.txt": "mono_todo",
 
 		".vimrc": "mono_vim",

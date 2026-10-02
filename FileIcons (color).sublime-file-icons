@@ -205,6 +205,7 @@
 		"woff": "color_font",
 		"woff2": "color_font",
 
+		// common conventions
 		"COPYING": "color_license",
 		"copying": "color_license",
 		"COPYRIGHT": "color_license",
@@ -217,6 +218,11 @@
 		"license.gpl2": "color_license",
 		"license.gpl3": "color_license",
 		"license.mit": "color_license",
+
+		"TASKS": "color_todo",
+		"tasks": "color_todo",
+		"TODO": "color_todo",
+		"todo": "color_todo",
 
 		"lock": "color_lock",
 		"log": "color_log",
