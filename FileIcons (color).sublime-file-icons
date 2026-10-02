@@ -200,6 +200,19 @@
 		"woff": "file_type_font",
 		"woff2": "file_type_font",
 
+		"COPYING": "file_type_license",
+		"copying": "file_type_license",
+		"COPYRIGHT": "file_type_license",
+		"copyright": "file_type_license",
+		"LICENSE": "file_type_license",
+		"license": "file_type_license",
+		"license.apache": "file_type_license",
+		"license.bsd": "file_type_license",
+		"license.gpl": "file_type_license",
+		"license.gpl2": "file_type_license",
+		"license.gpl3": "file_type_license",
+		"license.mit": "file_type_license",
+
 		/////////////////////////////////////////
 		// community packages (https://packages.sublimetext.com/packages/<name>)
 		/////////////////////////////////////////
@@ -504,19 +517,6 @@
 		"gulpfile.babel.js": "file_type_gulpfile",
 		"gulpfile.babel.cjs": "file_type_gulpfile",
 		"gulpfile.babel.mjs": "file_type_gulpfile",
-
-		"COPYING": "file_type_license",
-		"COPYRIGHT": "file_type_license",
-		"LICENSE": "file_type_license",
-		"copying": "file_type_license",
-		"copyright": "file_type_license",
-		"license": "file_type_license",
-		"license.apache": "file_type_license",
-		"license.bsd": "file_type_license",
-		"license.mit": "file_type_license",
-		"license.gpl": "file_type_license",
-		"license.gpl2": "file_type_license",
-		"license.gpl3": "file_type_license",
 
 		"package-lock.json": "file_type_lock",
 		".cargo-lock": "file_type_lock",
