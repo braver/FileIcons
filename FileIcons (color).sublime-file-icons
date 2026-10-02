@@ -15,6 +15,8 @@
 		"wim": "file_type_archive",
 		"zip": "file_type_archive",
 
+		"bin": "file_type_binary",
+
 		// Adobe
 		"psd": "file_type_psd",
 		"PSD": "file_type_psd",
@@ -517,6 +519,7 @@
 		"license.gpl3": "file_type_license",
 
 		"package-lock.json": "file_type_lock",
+		".cargo-lock": "file_type_lock",
 		"lock": "file_type_lock",
 
 		"log": "file_type_log",
@@ -619,6 +622,7 @@
  		"git-blame-ignore-revs": "file_type_git",
  		"gitattributes": "file_type_git",
  		"gitconfig": "file_type_git",
+ 		"gitignore": "file_type_git",
  		"gitmodules": "file_type_git",
  		"mailmap": "file_type_git",
 
