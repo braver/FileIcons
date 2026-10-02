@@ -1,12 +1,11 @@
-<svg width="100%" height="100%" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
    <defs>
      <style>
        .i-color {
-         fill: #000;
+         fill: #FFFFFF;
          fill-rule: nonzero;
        }
      </style>
    </defs>
-
-   <path id="file_type_zig.svg" class="i-color" d="M7.397,10.652L11.697,10.652L9.904,12.986L5.659,12.986L1.036,15.425L8.558,5.243L4.244,5.243L6.036,2.909L10.282,2.909L14.904,0.576L7.397,10.652ZM15.187,2.909L15.187,12.986L10.753,12.986L12.546,10.652L13.112,10.652L13.112,5.349L12.263,5.349L14.055,2.909L15.187,2.909ZM3.394,5.243L2.828,5.243L2.828,10.652L3.677,10.652L1.885,12.986L0.753,12.986L0.753,2.909L5.093,2.909L3.394,5.243Z"/>
+   <path class="i-color" d="M7.397,10.652L11.697,10.652L9.904,12.986L5.659,12.986L1.036,15.425L8.558,5.243L4.244,5.243L6.036,2.909L10.282,2.909L14.904,0.576L7.397,10.652ZM15.187,2.909L15.187,12.986L10.753,12.986L12.546,10.652L13.112,10.652L13.112,5.349L12.263,5.349L14.055,2.909L15.187,2.909ZM3.394,5.243L2.828,5.243L2.828,10.652L3.677,10.652L1.885,12.986L0.753,12.986L0.753,2.909L5.093,2.909L3.394,5.243Z"/>
 </svg>

@@ -1,0 +1,92 @@
+{
+	"icons": {
+		/////////////////////////////////////////
+ 		// not actual syntaxes, but package management files etc.
+ 		/////////////////////////////////////////
+
+ 		"circle.yml": "color_circleci",
+
+ 		"composer.json": "color_composer",
+		"composer.lock": "color_composer",
+
+		".eslintrc": "color_eslint",
+		".eslintrc.json": "color_eslint",
+		".eslintrc.js": "color_eslint",
+		".eslintrc.cjs": "color_eslint",
+		".eslintrc.mjs": "color_eslint",
+		".eslintrc.yaml": "color_eslint",
+		".eslintrc.yml": "color_eslint",
+		".eslintignore": "color_eslint",
+		".eslintcache": "color_eslint",
+
+		"gruntfile.js": "color_gruntfile",
+		"gruntfile.cjs": "color_gruntfile",
+		"gruntfile.mjs": "color_gruntfile",
+
+		"gulpfile.js": "color_gulpfile",
+		"gulpfile.cjs": "color_gulpfile",
+		"gulpfile.mjs": "color_gulpfile",
+		"gulpfile.babel.js": "color_gulpfile",
+		"gulpfile.babel.cjs": "color_gulpfile",
+		"gulpfile.babel.mjs": "color_gulpfile",
+
+		"package-lock.json": "color_lock",
+		".cargo-lock": "color_lock",
+
+		".node-version": "color_nodejs",
+		".nvmrc": "color_nodejs",
+
+		".npmignore": "color_npm",
+		".npmrc": "color_npm",
+		"npmrc": "color_npm",
+		"package.json": "color_npm",
+
+		".postcssrc": "color_postcss",
+		"postcss.config.js": "color_postcss",
+		"postcss.config.cjs": "color_postcss",
+		"postcss.config.mjs": "color_postcss",
+
+		".stylelintrc": "color_stylelint",
+		".stylelintrc.json": "color_stylelint",
+		".stylelintrc.js": "color_stylelint",
+		".stylelintrc.cjs": "color_stylelint",
+		".stylelintrc.mjs": "color_stylelint",
+		"stylelint.config.js": "color_stylelint",
+		"stylelint.config.cjs": "color_stylelint",
+		"stylelint.config.mjs": "color_stylelint",
+		".stylelintrc.yaml": "color_stylelint",
+		".stylelintrc.yml": "color_stylelint",
+		".stylelintignore": "color_stylelint",
+
+		"TASKS": "color_todo",
+		"tasks": "color_todo",
+		"TODO": "color_todo",
+		"todo": "color_todo",
+		"todolist.txt": "color_todo",
+
+		".vimrc": "color_vim",
+		".gvimrc": "color_vim",
+		"_vimrc": "color_vim",
+		"_gvimrc": "color_vim",
+
+		"webpack.config.js": "color_webpack",
+		"webpack.config.cjs": "color_webpack",
+		"webpack.config.mjs": "color_webpack",
+		"webpack.config.babel.js": "color_webpack",
+		"webpack.config.babel.cjs": "color_webpack",
+		"webpack.config.babel.mjs": "color_webpack",
+		"webpack.dev.js": "color_webpack",
+		"webpack.dev.cjs": "color_webpack",
+		"webpack.dev.mjs": "color_webpack",
+		"webpack.mix.js": "color_webpack",
+		"webpack.mix.cjs": "color_webpack",
+		"webpack.mix.mjs": "color_webpack",
+
+		".yarnclean": "color_yarn",
+		".yarnrc": "color_yarn",
+		".yarn-integrity": "color_yarn",
+		".yarn-metadata.json": "color_yarn",
+		".yarnrc.yaml": "color_yarn",
+		".yarnrc.yml": "color_yarn",
+	}
+}
