@@ -866,10 +866,9 @@
  		"mll": "file_type_ocaml",
  		"mly": "file_type_ocaml",
 
- 		// todo: pascal
- 		// "pas": "??",
- 		// "p": "??",
- 		// "dpr": "??",
+ 		"pas": "file_type_delphi",
+ 		"p": "file_type_delphi",
+ 		"dpr": "file_type_delphi",
 
  		"pl": "file_type_perl",
  		"pc": "file_type_perl",
