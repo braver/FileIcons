@@ -357,6 +357,157 @@
  		"yul": "file_type_solidity",
  		"yulp": "file_type_solidity",
 
+ 		// CFML
+ 		"cfc": "file_type_cf",
+ 		"cfm": "file_type_cf",
+ 		"cfml": "file_type_cf",
+ 		"cfs": "file_type_cf",
+
+ 		// CMake
+ 		"CMakeLists.txt": "file_type_cmake",
+ 		"cmake": "file_type_cmake",
+
+ 		// Crystal
+ 		"cr": "file_type_crystal",
+
+ 		// Dart
+ 		"dart": "file_type_dart",
+
+ 		// Elm Syntax Highlighting (sic)
+ 		"elm": "file_type_elm",
+
+ 		// Fortran
+ 		"f": "file_type_fixedform-fortran",
+ 		"F": "file_type_fixedform-fortran",
+		"f77": "file_type_fixedform-fortran",
+		"F77": "file_type_fixedform-fortran",
+		"for": "file_type_fixedform-fortran",
+		"FOR": "file_type_fixedform-fortran",
+		"fpp": "file_type_fixedform-fortran",
+		"FPP": "file_type_fixedform-fortran",
+ 		"f90": " file_type_modern-fortran",
+ 		"F90": " file_type_modern-fortran",
+ 		"f95": " file_type_modern-fortran",
+		"F95": " file_type_modern-fortran",
+		"f03": " file_type_modern-fortran",
+		"F03": " file_type_modern-fortran",
+		"f08": " file_type_modern-fortran",
+		"F08": " file_type_modern-fortran",
+ 		"namelist": " file_type_modern-fortran",
+
+ 		// Gradle_Language
+ 		"gradle": "file_type_gradle",
+
+ 		// Haxe
+ 		"hx": "file_type_haxe",
+		"hxsl": "file_type_haxe",
+		"hscript": "file_type_haxe",
+
+		// Julia
+		"jl": "file_type_julia",
+
+		// KSP (Kontakt Script Processor)
+ 		"ksp": "file_type_ksp",
+
+ 		// Liquid
+ 		"liquid": "file_type_liquid",
+
+		// LSL
+		"lsl": "file_type_lsl",
+		"ossl": "file_type_lsl",
+
+		// MayaSublime
+		"mel": "file_type_maya",
+		"ma": "file_type_maya",
+
+		// Mint Lang
+		"mint": "file_type_mint",
+
+		// Nim
+		"nim": "file_type_nim",
+		"nims": "file_type_nim",
+		"nimble": "file_type_nim",
+		"nif": "file_type_nim",
+		"nimf": "file_type_nim",
+		// "nim.cfg" // opting to leave this covered by .cfg
+
+		// PlainNotes
+		"note": "file_type_note",
+
+		// NSIS
+		"nsi": "file_type_nsis",
+		"nsh": "file_type_nsis",
+		"bnsi": "file_type_nsis",
+		"bnsh": "file_type_nsis",
+		"nsdinc": "file_type_nsis",
+
+		// Odin
+		"odin": "file_type_odin",
+
+
+
+
+ 		/////////////////////////////////////////
+ 		// not actual syntaxes, but package management files etc.
+ 		/////////////////////////////////////////
+
+ 		"circle.yml": "file_type_circleci",
+
+ 		"composer.json": "file_type_composer",
+		"composer.lock": "file_type_composer",
+
+		".eslintrc": "file_type_eslint",
+		".eslintrc.json": "file_type_eslint",
+		".eslintrc.js": "file_type_eslint",
+		".eslintrc.cjs": "file_type_eslint",
+		".eslintrc.mjs": "file_type_eslint",
+		".eslintrc.yaml": "file_type_eslint",
+		".eslintrc.yml": "file_type_eslint",
+		".eslintignore": "file_type_eslint",
+		".eslintcache": "file_type_eslint",
+
+		"gruntfile.js": "file_type_gruntfile",
+		"gruntfile.cjs": "file_type_gruntfile",
+		"gruntfile.mjs": "file_type_gruntfile",
+
+		"gulpfile.js": "file_type_gulpfile",
+		"gulpfile.cjs": "file_type_gulpfile",
+		"gulpfile.mjs": "file_type_gulpfile",
+		"gulpfile.babel.js": "file_type_gulpfile",
+		"gulpfile.babel.cjs": "file_type_gulpfile",
+		"gulpfile.babel.mjs": "file_type_gulpfile",
+
+		"COPYING": "file_type_license",
+		"COPYRIGHT": "file_type_license",
+		"LICENSE": "file_type_license",
+		"copying": "file_type_license",
+		"copyright": "file_type_license",
+		"license": "file_type_license",
+		"license.apache": "file_type_license",
+		"license.bsd": "file_type_license",
+		"license.mit": "file_type_license",
+		"license.gpl": "file_type_license",
+		"license.gpl2": "file_type_license",
+		"license.gpl3": "file_type_license",
+
+		"package-lock.json": "file_type_lock",
+		"lock": "file_type_lock",
+
+		"log": "file_type_log",
+
+		".node-version": "file_type_nodejs",
+		".nvmrc": "file_type_nodejs",
+
+		".npmignore": "file_type_npm",
+		".npmrc": "file_type_npm",
+		"npmrc": "file_type_npm",
+		"package.json": "file_type_npm",
+
+		".postcssrc": "file_type_postcss",
+		"postcss.config.js": "file_type_postcss",
+		"postcss.config.cjs": "file_type_postcss",
+		"postcss.config.mjs": "file_type_postcss",
+
  		/////////////////////////////////////////
  		// from sublimehq/Packages
  		/////////////////////////////////////////
