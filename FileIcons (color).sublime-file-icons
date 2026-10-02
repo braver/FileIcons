@@ -877,9 +877,9 @@
  		"pod": "file_type_perl",
  		"t": "file_type_perl",
 
- 		// TOML
- 		"toml": "file_type_preferences",
- 		"tml": "file_type_preferences",
+ 		"toml": "file_type_toml",
+ 		"tml": "file_type_toml",
+
  		"Pipfile": "file_type_preferences",
 
  		"pc": "file_type_xml",

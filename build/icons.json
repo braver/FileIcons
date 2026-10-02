@@ -145,6 +145,7 @@
   "file_type_textmate": "purple",
   "file_type_todo": "green",
   "file_type_toit": "orange",
+  "file_type_toml": "orange",
   "file_type_tsx": "blue",
   "file_type_twig": "green",
   "file_type_typescript": "cyan",
