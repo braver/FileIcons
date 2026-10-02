@@ -7,5 +7,5 @@
       }
     </style>
   </defs>
-  <path id="file_type_ruby.svg" class="i-color" d="M13,6L8,11V4h3Zm3,0L8,14,0,6,4,2h8ZM8,12.5L14.5,6l-3-3h-7l-3,3Z" transform="translate(0 -1)"/>
+  <path class="i-color" d="M13,6L8,11V4h3Zm3,0L8,14,0,6,4,2h8ZM8,12.5L14.5,6l-3-3h-7l-3,3Z" transform="translate(0 -1)"/>
 </svg>

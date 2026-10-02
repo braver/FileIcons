@@ -1,12 +1,11 @@
-<svg width="18" height="16" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" preserveAspectRatio="xMidYMid meet" viewBox="0 0 256 291">
+<svg xmlns="http://www.w3.org/2000/svg" width="18" height="16" viewBox="0 0 16 16">
   <defs>
     <style>
       .i-color {
         fill: #000;
-        fill-rule: evenodd;
+        fill-rule: nonzero;
       }
     </style>
   </defs>
-  <path class="i-color" d="M176.485 188.994L256 143.127V51.25l-79.515 45.963z" />
-  <path class="i-color" d="M88.243 51.249l79.515 45.963v91.782L88.243 143.08M0 91.83l79.515 45.916v-91.83L0 0m88.243 244.994l79.515 45.915v-91.83l-79.515-45.915" />
+  <path class="i-color" d="M11.666,10.391L11.666,5.345L16.038,2.818L16.038,7.87L11.666,10.391ZM6.814,2.818L11.186,5.345L11.186,10.391L6.814,7.867L6.814,2.818ZM1.962,5.049L1.962,0L6.334,2.525L6.334,7.574L1.962,5.049ZM6.814,13.47L6.814,8.421L11.186,10.946L11.186,15.995L6.814,13.47Z"/>
 </svg>

@@ -7,5 +7,5 @@
       }
     </style>
   </defs>
-  <path id="file_type_npm.svg" class="i-color" d="M4,4V11.99H8v-6H10v6H12V4H4ZM14,2V14H2V2H14Z" transform="translate(0 -1)"/>
+  <path class="i-color" d="M4,4V11.99H8v-6H10v6H12V4H4ZM14,2V14H2V2H14Z" transform="translate(0 -1)"/>
 </svg>

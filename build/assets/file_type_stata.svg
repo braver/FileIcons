@@ -7,5 +7,5 @@
       }
     </style>
   </defs>
-  <path id="file_type_stata.svg" class="i-color" d="M6,11h4v4H6V11ZM1,11H5v4H1V11ZM11,6h4v4H11V6ZM6,6h4v4H6V6ZM1,6H5v4H1V6ZM11,1h4V5H11V1ZM6,1h4V5H6V1Z" transform="translate(0 -1)"/>
+  <path class="i-color" d="M6,11h4v4H6V11ZM1,11H5v4H1V11ZM11,6h4v4H11V6ZM6,6h4v4H6V6ZM1,6H5v4H1V6ZM11,1h4V5H11V1ZM6,1h4V5H6V1Z" transform="translate(0 -1)"/>
 </svg>
