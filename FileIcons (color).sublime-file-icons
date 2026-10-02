@@ -816,9 +816,8 @@
 
  		"rs": "file_type_rust",
 
- 		// todo: reStructuredText
- 		// "rst": "",
- 		// "rest": "",
+ 		"rst": "file_type_restructuredtext",
+ 		"rest": "file_type_restructuredtext",
 
  		"sbt": "file_type_scala",
  		"sc": "file_type_scala",

@@ -112,6 +112,7 @@
   "file_type_python": "yellow",
   "file_type_r": "blue",
   "file_type_rails": "red",
+  "file_type_restructuredtext": "blue",
   "file_type_riot": "red",
   "file_type_ruby": "red",
   "file_type_rust": "cyan",
