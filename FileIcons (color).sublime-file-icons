@@ -227,6 +227,8 @@
 		"lock": "color_lock",
 		"log": "color_log",
 
+		"txt": "color_text",
+
 		/////////////////////////////////////////
 		// community packages (https://packages.sublimetext.com/packages/<name>)
 		/////////////////////////////////////////

@@ -227,6 +227,8 @@
 		"lock": "mono_lock",
 		"log": "mono_log",
 
+		"txt": "mono_text",
+
 		/////////////////////////////////////////
 		// community packages (https://packages.sublimetext.com/packages/<name>)
 		/////////////////////////////////////////
