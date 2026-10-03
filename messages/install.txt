@@ -1,0 +1,14 @@
+FileIcons Theme
+===============
+
+To enable the file icon theme provided by this package,
+add the following to your user preferences for Sublime:
+
+"file_icon_theme": [
+	"FileIcons (mono).sublime-file-icons"
+],
+
+For the colored icons replace "mono" with "color".
+Please refer to the readme for more tips and usage notes.
+
+https://github.com/braver/FileIcons/blob/master/README.md
