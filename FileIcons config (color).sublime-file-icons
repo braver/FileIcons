@@ -1,12 +1,12 @@
 {
 	"icons": {
 		/////////////////////////////////////////
- 		// not actual syntaxes, but package management files etc.
- 		/////////////////////////////////////////
+		// not actual syntaxes, but package management files etc.
+		/////////////////////////////////////////
 
- 		"circle.yml": "color_circleci",
+		"circle.yml": "color_circleci",
 
- 		"composer.json": "color_composer",
+		"composer.json": "color_composer",
 		"composer.lock": "color_composer",
 
 		".eslintrc": "color_eslint",

@@ -1,12 +1,12 @@
 {
 	"icons": {
 		/////////////////////////////////////////
- 		// not actual syntaxes, but package management files etc.
- 		/////////////////////////////////////////
+		// not actual syntaxes, but package management files etc.
+		/////////////////////////////////////////
 
- 		"circle.yml": "mono_circleci",
+		"circle.yml": "mono_circleci",
 
- 		"composer.json": "mono_composer",
+		"composer.json": "mono_composer",
 		"composer.lock": "mono_composer",
 
 		".eslintrc": "mono_eslint",
