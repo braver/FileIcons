@@ -13,9 +13,9 @@ Once you've installed the package, add the following to your user preferences:
 
 ```json
 {
-  "file_icon_theme": [
-    "FileIcons (mono).sublime-file-icons"
-  ],
+	"file_icon_theme": [
+		"FileIcons (mono).sublime-file-icons"
+	],
 }
 ```
 
@@ -26,22 +26,32 @@ By default various configuration file formats are not recognized and matched to 
 
 ```json
 {
-  "file_icon_theme": [
-    "FileIcons (color).sublime-file-icons",
-    "FileIcons config (color).sublime-file-icons"
-  ],
+	"file_icon_theme": [
+		"FileIcons (color).sublime-file-icons",
+		"FileIcons config (color).sublime-file-icons"
+	],
 }
 ```
 
-Icons are 18x16 to work well withe Sublime's default themes. To adjust dimensions on any other theme, [customize](https://www.sublimetext.com/docs/themes.html#customization) it by adding this to its `rules`:
+## Tweaks for UI themes
+
+Icons are 18x16 to work well withe Sublime's default themes. To adjust dimensions on any other theme, [customize](https://www.sublimetext.com/docs/themes.html#customization) (in the command palette use "UI: Customize Theme") it by adding this to its `rules`:
 
 ```json
 {
-    "class": "icon_file_type",
-    "content_margin": [9, 8]
+	"class": "icon_file_type",
+	"content_margin": [9, 8]
 }
 ```
 
+Themes often have their own color overlays on icons, tinting them to match the theme's colors. This works well for monochrome icons. For colored icons you may want to override this behavior. Customize the theme by adding this to its `rules`, resetting the tint to white and restoring the image's own colors.
+
+```json
+{
+	"class": "icon_file_type",
+	"layer0.tint": [255, 255, 255],
+}
+```
 
 ## Contributing
 
