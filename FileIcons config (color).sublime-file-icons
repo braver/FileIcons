@@ -125,5 +125,11 @@
 		// ".tern-project": "file_type_tern",
 		// ".travis.yml": "file_type_travisci",
 		// ".yarnrc.yml": "file_type_yarn",
+		// "appveyor.yml": "file_type_appveyor",
+		// "aspire.config.json": "file_type_aspire",
+		// "azure-pipelines.yml": "file_type_azure",
+		// "biome.json": "file_type_biome",
+        // "bitbucket-pipelines.yml": "file_type_bitbucket",
+        // ... and possibly many more json/yml files that can be branded
 	}
 }
