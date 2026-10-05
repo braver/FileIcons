@@ -6,7 +6,6 @@ Adds specific icons for most file types for the sidebar in Sublime Text, in both
 
 Inspired by [A File Icon](https://packages.sublimetext.com/packages/A%20File%20Icon), and based on [FileIcons](https://packages.sublimetext.com/packages/FileIcons), but now uses the new [file icon theme](https://www.sublimetext.com/docs/themes.html#file-icon-themes) mechanism.
 
-
 ## How to use
 
 Once you've installed the package, add the following to your user preferences:
@@ -22,7 +21,6 @@ Once you've installed the package, add the following to your user preferences:
 For the colored icons replace "mono" with "color". 
 
 By default various configuration file formats are not recognized and matched to their natural file extension. For example `gruntfile.js` will get the icon for JavaScript rather than one specific to Grunt. To enable specific icons for this example and others like `.eslintrc.mjs`, `package.json`, etc. also add the "config" icon theme:
-
 
 ```json
 {
@@ -62,14 +60,16 @@ PNG icons are built using a small app written in [Rust](https://www.rust-lang.or
 To add an icon:
 
 - add an svg asset with the correct name
-- check that the svg matches the format of the other icons
+- check that the svg matches the format of the other icons:
+  - all shapes are combined into a single path
+  - the path has a class attribute applying the color
 - add an entry to `build/icons.json` and assign it a color
-- add an entry to the preferences directory
 - run `make`
 - commit the files
 - open a PR
 - 💃
 
+The `color` and `mono` branches of this repository contain the older, now considered legacy, approach to building an icon theme.
 
 ## Buy me a coffee 
 
