@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+  <defs>
+    <style>
+      .i-color {
+        fill: #FFFFFF;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+
+    <path class="i-color" d="M3.5,14L0.5,14L8,1.01L15.5,14L12.5,14L11,11.402L8,11.402L6.5,8.804L9.5,8.804L8,6.206L3.5,14Z" style="fill:rgb(51,193,255);"/>
+</svg>

@@ -233,9 +233,15 @@
 		// community packages (https://packages.sublimetext.com/packages/<name>)
 		/////////////////////////////////////////
 
-		// Kotlin
-		"kt": "mono_kotlin",
-		"kts": "mono_kotlin",
+		// Adept
+		"adept": "mono_adept",
+
+		// Advanced CSV
+		"csv": "mono_csv",
+		"tsv": "mono_csv",
+
+		// AngularJS
+		"ng.html": "mono_angular",
 
 		// ApacheConf
 		// "conf": "mono_preferences", // doubles ini
@@ -252,125 +258,8 @@
 		// "ino": "mono_arduino", // doubles c++
 		"pde": "mono_arduino",
 
-		// SSH Config
-		"authorized_keys": "mono_authorized_keys",
-		"known_hosts": "mono_known_hosts",
-		"pem": "mono_pem",
-		"pub": "mono_public_key",
-		"ssh_config": "mono_ssh_config",
-		"sshd_config": "mono_sshd_config",
-
-		// Sass
-		"sass": "mono_sass",
-		"scss": "mono_scss",
-
-		// Less
-		"less": "mono_less",
-
-		// Vue
-		"vue": "mono_vue",
-		"we": "mono_vue",
-		"wpy": "mono_vue",
-
-		// CoffeeScript
-		"coffee": "mono_coffeescript",
-		"Cakefile": "mono_coffeescript",
-		"coffee.erb": "mono_coffeescript",
-		"cson": "mono_coffeescript",
-		"cjsx": "mono_coffeescript",
-
-		// Dockerfile Syntax Highlighting (sic)
-		"Dockerfile": "mono_docker",
-		"dockerfile": "mono_docker",
-
-		// EditorConfig
-		"editorconfig": "mono_editorconfig",
-
-		// Twig
-		"twig": "mono_twig",
-		"css.twig": "mono_twig",
-		"htm.twig": "mono_twig",
-		"html.twig": "mono_twig",
-		"js.twig": "mono_twig",
-		"json.twig": "mono_twig",
-
-		// PowerShell
-		"ps1": "mono_powershell",
-		"psm1": "mono_powershell",
-		"psd1": "mono_powershell",
-
-		// Stylus
-		"styl": "mono_stylus",
-		"stylus": "mono_stylus",
-
-		// Handlebars
-		"handlebars": "mono_mustache",
-		"handlebars.html": "mono_mustache",
-		"hbr": "mono_mustache",
-		"hbrs": "mono_mustache",
-		"hbs": "mono_mustache",
-		"hdbs": "mono_mustache",
-		"hjs": "mono_mustache",
-		"mu": "mono_mustache",
-		"mustache": "mono_mustache",
-		"rac": "mono_mustache",
-		"stache": "mono_mustache",
-		"template": "mono_mustache",
-		"tmpl": "mono_mustache",
-
-		// INI
-		"ini": "mono_settings",
-		"cfg": "mono_settings",
-		"conf": "mono_settings",
-
-		// EJS
-		"ejs": "mono_ejs",
-
-		// nginx
-		"conf.erb": "mono_nginx",
-		// "conf": "mono_nginx", // doubles ini
-		"nginx.conf": "mono_nginx",
-		"mime.types": "mono_nginx",
-		"fastcgi_params": "mono_nginx",
-		"scgi_params": "mono_nginx",
-		"uwsgi_params": "mono_nginx",
-
-		// Swift
-		"swift": "mono_swift",
-
-		// Advanced CSV
-		"csv": "mono_csv",
-		"tsv": "mono_csv",
-
-		// Pug
-		"pug": "mono_pug",
-
-		// todo: Verilog
-		// "v": "mono_verilog",
-		// "V": "mono_verilog",
-
-		// VBScript
-		"vbs": "mono_dotnet",
-		"vba": "mono_dotnet",
-		"bas": "mono_dotnet",
-		"cls": "mono_dotnet",
-		"frm": "mono_dotnet",
-		"vbe": "mono_dotnet",
-		"wsf": "mono_dotnet",
-		"wsc": "mono_dotnet",
-		"acm": "mono_dotnet",
-		"acr": "mono_dotnet",
-		"acf": "mono_dotnet",
-
-		// Terraform
-		"tf": "mono_terraform",
-		"nomad": "mono_terraform",
-
-		// plist
-		"plist": "mono_plist",
-
-		// AngularJS
-		"ng.html": "mono_angular",
+		// Astro
+		"astro": "mono_astro",
 
 		// Awk
 		"awk": "mono_awk",
@@ -378,17 +267,6 @@
 		// Babel
 		"babel": "mono_babel",
 		"es6": "mono_babel",
-
-		// Laravel Blade
-		"blade": "mono_blade",
-		"blade.php": "mono_blade",
-
-		// Ethereum
-		"cairo": "mono_cairo",
-		"vy": "mono_vyper",
-		"sol": "mono_solidity",
-		"yul": "mono_solidity",
-		"yulp": "mono_solidity",
 
 		// CFML
 		"cfc": "mono_cf",
@@ -400,14 +278,47 @@
 		"CMakeLists.txt": "mono_cmake",
 		"cmake": "mono_cmake",
 
+		// CoffeeScript
+		"coffee": "mono_coffeescript",
+		"Cakefile": "mono_coffeescript",
+		"coffee.erb": "mono_coffeescript",
+		"cson": "mono_coffeescript",
+		"cjsx": "mono_coffeescript",
+
+		// CookLang
+		"cook": "mono_cook",
+
 		// Crystal
 		"cr": "mono_crystal",
 
 		// Dart
 		"dart": "mono_dart",
 
+		// Django Syntax
+		"djt": "mono_django",
+
+		// Dockerfile Syntax Highlighting (sic)
+		"Dockerfile": "mono_docker",
+		"dockerfile": "mono_docker",
+
+		// EditorConfig
+		"editorconfig": "mono_editorconfig",
+
+		// EJS
+		"ejs": "mono_ejs",
+
 		// Elm Syntax Highlighting (sic)
 		"elm": "mono_elm",
+
+		// ESQL
+		"esql": "mono_esql",
+
+		// Ethereum
+		"cairo": "mono_cairo",
+		"vy": "mono_vyper",
+		"sol": "mono_solidity",
+		"yul": "mono_solidity",
+		"yulp": "mono_solidity",
 
 		// Fortran
 		"f": "mono_fixedform-fortran",
@@ -431,16 +342,75 @@
 		// Gradle_Language
 		"gradle": "mono_gradle",
 
+		// Handlebars
+		"handlebars": "mono_mustache",
+		"handlebars.html": "mono_mustache",
+		"hbr": "mono_mustache",
+		"hbrs": "mono_mustache",
+		"hbs": "mono_mustache",
+		"hdbs": "mono_mustache",
+		"hjs": "mono_mustache",
+		"mu": "mono_mustache",
+		"mustache": "mono_mustache",
+		"rac": "mono_mustache",
+		"stache": "mono_mustache",
+		"template": "mono_mustache",
+		"tmpl": "mono_mustache",
+
 		// Haxe
 		"hx": "mono_haxe",
 		"hxsl": "mono_haxe",
 		"hscript": "mono_haxe",
 
+		// Gleam
+		"gleam": "mono_gleam",
+
+		// Hacklang
+		"hack": "mono_hack",
+
+		// Heta
+		"heta": "mono_heta",
+
+		// Hyperflask
+		"jpy": "mono_hyperflask",
+
+		// INI
+		"ini": "mono_settings",
+		"cfg": "mono_settings",
+		"conf": "mono_settings",
+
+		// Jinja2
+		"jinja": "mono_jinja",
+
 		// Julia
 		"jl": "mono_julia",
 
+		// Just
+		".justfile": "mono_just",
+		"just": "mono_just",
+		"justfile": "mono_just",
+
+		// KDL
+		"kdl": "mono_kdl",
+		"kdl1": "mono_kdl",
+		"kdl2": "mono_kdl",
+
+		// Kotlin
+		"kt": "mono_kotlin",
+		"kts": "mono_kotlin",
+
 		// KSP (Kontakt Script Processor)
 		"ksp": "mono_ksp",
+
+		// Laravel Blade
+		"blade": "mono_blade",
+		"blade.php": "mono_blade",
+
+		// Lean
+		"lean": "mono_lean",
+
+		// Less
+		"less": "mono_less",
 
 		// Liquid
 		"liquid": "mono_liquid",
@@ -449,12 +419,34 @@
 		"lsl": "mono_lsl",
 		"ossl": "mono_lsl",
 
+		// Marko
+		"marko": "mono_marko",
+
 		// MayaSublime
 		"mel": "mono_maya",
 		"ma": "mono_maya",
 
+		// MDX
+		"mdx": "mono_mdx",
+
+		// Meson
+		"meson.build": "mono_meson",
+		"meson.options": "mono_meson",
+		"meson_options.txt": "mono_meson",
+
 		// Mint Lang
 		"mint": "mono_mint",
+
+		// MLIR TOC
+		"mlir": "mono_mlir",
+		"mlir-toc": "mono_mlir",
+
+		// Moonbit
+		"mbt": "mono_moonbit",
+		"mbti": "mono_moonbit",
+
+		// Nelua
+		"nelua": "mono_nelua",
 
 		// Nim
 		"nim": "mono_nim",
@@ -464,8 +456,14 @@
 		"nimf": "mono_nim",
 		// "nim.cfg" // opting to leave this covered by .cfg
 
-		// PlainNotes
-		"note": "mono_note",
+		// nginx
+		"conf.erb": "mono_nginx",
+		// "conf": "mono_nginx", // doubles ini
+		"nginx.conf": "mono_nginx",
+		"mime.types": "mono_nginx",
+		"fastcgi_params": "mono_nginx",
+		"scgi_params": "mono_nginx",
+		"uwsgi_params": "mono_nginx",
 
 		// NSIS
 		"nsi": "mono_nsis",
@@ -474,16 +472,53 @@
 		"bnsh": "mono_nsis",
 		"nsdinc": "mono_nsis",
 
+		// Nunjucks
+		"njk": "mono_nunjucks",
+		"nunjucks": "mono_nunjucks",
+
 		// Odin
 		"odin": "mono_odin",
+
+		// Pkl (Pickle)
+		"pkl": "mono_pickle",
+		"pcf": "mono_pickle",
+
+		// PlainNotes
+		"note": "mono_note",
+
+		// plist
+		"plist": "mono_plist",
+
+		// PowerShell
+		"ps1": "mono_powershell",
+		"psm1": "mono_powershell",
+		"psd1": "mono_powershell",
+
+		// Pug
+		"pug": "mono_pug",
 
 		// Puppet
 		"pp": "mono_puppet",
 		"epp": "mono_puppet",
 
+		// Quarto
+		"quarto": "mono_quarto",
+
 		// Ruby Slim
 		"slim": "mono_slim",
 		"skim": "mono_slim",
+
+		// Sass
+		"sass": "mono_sass",
+		"scss": "mono_scss",
+
+		// SSH Config
+		"authorized_keys": "mono_authorized_keys",
+		"known_hosts": "mono_known_hosts",
+		"pem": "mono_pem",
+		"pub": "mono_public_key",
+		"ssh_config": "mono_ssh_config",
+		"sshd_config": "mono_sshd_config",
 
 		// Stata Improved Editor
 		"do": "mono_stata",
@@ -491,14 +526,61 @@
 		"doh": "mono_stata",
 		"mata": "mono_stata",
 
+		// Stylus
+		"styl": "mono_stylus",
+		"stylus": "mono_stylus",
+
 		// Svelte
 		"svelte": "mono_svelte",
 		"svx": "mono_svelte",
 		"mdsv": "mono_svelte",
 		"mdsvex": "mono_svelte",
 
+		// Swift
+		"swift": "mono_swift",
+
+		// SystemVerilog
+		"v": "mono_verilog",
+		"sv": "mono_systemverilog",
+		"svh": "mono_systemverilog",
+		"vh": "mono_systemverilog",
+
+		// Terraform
+		"tf": "mono_terraform",
+		"nomad": "mono_terraform",
+
 		// Toit
 		"toit": "mono_toit",
+
+		// Twig
+		"twig": "mono_twig",
+		"css.twig": "mono_twig",
+		"htm.twig": "mono_twig",
+		"html.twig": "mono_twig",
+		"js.twig": "mono_twig",
+		"json.twig": "mono_twig",
+
+		// VBScript
+		"vbs": "mono_dotnet",
+		"vba": "mono_dotnet",
+		"bas": "mono_dotnet",
+		"cls": "mono_dotnet",
+		"frm": "mono_dotnet",
+		"vbe": "mono_dotnet",
+		"wsf": "mono_dotnet",
+		"wsc": "mono_dotnet",
+		"acm": "mono_dotnet",
+		"acr": "mono_dotnet",
+		"acf": "mono_dotnet",
+
+		// VEX
+		"vfl": "mono_vex",
+		// h // leave it for C
+
+		// Vue
+		"vue": "mono_vue",
+		"we": "mono_vue",
+		"wpy": "mono_vue",
 
 		// Zig Language
 		"zig": "mono_zig",

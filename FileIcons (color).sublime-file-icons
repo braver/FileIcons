@@ -233,9 +233,15 @@
 		// community packages (https://packages.sublimetext.com/packages/<name>)
 		/////////////////////////////////////////
 
-		// Kotlin
-		"kt": "color_kotlin",
-		"kts": "color_kotlin",
+		// Adept
+		"adept": "color_adept",
+
+		// Advanced CSV
+		"csv": "color_csv",
+		"tsv": "color_csv",
+
+		// AngularJS
+		"ng.html": "color_angular",
 
 		// ApacheConf
 		// "conf": "color_preferences", // doubles ini
@@ -252,125 +258,8 @@
 		// "ino": "color_arduino", // doubles c++
 		"pde": "color_arduino",
 
-		// SSH Config
-		"authorized_keys": "color_authorized_keys",
-		"known_hosts": "color_known_hosts",
-		"pem": "color_pem",
-		"pub": "color_public_key",
-		"ssh_config": "color_ssh_config",
-		"sshd_config": "color_sshd_config",
-
-		// Sass
-		"sass": "color_sass",
-		"scss": "color_scss",
-
-		// Less
-		"less": "color_less",
-
-		// Vue
-		"vue": "color_vue",
-		"we": "color_vue",
-		"wpy": "color_vue",
-
-		// CoffeeScript
-		"coffee": "color_coffeescript",
-		"Cakefile": "color_coffeescript",
-		"coffee.erb": "color_coffeescript",
-		"cson": "color_coffeescript",
-		"cjsx": "color_coffeescript",
-
-		// Dockerfile Syntax Highlighting (sic)
-		"Dockerfile": "color_docker",
-		"dockerfile": "color_docker",
-
-		// EditorConfig
-		"editorconfig": "color_editorconfig",
-
-		// Twig
-		"twig": "color_twig",
-		"css.twig": "color_twig",
-		"htm.twig": "color_twig",
-		"html.twig": "color_twig",
-		"js.twig": "color_twig",
-		"json.twig": "color_twig",
-
-		// PowerShell
-		"ps1": "color_powershell",
-		"psm1": "color_powershell",
-		"psd1": "color_powershell",
-
-		// Stylus
-		"styl": "color_stylus",
-		"stylus": "color_stylus",
-
-		// Handlebars
-		"handlebars": "color_mustache",
-		"handlebars.html": "color_mustache",
-		"hbr": "color_mustache",
-		"hbrs": "color_mustache",
-		"hbs": "color_mustache",
-		"hdbs": "color_mustache",
-		"hjs": "color_mustache",
-		"mu": "color_mustache",
-		"mustache": "color_mustache",
-		"rac": "color_mustache",
-		"stache": "color_mustache",
-		"template": "color_mustache",
-		"tmpl": "color_mustache",
-
-		// INI
-		"ini": "color_settings",
-		"cfg": "color_settings",
-		"conf": "color_settings",
-
-		// EJS
-		"ejs": "color_ejs",
-
-		// nginx
-		"conf.erb": "color_nginx",
-		// "conf": "color_nginx", // doubles ini
-		"nginx.conf": "color_nginx",
-		"mime.types": "color_nginx",
-		"fastcgi_params": "color_nginx",
-		"scgi_params": "color_nginx",
-		"uwsgi_params": "color_nginx",
-
-		// Swift
-		"swift": "color_swift",
-
-		// Advanced CSV
-		"csv": "color_csv",
-		"tsv": "color_csv",
-
-		// Pug
-		"pug": "color_pug",
-
-		// todo: Verilog
-		// "v": "color_verilog",
-		// "V": "color_verilog",
-
-		// VBScript
-		"vbs": "color_dotnet",
-		"vba": "color_dotnet",
-		"bas": "color_dotnet",
-		"cls": "color_dotnet",
-		"frm": "color_dotnet",
-		"vbe": "color_dotnet",
-		"wsf": "color_dotnet",
-		"wsc": "color_dotnet",
-		"acm": "color_dotnet",
-		"acr": "color_dotnet",
-		"acf": "color_dotnet",
-
-		// Terraform
-		"tf": "color_terraform",
-		"nomad": "color_terraform",
-
-		// plist
-		"plist": "color_plist",
-
-		// AngularJS
-		"ng.html": "color_angular",
+		// Astro
+		"astro": "color_astro",
 
 		// Awk
 		"awk": "color_awk",
@@ -378,17 +267,6 @@
 		// Babel
 		"babel": "color_babel",
 		"es6": "color_babel",
-
-		// Laravel Blade
-		"blade": "color_blade",
-		"blade.php": "color_blade",
-
-		// Ethereum
-		"cairo": "color_cairo",
-		"vy": "color_vyper",
-		"sol": "color_solidity",
-		"yul": "color_solidity",
-		"yulp": "color_solidity",
 
 		// CFML
 		"cfc": "color_cf",
@@ -400,14 +278,47 @@
 		"CMakeLists.txt": "color_cmake",
 		"cmake": "color_cmake",
 
+		// CoffeeScript
+		"coffee": "color_coffeescript",
+		"Cakefile": "color_coffeescript",
+		"coffee.erb": "color_coffeescript",
+		"cson": "color_coffeescript",
+		"cjsx": "color_coffeescript",
+
+		// CookLang
+		"cook": "color_cook",
+
 		// Crystal
 		"cr": "color_crystal",
 
 		// Dart
 		"dart": "color_dart",
 
+		// Django Syntax
+		"djt": "color_django",
+
+		// Dockerfile Syntax Highlighting (sic)
+		"Dockerfile": "color_docker",
+		"dockerfile": "color_docker",
+
+		// EditorConfig
+		"editorconfig": "color_editorconfig",
+
+		// EJS
+		"ejs": "color_ejs",
+
 		// Elm Syntax Highlighting (sic)
 		"elm": "color_elm",
+
+		// ESQL
+		"esql": "color_esql",
+
+		// Ethereum
+		"cairo": "color_cairo",
+		"vy": "color_vyper",
+		"sol": "color_solidity",
+		"yul": "color_solidity",
+		"yulp": "color_solidity",
 
 		// Fortran
 		"f": "color_fixedform-fortran",
@@ -431,16 +342,75 @@
 		// Gradle_Language
 		"gradle": "color_gradle",
 
+		// Handlebars
+		"handlebars": "color_mustache",
+		"handlebars.html": "color_mustache",
+		"hbr": "color_mustache",
+		"hbrs": "color_mustache",
+		"hbs": "color_mustache",
+		"hdbs": "color_mustache",
+		"hjs": "color_mustache",
+		"mu": "color_mustache",
+		"mustache": "color_mustache",
+		"rac": "color_mustache",
+		"stache": "color_mustache",
+		"template": "color_mustache",
+		"tmpl": "color_mustache",
+
 		// Haxe
 		"hx": "color_haxe",
 		"hxsl": "color_haxe",
 		"hscript": "color_haxe",
 
+		// Gleam
+		"gleam": "color_gleam",
+
+		// Hacklang
+		"hack": "color_hack",
+
+		// Heta
+		"heta": "color_heta",
+
+		// Hyperflask
+		"jpy": "color_hyperflask",
+
+		// INI
+		"ini": "color_settings",
+		"cfg": "color_settings",
+		"conf": "color_settings",
+
+		// Jinja2
+		"jinja": "color_jinja",
+
 		// Julia
 		"jl": "color_julia",
 
+		// Just
+		".justfile": "color_just",
+		"just": "color_just",
+		"justfile": "color_just",
+
+		// KDL
+		"kdl": "color_kdl",
+		"kdl1": "color_kdl",
+		"kdl2": "color_kdl",
+
+		// Kotlin
+		"kt": "color_kotlin",
+		"kts": "color_kotlin",
+
 		// KSP (Kontakt Script Processor)
 		"ksp": "color_ksp",
+
+		// Laravel Blade
+		"blade": "color_blade",
+		"blade.php": "color_blade",
+
+		// Lean
+		"lean": "color_lean",
+
+		// Less
+		"less": "color_less",
 
 		// Liquid
 		"liquid": "color_liquid",
@@ -449,12 +419,34 @@
 		"lsl": "color_lsl",
 		"ossl": "color_lsl",
 
+		// Marko
+		"marko": "color_marko",
+
 		// MayaSublime
 		"mel": "color_maya",
 		"ma": "color_maya",
 
+		// MDX
+		"mdx": "color_mdx",
+
+		// Meson
+		"meson.build": "color_meson",
+		"meson.options": "color_meson",
+		"meson_options.txt": "color_meson",
+
 		// Mint Lang
 		"mint": "color_mint",
+
+		// MLIR TOC
+		"mlir": "color_mlir",
+		"mlir-toc": "color_mlir",
+
+		// Moonbit
+		"mbt": "color_moonbit",
+		"mbti": "color_moonbit",
+
+		// Nelua
+		"nelua": "color_nelua",
 
 		// Nim
 		"nim": "color_nim",
@@ -464,8 +456,14 @@
 		"nimf": "color_nim",
 		// "nim.cfg" // opting to leave this covered by .cfg
 
-		// PlainNotes
-		"note": "color_note",
+		// nginx
+		"conf.erb": "color_nginx",
+		// "conf": "color_nginx", // doubles ini
+		"nginx.conf": "color_nginx",
+		"mime.types": "color_nginx",
+		"fastcgi_params": "color_nginx",
+		"scgi_params": "color_nginx",
+		"uwsgi_params": "color_nginx",
 
 		// NSIS
 		"nsi": "color_nsis",
@@ -474,16 +472,53 @@
 		"bnsh": "color_nsis",
 		"nsdinc": "color_nsis",
 
+		// Nunjucks
+		"njk": "color_nunjucks",
+		"nunjucks": "color_nunjucks",
+
 		// Odin
 		"odin": "color_odin",
+
+		// Pkl (Pickle)
+		"pkl": "color_pickle",
+		"pcf": "color_pickle",
+
+		// PlainNotes
+		"note": "color_note",
+
+		// plist
+		"plist": "color_plist",
+
+		// PowerShell
+		"ps1": "color_powershell",
+		"psm1": "color_powershell",
+		"psd1": "color_powershell",
+
+		// Pug
+		"pug": "color_pug",
 
 		// Puppet
 		"pp": "color_puppet",
 		"epp": "color_puppet",
 
+		// Quarto
+		"quarto": "color_quarto",
+
 		// Ruby Slim
 		"slim": "color_slim",
 		"skim": "color_slim",
+
+		// Sass
+		"sass": "color_sass",
+		"scss": "color_scss",
+
+		// SSH Config
+		"authorized_keys": "color_authorized_keys",
+		"known_hosts": "color_known_hosts",
+		"pem": "color_pem",
+		"pub": "color_public_key",
+		"ssh_config": "color_ssh_config",
+		"sshd_config": "color_sshd_config",
 
 		// Stata Improved Editor
 		"do": "color_stata",
@@ -491,14 +526,61 @@
 		"doh": "color_stata",
 		"mata": "color_stata",
 
+		// Stylus
+		"styl": "color_stylus",
+		"stylus": "color_stylus",
+
 		// Svelte
 		"svelte": "color_svelte",
 		"svx": "color_svelte",
 		"mdsv": "color_svelte",
 		"mdsvex": "color_svelte",
 
+		// Swift
+		"swift": "color_swift",
+
+		// SystemVerilog
+		"v": "color_verilog",
+		"sv": "color_systemverilog",
+		"svh": "color_systemverilog",
+		"vh": "color_systemverilog",
+
+		// Terraform
+		"tf": "color_terraform",
+		"nomad": "color_terraform",
+
 		// Toit
 		"toit": "color_toit",
+
+		// Twig
+		"twig": "color_twig",
+		"css.twig": "color_twig",
+		"htm.twig": "color_twig",
+		"html.twig": "color_twig",
+		"js.twig": "color_twig",
+		"json.twig": "color_twig",
+
+		// VBScript
+		"vbs": "color_dotnet",
+		"vba": "color_dotnet",
+		"bas": "color_dotnet",
+		"cls": "color_dotnet",
+		"frm": "color_dotnet",
+		"vbe": "color_dotnet",
+		"wsf": "color_dotnet",
+		"wsc": "color_dotnet",
+		"acm": "color_dotnet",
+		"acr": "color_dotnet",
+		"acf": "color_dotnet",
+
+		// VEX
+		"vfl": "color_vex",
+		// h // leave it for C
+
+		// Vue
+		"vue": "color_vue",
+		"we": "color_vue",
+		"wpy": "color_vue",
 
 		// Zig Language
 		"zig": "color_zig",
