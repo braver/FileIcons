@@ -1,11 +1,3 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
-  <defs>
-    <style>
-      .i-color {
-        fill: #FFFFFF;
-        fill-rule: evenodd;
-      }
-    </style>
-  </defs>
-  <path class="i-color" d="M1,7H7V9H5v5H3V9H1V7ZM15,4H11.066V14H8.934V4H5V2H15V4Z" transform="translate(0 -1)"/>
+  <path style="fill: #FFFFFF; fill-rule: evenodd" d="M1,7H7V9H5v5H3V9H1V7ZM15,4H11.066V14H8.934V4H5V2H15V4Z" transform="translate(0 -1)"/>
 </svg>

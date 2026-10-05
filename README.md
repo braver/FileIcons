@@ -62,7 +62,7 @@ To add an icon:
 - add an svg asset with the correct name
 - check that the svg matches the format of the other icons:
   - all shapes are combined into a single path
-  - the path has a class attribute applying the color
+  - the path has a style attribute applying the color
 - add an entry to `build/icons.json` and assign it a color
 - run `make`
 - commit the files
