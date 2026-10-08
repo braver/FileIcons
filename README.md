@@ -1,4 +1,10 @@
 # FileIcons Mono
+
+> [!TIP]
+> We've created a new version of this package that has more icons in both color and monochrome, and is easier to use with any UI theme.  
+> It's available as [FileIcons Theme](https://packages.sublimetext.com/packages/FileIcons%20Theme) on Package Control.
+> This original version of the package will no longer be updated.
+
 Monochrome file icons for Sublime Text. [Also available in color](https://packagecontrol.io/packages/FileIcons).
 
 Adds specific icons for most file types for the sidebar in Sublime Text 3. Supports both the Default and Adaptive themes.
