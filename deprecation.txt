@@ -1,0 +1,12 @@
+New: FileIcons Theme for Sublime 4206+
+======================================
+
+We've created a new version of this package
+that has more icons in both color and monochrome,
+and is easier to use with any UI theme.
+
+This original version of the package will no longer be updated.
+
+It's available as "FileIcons Theme" on Package Control:
+
+https://packages.sublimetext.com/packages/FileIcons%20Theme
