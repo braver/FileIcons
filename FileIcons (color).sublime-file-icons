@@ -742,11 +742,18 @@
 		"Makefile": "color_shell",
 		"OCamlMakefile": "color_shell",
 
+		"ash": "color_shell",
 		"sh": "color_shell",
 		"bash": "color_shell",
+		"bash_history": "color_shell",
+		"bash_profile": "color_shell",
 		"bashrc": "color_shell",
-		"ash": "color_shell",
+		"profile": "color_shell",
+		"zprofile": "color_shell",
 		"zsh": "color_shell",
+		"zsh_history": "color_shell",
+		"zshenv": "color_shell",
+		"zshrc": "color_shell",
 
 		"matlab": "color_matlab",
 

@@ -742,11 +742,18 @@
 		"Makefile": "mono_shell",
 		"OCamlMakefile": "mono_shell",
 
+		"ash": "mono_shell",
 		"sh": "mono_shell",
 		"bash": "mono_shell",
+		"bash_history": "mono_shell",
+		"bash_profile": "mono_shell",
 		"bashrc": "mono_shell",
-		"ash": "mono_shell",
+		"profile": "mono_shell",
+		"zprofile": "mono_shell",
 		"zsh": "mono_shell",
+		"zsh_history": "mono_shell",
+		"zshenv": "mono_shell",
+		"zshrc": "mono_shell",
 
 		"matlab": "mono_matlab",
 
