@@ -1,0 +1,88 @@
+{
+	"icons": {
+		/////////////////////////////////////////
+		// not actual syntaxes, but package management files etc.
+		/////////////////////////////////////////
+
+		"circle.yml": "file_type_circleci",
+
+		"composer.json": "file_type_composer",
+		"composer.lock": "file_type_composer",
+
+		".eslintrc": "file_type_eslint",
+		".eslintrc.json": "file_type_eslint",
+		".eslintrc.js": "file_type_eslint",
+		".eslintrc.cjs": "file_type_eslint",
+		".eslintrc.mjs": "file_type_eslint",
+		".eslintrc.yaml": "file_type_eslint",
+		".eslintrc.yml": "file_type_eslint",
+		".eslintignore": "file_type_eslint",
+		".eslintcache": "file_type_eslint",
+
+		"gruntfile.js": "file_type_gruntfile",
+		"gruntfile.cjs": "file_type_gruntfile",
+		"gruntfile.mjs": "file_type_gruntfile",
+
+		"gulpfile.js": "file_type_gulpfile",
+		"gulpfile.cjs": "file_type_gulpfile",
+		"gulpfile.mjs": "file_type_gulpfile",
+		"gulpfile.babel.js": "file_type_gulpfile",
+		"gulpfile.babel.cjs": "file_type_gulpfile",
+		"gulpfile.babel.mjs": "file_type_gulpfile",
+
+		"package-lock.json": "file_type_lock",
+		".cargo-lock": "file_type_lock",
+
+		".node-version": "file_type_nodejs",
+		".nvmrc": "file_type_nodejs",
+
+		".npmignore": "file_type_npm",
+		".npmrc": "file_type_npm",
+		"npmrc": "file_type_npm",
+		"package.json": "file_type_npm",
+
+		".postcssrc": "file_type_postcss",
+		"postcss.config.js": "file_type_postcss",
+		"postcss.config.cjs": "file_type_postcss",
+		"postcss.config.mjs": "file_type_postcss",
+
+		".stylelintrc": "file_type_stylelint",
+		".stylelintrc.json": "file_type_stylelint",
+		".stylelintrc.js": "file_type_stylelint",
+		".stylelintrc.cjs": "file_type_stylelint",
+		".stylelintrc.mjs": "file_type_stylelint",
+		"stylelint.config.js": "file_type_stylelint",
+		"stylelint.config.cjs": "file_type_stylelint",
+		"stylelint.config.mjs": "file_type_stylelint",
+		".stylelintrc.yaml": "file_type_stylelint",
+		".stylelintrc.yml": "file_type_stylelint",
+		".stylelintignore": "file_type_stylelint",
+
+		"todolist.txt": "file_type_todo",
+
+		".vimrc": "file_type_vim",
+		".gvimrc": "file_type_vim",
+		"_vimrc": "file_type_vim",
+		"_gvimrc": "file_type_vim",
+
+		"webpack.config.js": "file_type_webpack",
+		"webpack.config.cjs": "file_type_webpack",
+		"webpack.config.mjs": "file_type_webpack",
+		"webpack.config.babel.js": "file_type_webpack",
+		"webpack.config.babel.cjs": "file_type_webpack",
+		"webpack.config.babel.mjs": "file_type_webpack",
+		"webpack.dev.js": "file_type_webpack",
+		"webpack.dev.cjs": "file_type_webpack",
+		"webpack.dev.mjs": "file_type_webpack",
+		"webpack.mix.js": "file_type_webpack",
+		"webpack.mix.cjs": "file_type_webpack",
+		"webpack.mix.mjs": "file_type_webpack",
+
+		".yarnclean": "file_type_yarn",
+		".yarnrc": "file_type_yarn",
+		".yarn-integrity": "file_type_yarn",
+		".yarn-metadata.json": "file_type_yarn",
+		".yarnrc.yaml": "file_type_yarn",
+		".yarnrc.yml": "file_type_yarn",
+	}
+}

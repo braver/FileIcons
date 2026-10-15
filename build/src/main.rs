@@ -13,7 +13,7 @@ fn build_dir() -> PathBuf {
         .to_path_buf();
 }
 
-fn theme_dir() -> PathBuf {
+fn theme_dir(theme: &str) -> PathBuf {
     let exe_path = env::current_exe().ok().unwrap();
     let mut path = exe_path
         .parent().unwrap()
@@ -21,6 +21,7 @@ fn theme_dir() -> PathBuf {
         .parent().unwrap()
         .parent().unwrap()
         .to_path_buf();
+    path.push(theme);
     path.push("icons");
     return path;
 }
@@ -37,7 +38,6 @@ fn json_from_file(build_dir: &Path, name: &Path) -> json::JsonValue {
 
 fn main() {
     let build_dir = build_dir();
-    let theme_dir = theme_dir();
 
     let colors = json_from_file(&build_dir, Path::new("colors.json"));
     let icons = json_from_file(&build_dir, Path::new("icons.json"));
@@ -45,6 +45,7 @@ fn main() {
 
     // mono loop
     for kvp in icons.entries() {
+        let theme_dir = theme_dir("mono");
         let mut full_icon_path = PathBuf::new();
         full_icon_path.push(&build_dir);
         full_icon_path.push("assets");
@@ -74,7 +75,7 @@ fn main() {
 
             let mut full_output_path = PathBuf::new();
             full_output_path.push(&theme_dir);
-            full_output_path.push(format!("{}{}.png", kvp.0.replace("file_type", "mono"), suffix));
+            full_output_path.push(format!("{}{}.png", kvp.0, suffix));
 
             println!("Building {} to {}", full_icon_path.display(), full_output_path.display());
             let mut pixmap = tiny_skia::Pixmap::new(height, width).unwrap();
@@ -86,6 +87,7 @@ fn main() {
 
     // color loop
     for kvp in icons.entries() {
+        let theme_dir = theme_dir("color");
         let mut full_icon_path = PathBuf::new();
         full_icon_path.push(&build_dir);
         full_icon_path.push("assets");
@@ -119,7 +121,7 @@ fn main() {
 
             let mut full_output_path = PathBuf::new();
             full_output_path.push(&theme_dir);
-            full_output_path.push(format!("{}{}.png", kvp.0.replace("file_type", "color"), suffix));
+            full_output_path.push(format!("{}{}.png", kvp.0, suffix));
 
             println!("Building {} to {}", full_icon_path.display(), full_output_path.display());
             let mut pixmap = tiny_skia::Pixmap::new(height, width).unwrap();

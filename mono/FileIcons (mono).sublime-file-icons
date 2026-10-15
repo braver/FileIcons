@@ -1,0 +1,930 @@
+{
+	"icons": {
+		/////////////////////////////////////////
+		// media/binary file types
+		/////////////////////////////////////////
+
+		// archives
+		"7z": "file_type_archive",
+		"7zip": "file_type_archive",
+		"gz": "file_type_archive",
+		"pzip": "file_type_archive",
+		"rar": "file_type_archive",
+		"tar": "file_type_archive",
+		"tgz": "file_type_archive",
+		"wim": "file_type_archive",
+		"zip": "file_type_archive",
+
+		"bin": "file_type_binary",
+
+		// Adobe
+		"psd": "file_type_psd",
+		"PSD": "file_type_psd",
+		"PSB": "file_type_psd",
+
+		"ae": "file_type_ae",
+		"aep": "file_type_ae",
+		"aepx": "file_type_ae",
+		"aet": "file_type_ae",
+
+		"prproj": "file_type_premiere",
+
+		"ai": "file_type_ai",
+		"eps": "file_type_ai",
+
+		"indd": "file_type_indesign",
+		"indl": "file_type_indesign",
+		"indt": "file_type_indesign",
+		"indb": "file_type_indesign",
+		"inx": "file_type_indesign",
+		"idml": "file_type_indesign",
+		"pmd": "file_type_indesign",
+		"xqx": "file_type_indesign",
+
+		"dng": "file_type_image",
+		"DNG": "file_type_image",
+
+		"sketch": "file_type_sketch",
+
+		// MS office
+		"adn": "file_type_access",
+		"accda": "file_type_access",
+		"accdb": "file_type_access",
+		"accde": "file_type_access",
+		"accdr": "file_type_access",
+		"accdt": "file_type_access",
+		"accdu": "file_type_access",
+
+		"xls": "file_type_excel",
+		"xlsb": "file_type_excel",
+		"xlsm": "file_type_excel",
+		"xlsx": "file_type_excel",
+		"xlt": "file_type_excel",
+
+		"one": "file_type_onenote",
+		"onepkg": "file_type_onenote",
+
+		"pps": "file_type_powerpoint",
+		"ppsx": "file_type_powerpoint",
+		"ppt": "file_type_powerpoint",
+		"pptx": "file_type_powerpoint",
+
+		"doc": "file_type_word",
+		"docm": "file_type_word",
+		"docx": "file_type_word",
+		"docxml": "file_type_word",
+		"dotm": "file_type_word",
+		"dotx": "file_type_word",
+		"wri": "file_type_word",
+
+		// (auto) cad
+		"cad": "file_type_cad",
+		"stl": "file_type_cad",
+		"stp": "file_type_cad",
+		"step": "file_type_cad",
+		"wrl": "file_type_cad",
+
+		// media
+		"pdf": "file_type_pdf",
+		"PDF": "file_type_pdf",
+
+		"eml": "file_type_email",
+		"emlx": "file_type_email",
+		"mbox": "file_type_email",
+		"msg": "file_type_email", // outlook
+
+		"3g2": "file_type_video",
+		"3gp": "file_type_video",
+		"aaf": "file_type_video",
+		"AAF": "file_type_video",
+		"asf": "file_type_video",
+		"avi": "file_type_video",
+		"drc": "file_type_video",
+		"f4a": "file_type_video",
+		"f4b": "file_type_video",
+		"f4p": "file_type_video",
+		"f4v": "file_type_video",
+		"flv": "file_type_video",
+		"gifv": "file_type_video",
+		"m2v": "file_type_video",
+		"m4p": "file_type_video",
+		"m4v": "file_type_video",
+		"mkv": "file_type_video",
+		"mov": "file_type_video",
+		"mp2": "file_type_video",
+		"mp4": "file_type_video",
+		"mpe": "file_type_video",
+		"mpeg": "file_type_video",
+		"mpg": "file_type_video",
+		"mpv": "file_type_video",
+		"mxf": "file_type_video",
+		"nsv": "file_type_video",
+		"ogv": "file_type_video",
+		"qt": "file_type_video",
+		"rm": "file_type_video",
+		"rmvb": "file_type_video",
+		"svi": "file_type_video",
+		"viv": "file_type_video",
+		"vob": "file_type_video",
+		"webm": "file_type_video",
+		"wmv": "file_type_video",
+
+		"8svx": "file_type_audio",
+		"aa": "file_type_audio",
+		"aac": "file_type_audio",
+		"aax": "file_type_audio",
+		"act": "file_type_audio",
+		"aiff": "file_type_audio",
+		"alac": "file_type_audio",
+		"amr": "file_type_audio",
+		"ape": "file_type_audio",
+		"au": "file_type_audio",
+		"awb": "file_type_audio",
+		"cda": "file_type_audio",
+		"dss": "file_type_audio",
+		"dvf": "file_type_audio",
+		"flac": "file_type_audio",
+		"gsm": "file_type_audio",
+		"iklax": "file_type_audio",
+		"ivs": "file_type_audio",
+		"m4a": "file_type_audio",
+		"m4b": "file_type_audio",
+		"m4p": "file_type_audio",
+		"mmf": "file_type_audio",
+		"movpkg": "file_type_audio",
+		"mp1": "file_type_audio",
+		"mp2": "file_type_audio",
+		"mp3": "file_type_audio",
+		"mpc": "file_type_audio",
+		"msv": "file_type_audio",
+		"nmf": "file_type_audio",
+		"ogg,": "file_type_audio",
+		"opus": "file_type_audio",
+		"qoa": "file_type_audio",
+		"ra,": "file_type_audio",
+		"raw": "file_type_audio",
+		"rf64": "file_type_audio",
+		"sln": "file_type_audio",
+		"tta": "file_type_audio",
+		"voc": "file_type_audio",
+		"vox": "file_type_audio",
+		"wav": "file_type_audio",
+		"webm": "file_type_audio",
+		"wma": "file_type_audio",
+		"wv": "file_type_audio",
+
+		"avif": "file_type_image",
+		"bmp": "file_type_image",
+		"emf": "file_type_image",
+		"gif": "file_type_image",
+		"jp2": "file_type_image",
+		"jpeg": "file_type_image",
+		"jpg": "file_type_image",
+		"png": "file_type_image",
+		"pnm": "file_type_image",
+		"ppm": "file_type_image",
+		"tga": "file_type_image",
+		"tif": "file_type_image",
+		"tiff": "file_type_image",
+		"webp": "file_type_image",
+		"xbm": "file_type_image",
+		"xpm": "file_type_image",
+
+		"bdf": "file_type_font",
+		"BDF": "file_type_font",
+		"dfont": "file_type_font",
+		"eot": "file_type_font",
+		"fon": "file_type_font",
+		"FON": "file_type_font",
+		"otf": "file_type_font",
+		"pcf": "file_type_font",
+		"PCF": "file_type_font",
+		"ttc": "file_type_font",
+		"ttf": "file_type_font",
+		"ufo": "file_type_font",
+		"woff": "file_type_font",
+		"woff2": "file_type_font",
+
+		// common conventions
+		"COPYING": "file_type_license",
+		"copying": "file_type_license",
+		"COPYRIGHT": "file_type_license",
+		"copyright": "file_type_license",
+		"LICENSE": "file_type_license",
+		"license": "file_type_license",
+		"license.apache": "file_type_license",
+		"license.bsd": "file_type_license",
+		"license.gpl": "file_type_license",
+		"license.gpl2": "file_type_license",
+		"license.gpl3": "file_type_license",
+		"license.mit": "file_type_license",
+
+		"TASKS": "file_type_todo",
+		"tasks": "file_type_todo",
+		"TODO": "file_type_todo",
+		"todo": "file_type_todo",
+
+		"lock": "file_type_lock",
+		"log": "file_type_log",
+
+		"txt": "file_type_text",
+
+		/////////////////////////////////////////
+		// community packages (https://packages.sublimetext.com/packages/<name>)
+		/////////////////////////////////////////
+
+		// Adept
+		"adept": "file_type_adept",
+
+		// Advanced CSV
+		"csv": "file_type_csv",
+		"tsv": "file_type_csv",
+
+		// AngularJS
+		"ng.html": "file_type_angular",
+
+		// ApacheConf
+		// "conf": "file_type_preferences", // doubles ini
+		"CONF": "file_type_preferences",
+		"envvars": "file_type_preferences",
+		"htaccess": "file_type_preferences",
+		"HTACCESS": "file_type_preferences",
+		"htgroups": "file_type_preferences",
+		"HTGROUPS": "file_type_preferences",
+		"htpasswd": "file_type_preferences",
+		"HTPASSWD": "file_type_preferences",
+
+		// Arduino-like IDE
+		// "ino": "file_type_arduino", // doubles c++
+		"pde": "file_type_arduino",
+
+		// Astro
+		"astro": "file_type_astro",
+
+		// Awk
+		"awk": "file_type_awk",
+
+		// Babel
+		"babel": "file_type_babel",
+		"es6": "file_type_babel",
+
+		// CFML
+		"cfc": "file_type_cf",
+		"cfm": "file_type_cf",
+		"cfml": "file_type_cf",
+		"cfs": "file_type_cf",
+
+		// CMake
+		"CMakeLists.txt": "file_type_cmake",
+		"cmake": "file_type_cmake",
+
+		// CoffeeScript
+		"coffee": "file_type_coffeescript",
+		"Cakefile": "file_type_coffeescript",
+		"coffee.erb": "file_type_coffeescript",
+		"cson": "file_type_coffeescript",
+		"cjsx": "file_type_coffeescript",
+
+		// CookLang
+		"cook": "file_type_cook",
+
+		// Crystal
+		"cr": "file_type_crystal",
+
+		// Dart
+		"dart": "file_type_dart",
+
+		// Django Syntax
+		"djt": "file_type_django",
+
+		// Dockerfile Syntax Highlighting (sic)
+		"Dockerfile": "file_type_docker",
+		"dockerfile": "file_type_docker",
+
+		// EditorConfig
+		"editorconfig": "file_type_editorconfig",
+
+		// EJS
+		"ejs": "file_type_ejs",
+
+		// Elm Syntax Highlighting (sic)
+		"elm": "file_type_elm",
+
+		// ESQL
+		"esql": "file_type_esql",
+
+		// Ethereum
+		"cairo": "file_type_cairo",
+		"vy": "file_type_vyper",
+		"sol": "file_type_solidity",
+		"yul": "file_type_solidity",
+		"yulp": "file_type_solidity",
+
+		// Fortran
+		"f": "file_type_fixedform-fortran",
+		"F": "file_type_fixedform-fortran",
+		"f77": "file_type_fixedform-fortran",
+		"F77": "file_type_fixedform-fortran",
+		"for": "file_type_fixedform-fortran",
+		"FOR": "file_type_fixedform-fortran",
+		"fpp": "file_type_fixedform-fortran",
+		"FPP": "file_type_fixedform-fortran",
+		"f90": " file_type_modern-fortran",
+		"F90": " file_type_modern-fortran",
+		"f95": " file_type_modern-fortran",
+		"F95": " file_type_modern-fortran",
+		"f03": " file_type_modern-fortran",
+		"F03": " file_type_modern-fortran",
+		"f08": " file_type_modern-fortran",
+		"F08": " file_type_modern-fortran",
+		"namelist": " file_type_modern-fortran",
+
+		// Gradle_Language
+		"gradle": "file_type_gradle",
+
+		// Handlebars
+		"handlebars": "file_type_mustache",
+		"handlebars.html": "file_type_mustache",
+		"hbr": "file_type_mustache",
+		"hbrs": "file_type_mustache",
+		"hbs": "file_type_mustache",
+		"hdbs": "file_type_mustache",
+		"hjs": "file_type_mustache",
+		"mu": "file_type_mustache",
+		"mustache": "file_type_mustache",
+		"rac": "file_type_mustache",
+		"stache": "file_type_mustache",
+		"template": "file_type_mustache",
+		"tmpl": "file_type_mustache",
+
+		// Haxe
+		"hx": "file_type_haxe",
+		"hxsl": "file_type_haxe",
+		"hscript": "file_type_haxe",
+
+		// Gleam
+		"gleam": "file_type_gleam",
+
+		// Hacklang
+		"hack": "file_type_hack",
+
+		// Heta
+		"heta": "file_type_heta",
+
+		// Hyperflask
+		"jpy": "file_type_hyperflask",
+
+		// INI
+		"ini": "file_type_settings",
+		"cfg": "file_type_settings",
+		"conf": "file_type_settings",
+
+		// Jinja2
+		"jinja": "file_type_jinja",
+
+		// Julia
+		"jl": "file_type_julia",
+
+		// Just
+		".justfile": "file_type_just",
+		"just": "file_type_just",
+		"justfile": "file_type_just",
+
+		// KDL
+		"kdl": "file_type_kdl",
+		"kdl1": "file_type_kdl",
+		"kdl2": "file_type_kdl",
+
+		// Kotlin
+		"kt": "file_type_kotlin",
+		"kts": "file_type_kotlin",
+
+		// KSP (Kontakt Script Processor)
+		"ksp": "file_type_ksp",
+
+		// Laravel Blade
+		"blade": "file_type_blade",
+		"blade.php": "file_type_blade",
+
+		// Lean
+		"lean": "file_type_lean",
+
+		// Less
+		"less": "file_type_less",
+
+		// Liquid
+		"liquid": "file_type_liquid",
+
+		// LSL
+		"lsl": "file_type_lsl",
+		"ossl": "file_type_lsl",
+
+		// Marko
+		"marko": "file_type_marko",
+
+		// MayaSublime
+		"mel": "file_type_maya",
+		"ma": "file_type_maya",
+
+		// MDX
+		"mdx": "file_type_mdx",
+
+		// Meson
+		"meson.build": "file_type_meson",
+		"meson.options": "file_type_meson",
+		"meson_options.txt": "file_type_meson",
+
+		// Mint Lang
+		"mint": "file_type_mint",
+
+		// MLIR TOC
+		"mlir": "file_type_mlir",
+		"mlir-toc": "file_type_mlir",
+
+		// Moonbit
+		"mbt": "file_type_moonbit",
+		"mbti": "file_type_moonbit",
+
+		// Nelua
+		"nelua": "file_type_nelua",
+
+		// Nim
+		"nim": "file_type_nim",
+		"nims": "file_type_nim",
+		"nimble": "file_type_nim",
+		"nif": "file_type_nim",
+		"nimf": "file_type_nim",
+		// "nim.cfg" // opting to leave this covered by .cfg
+
+		// nginx
+		"conf.erb": "file_type_nginx",
+		// "conf": "file_type_nginx", // doubles ini
+		"nginx.conf": "file_type_nginx",
+		"mime.types": "file_type_nginx",
+		"fastcgi_params": "file_type_nginx",
+		"scgi_params": "file_type_nginx",
+		"uwsgi_params": "file_type_nginx",
+
+		// NSIS
+		"nsi": "file_type_nsis",
+		"nsh": "file_type_nsis",
+		"bnsi": "file_type_nsis",
+		"bnsh": "file_type_nsis",
+		"nsdinc": "file_type_nsis",
+
+		// Nunjucks
+		"njk": "file_type_nunjucks",
+		"nunjucks": "file_type_nunjucks",
+
+		// Odin
+		"odin": "file_type_odin",
+
+		// Pkl (Pickle)
+		"pkl": "file_type_pickle",
+		"pcf": "file_type_pickle",
+
+		// PlainNotes
+		"note": "file_type_note",
+
+		// plist
+		"plist": "file_type_plist",
+
+		// PowerShell
+		"ps1": "file_type_powershell",
+		"psm1": "file_type_powershell",
+		"psd1": "file_type_powershell",
+
+		// Pug
+		"pug": "file_type_pug",
+
+		// Puppet
+		"pp": "file_type_puppet",
+		"epp": "file_type_puppet",
+
+		// Quarto
+		"quarto": "file_type_quarto",
+
+		// Ruby Slim
+		"slim": "file_type_slim",
+		"skim": "file_type_slim",
+
+		// Sass
+		"sass": "file_type_sass",
+		"scss": "file_type_scss",
+
+		// SSH Config
+		"authorized_keys": "file_type_authorized_keys",
+		"known_hosts": "file_type_known_hosts",
+		"pem": "file_type_pem",
+		"pub": "file_type_public_key",
+		"ssh_config": "file_type_ssh_config",
+		"sshd_config": "file_type_sshd_config",
+
+		// Stata Improved Editor
+		"do": "file_type_stata",
+		"ado": "file_type_stata",
+		"doh": "file_type_stata",
+		"mata": "file_type_stata",
+
+		// Stylus
+		"styl": "file_type_stylus",
+		"stylus": "file_type_stylus",
+
+		// Svelte
+		"svelte": "file_type_svelte",
+		"svx": "file_type_svelte",
+		"mdsv": "file_type_svelte",
+		"mdsvex": "file_type_svelte",
+
+		// Swift
+		"swift": "file_type_swift",
+
+		// SystemVerilog
+		"v": "file_type_verilog",
+		"sv": "file_type_systemverilog",
+		"svh": "file_type_systemverilog",
+		"vh": "file_type_systemverilog",
+
+		// Terraform
+		"tf": "file_type_terraform",
+		"nomad": "file_type_terraform",
+
+		// Toit
+		"toit": "file_type_toit",
+
+		// Twig
+		"twig": "file_type_twig",
+		"css.twig": "file_type_twig",
+		"htm.twig": "file_type_twig",
+		"html.twig": "file_type_twig",
+		"js.twig": "file_type_twig",
+		"json.twig": "file_type_twig",
+
+		// VBScript
+		"vbs": "file_type_dotnet",
+		"vba": "file_type_dotnet",
+		"bas": "file_type_dotnet",
+		"cls": "file_type_dotnet",
+		"frm": "file_type_dotnet",
+		"vbe": "file_type_dotnet",
+		"wsf": "file_type_dotnet",
+		"wsc": "file_type_dotnet",
+		"acm": "file_type_dotnet",
+		"acr": "file_type_dotnet",
+		"acf": "file_type_dotnet",
+
+		// VEX
+		"vfl": "file_type_vex",
+		// h // leave it for C
+
+		// Vue
+		"vue": "file_type_vue",
+		"we": "file_type_vue",
+		"wpy": "file_type_vue",
+
+		// Zig Language
+		"zig": "file_type_zig",
+		"zon": "file_type_zig",
+
+		/////////////////////////////////////////
+		// from sublimehq/Packages
+		/////////////////////////////////////////
+
+		"applescript": "file_type_applescript",
+		"scpt": "file_type_applescript",
+		"scptd": "file_type_applescript",
+
+		"as": "file_type_actionscript",
+
+		"asp": "file_type_dotnet",
+		"asa": "file_type_dotnet",
+		"vbs": "file_type_dotnet",
+
+		"bat": "file_type_windows",
+		"cmd": "file_type_windows",
+
+		"diff": "file_type_diff",
+		"patch": "file_type_diff",
+		"diff.eml": "file_type_diff",
+		"patch.eml": "file_type_diff",
+		"diff.mbox": "file_type_diff",
+		"patch.mbox": "file_type_diff",
+
+		"erl": "file_type_erlang",
+		"escript": "file_type_erlang",
+		"hrl": "file_type_erlang",
+		"yaws": "file_type_erlang",
+
+		"DOT": "file_type_graphviz",
+		"dot": "file_type_graphviz",
+		"gv": "file_type_graphviz",
+
+		"gradle": "file_type_groovy",
+		"groovy": "file_type_groovy",
+		"gvy": "file_type_groovy",
+
+		"CODEOWNERS": "file_type_git",
+		"git": "file_type_git",
+		"git-blame-ignore-revs": "file_type_git",
+		"gitattributes": "file_type_git",
+		"gitconfig": "file_type_git",
+		"gitignore": "file_type_git",
+		"gitmodules": "file_type_git",
+		"mailmap": "file_type_git",
+
+		"haml": "file_type_haml",
+
+		"cabal": "file_type_haskell",
+		"cabal.project": "file_type_haskell",
+		"lhs": "file_type_haskell",
+		"hs": "file_type_haskell",
+		"hs-boot": "file_type_haskell",
+		"hsig": "file_type_haskell",
+
+		"htm": "file_type_html",
+		"html": "file_type_html",
+		"shtml": "file_type_html",
+		"xhtml": "file_type_html",
+		"gohtml": "file_type_html",
+		"gotmpl": "file_type_html",
+		"go.html": "file_type_html",
+		"go.tmpl": "file_type_html",
+		"rails": "file_type_html",
+		"rhtml": "file_type_html",
+		"erb": "file_type_html",
+		"html.erb": "file_type_html",
+		"adp": "file_type_html",
+
+		"css": "file_type_css",
+		"gocss": "file_type_css",
+		"go.css": "file_type_css",
+		"css.php": "file_type_css",
+		"css.erb": "file_type_css",
+
+		"d": "file_type_dlang",
+		"di": "file_type_dlang",
+
+		"js": "file_type_js",
+		"gojs": "file_type_js",
+		"go.js": "file_type_js",
+		"mjs": "file_type_js",
+		"cjs": "file_type_js",
+		"htc": "file_type_js",
+		"js.php": "file_type_js",
+		"js.erb": "file_type_js",
+
+		"jsx": "file_type_jsx",
+
+		"tsx": "file_type_tsx",
+		"ts": "file_type_typescript",
+		"mts": "file_type_typescript",
+		"cts": "file_type_typescript",
+
+		"jsp": "file_type_jsp",
+		"jspf": "file_type_jsp",
+		"jspx": "file_type_jsp",
+		"jstl": "file_type_jsp",
+
+		"java": "file_type_java",
+		"bsh": "file_type_java",
+		"properties": "file_type_java",
+
+		"json": "file_type_json",
+		"jsonc": "file_type_json",
+		"ipynb": "file_type_json",
+		"gltf": "file_type_json",
+		"avsc": "file_type_json",
+		"json.php": "file_type_json",
+		"json.erb": "file_type_json",
+
+		"sublime-build": "file_type_sublime",
+		"sublime-color-scheme": "file_type_sublime",
+		"sublime-commands": "file_type_sublime",
+		"sublime-completions": "file_type_sublime",
+		"sublime-file-icons": "file_type_sublime",
+		"sublime-keymap": "file_type_sublime",
+		"sublime-macro": "file_type_sublime",
+		"sublime-menu": "file_type_sublime",
+		"sublime-mousemap": "file_type_sublime",
+		"sublime-project": "file_type_sublime",
+		"sublime-settings": "file_type_sublime",
+		"sublime-theme": "file_type_sublime",
+		"sublime-merge-theme": "file_type_sublime",
+		"sublime-workspace": "file_type_sublime",
+		"sublime-syntax": "file_type_sublime",
+
+		"bib": "file_type_tex",
+		"ins": "file_type_tex",
+		"tex": "file_type_tex",
+		"ltx": "file_type_tex",
+		"sty": "file_type_tex",
+		"cls": "file_type_tex",
+
+		"lisp": "file_type_lisp",
+		"cl": "file_type_lisp",
+		"clisp": "file_type_lisp",
+		"l": "file_type_lisp",
+		"mud": "file_type_lisp",
+		"el": "file_type_lisp",
+		"scm": "file_type_lisp",
+		"ss": "file_type_lisp",
+		"lsp": "file_type_lisp",
+		"fasl": "file_type_lisp",
+		"sld": "file_type_lisp",
+
+		"lua": "file_type_lua",
+
+		// todo: icon for make?
+		"mk": "file_type_shell",
+		"mak": "file_type_shell",
+		"make": "file_type_shell",
+		"GNUmakefile": "file_type_shell",
+		"Makefile": "file_type_shell",
+		"OCamlMakefile": "file_type_shell",
+
+		"ash": "file_type_shell",
+		"sh": "file_type_shell",
+		"bash": "file_type_shell",
+		"bash_history": "file_type_shell",
+		"bash_profile": "file_type_shell",
+		"bashrc": "file_type_shell",
+		"profile": "file_type_shell",
+		"zprofile": "file_type_shell",
+		"zsh": "file_type_shell",
+		"zsh_history": "file_type_shell",
+		"zshenv": "file_type_shell",
+		"zshrc": "file_type_shell",
+
+		"matlab": "file_type_matlab",
+
+		"go": "file_type_go",
+
+		"md": "file_type_markdown",
+		"mdown": "file_type_markdown",
+		"mdwn": "file_type_markdown",
+		"markdown": "file_type_markdown",
+		"markdn": "file_type_markdown",
+		"gomd": "file_type_markdown",
+		"go.md": "file_type_markdown",
+		"hugo": "file_type_markdown",
+
+		"php": "file_type_php",
+		"php3": "file_type_php",
+		"php4": "file_type_php",
+		"php5": "file_type_php",
+		"php7": "file_type_php",
+		"php8": "file_type_php",
+		"phps": "file_type_php",
+		"phpt": "file_type_php",
+		"phtml": "file_type_php",
+
+		"py": "file_type_python",
+		"py3": "file_type_python",
+		"pyw": "file_type_python",
+		"pyi": "file_type_python",
+		"pyx": "file_type_python",
+		"pyx.in": "file_type_python",
+		"pxd": "file_type_python",
+		"pxd.in": "file_type_python",
+		"pxi": "file_type_python",
+		"pxi.in": "file_type_python",
+		"rpy": "file_type_python",
+		"cpy": "file_type_python",
+		"gyp": "file_type_python",
+		"gypi": "file_type_python",
+		"vpy": "file_type_python",
+		"smk": "file_type_python",
+		"wscript": "file_type_python",
+		"bazel": "file_type_python",
+		"bzl": "file_type_python",
+
+		"cs": "file_type_csharp",
+		"csx": "file_type_csharp",
+
+		"R": "file_type_r",
+		"rd": "file_type_r",
+
+		// todo source.regexp (? what's a regex file)
+		// "re": "",
+
+		"rb": "file_type_ruby",
+		"rbi": "file_type_ruby",
+		"rbx": "file_type_ruby",
+		"rjs": "file_type_ruby",
+		"rabl": "file_type_ruby",
+		"rake": "file_type_ruby",
+		"capfile": "file_type_ruby",
+		"jbuilder": "file_type_ruby",
+		"gemspec": "file_type_ruby",
+		"podspec": "file_type_ruby",
+		"irbrc": "file_type_ruby",
+		"pryrc": "file_type_ruby",
+		"prawn": "file_type_ruby",
+		"thor": "file_type_ruby",
+
+		"ruby.rail": "file_type_rails",
+		"rxml": "file_type_rails",
+		"builder": "file_type_rails",
+		"arb": "file_type_rails",
+
+		"rs": "file_type_rust",
+
+		"rst": "file_type_restructuredtext",
+		"rest": "file_type_restructuredtext",
+
+		"sbt": "file_type_scala",
+		"sc": "file_type_scala",
+		"scala": "file_type_scala",
+
+		"sql.erb": "file_type_sql",
+		"erbsql": "file_type_sql",
+		"cql": "file_type_sql",
+		"pgsql": "file_type_sql",
+		"psql": "file_type_sql",
+		"sql": "file_type_sql",
+		"ddl": "file_type_sql",
+		"dml": "file_type_sql",
+
+		"textile": "file_type_textile",
+
+		"tcl": "file_type_tcl",
+
+		"c": "file_type_c",
+		"C": "file_type_c",
+		"mm": "file_type_c",
+		"m": "file_type_c",
+		"M": "file_type_c",
+		"h": "file_type_cheader",
+
+		"cc": "file_type_cpp",
+		"cp": "file_type_cpp",
+		"cpp": "file_type_cpp",
+		"cppm": "file_type_cpp",
+		"cxx": "file_type_cpp",
+		"inl": "file_type_cpp",
+		"ino": "file_type_cpp",
+		"ipp": "file_type_cpp",
+		"ixx": "file_type_cpp",
+		"hh": "file_type_cppheader",
+		"hpp": "file_type_cppheader",
+		"hxx": "file_type_cppheader",
+
+		"clj": "file_type_clojure",
+		"cljc": "file_type_clojure",
+		"edn": "file_type_clojure",
+		"cljs": "file_type_clojure",
+
+		"ml": "file_type_ocaml",
+		"mli": "file_type_ocaml",
+		"mll": "file_type_ocaml",
+		"mly": "file_type_ocaml",
+
+		"pas": "file_type_delphi",
+		"p": "file_type_delphi",
+		"dpr": "file_type_delphi",
+
+		"pl": "file_type_perl",
+		"pc": "file_type_perl",
+		"pm": "file_type_perl",
+		"pmc": "file_type_perl",
+		"pod": "file_type_perl",
+		"t": "file_type_perl",
+
+		"toml": "file_type_toml",
+		"tml": "file_type_toml",
+
+		"Pipfile": "file_type_preferences",
+
+		"pc": "file_type_xml",
+		"pl": "file_type_xml",
+		"pm": "file_type_xml",
+		"pmc": "file_type_xml",
+		"pod": "file_type_xml",
+		"t": "file_type_xml",
+		"dtd": "file_type_xml",
+		"ent": "file_type_xml",
+		"mod": "file_type_xml",
+		"xml": "file_type_xml",
+		"tld": "file_type_xml",
+		"dtml": "file_type_xml",
+		"rng": "file_type_xml",
+		"rss": "file_type_xml",
+		"opml": "file_type_xml",
+		"slnx": "file_type_xml",
+		"svg": "file_type_svg",
+		"xaml": "file_type_xml",
+
+		"sublime-snippet": "file_type_sublime",
+		"tmLanguage": "file_type_textmate",
+		"tmPreferences": "file_type_textmate",
+		"tmSnippet": "file_type_textmate",
+		"tmTheme": "file_type_textmate",
+
+		"yaml": "file_type_yaml",
+		"yml": "file_type_yaml",
+		"goyaml": "file_type_yaml",
+		"go.yaml": "file_type_yaml",
+		"goyml": "file_type_yaml",
+		"go.yml": "file_type_yaml",
+	}
+}
