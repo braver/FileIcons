@@ -31,6 +31,17 @@ By default various configuration file formats are not recognized and matched to 
 }
 ```
 
+If you prefer the Sublime Text 4 logo for ST-related files over the retro logo, add the "st4" icon set:
+
+```json
+{
+	"file_icon_theme": [
+		"FileIcons (mono).sublime-file-icons",
+		"FileIcons st4 (mono).sublime-file-icons",
+	],
+}
+```
+
 ## Tweaking UI themes
 
 To make adjustments to your current theme, just run "UI: Customize Theme" from the command palette, and read [the documentation](https://www.sublimetext.com/docs/themes.html#customization) for more information. 

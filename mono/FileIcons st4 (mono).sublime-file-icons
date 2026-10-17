@@ -1,0 +1,20 @@
+{
+	"icons": {
+		"sublime-build": "file_type_sublime4",
+		"sublime-color-scheme": "file_type_sublime4",
+		"sublime-commands": "file_type_sublime4",
+		"sublime-completions": "file_type_sublime4",
+		"sublime-file-icons": "file_type_sublime4",
+		"sublime-keymap": "file_type_sublime4",
+		"sublime-macro": "file_type_sublime4",
+		"sublime-menu": "file_type_sublime4",
+		"sublime-merge-theme": "file_type_sublime4",
+		"sublime-mousemap": "file_type_sublime4",
+		"sublime-project": "file_type_sublime4",
+		"sublime-settings": "file_type_sublime4",
+		"sublime-snippet": "file_type_sublime4",
+		"sublime-syntax": "file_type_sublime4",
+		"sublime-theme": "file_type_sublime4",
+		"sublime-workspace": "file_type_sublime4",
+	}
+}
