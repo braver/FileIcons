@@ -1,14 +1,6 @@
 #!/usr/bin/env python3
-"""Generate the mono + color PNG icons for the FileIcons package.
 
-Python re-implementation of the previous Rust generator. Rendering is done
-by resvg_py (a Python binding for resvg). Each SVG is normalized per output
-size by setting an explicit viewport (width/height) with
-preserveAspectRatio="xMinYMin meet", which reproduces the layout of the
-original output: the glyph at its natural scale, anchored top-left in an
-18x16 / 38x32 / 54x48 canvas. The svg assets on disk carry the base (1x)
-viewport; the per-size viewport is applied in memory at render time.
-
+"""
 Usage:
     .venv/bin/python build/generate_icons.py
 """
@@ -36,11 +28,6 @@ ET.register_namespace('serif', 'http://www.serif.com/')
 
 def normalize_svg(svg: str, canvas_width: int, canvas_height: int) -> str:
     """Return the svg with an explicit canvas_width x canvas_height viewport.
-
-    The viewBox is left untouched, so the icon's content scales exactly like
-    the original generator's FitTo::Size(height, width) behavior:
-    aspect-preserving fit of the viewBox content into the canvas, anchored
-    top-left.
     """
     try:
         root = ET.fromstring(svg)
@@ -50,19 +37,6 @@ def normalize_svg(svg: str, canvas_width: int, canvas_height: int) -> str:
     root.set('height', str(canvas_height))
     root.set('preserveAspectRatio', 'xMinYMin meet')
     return ET.tostring(root, encoding='unicode')
-
-
-def render(svg: str) -> bytes:
-    """Render an SVG string to PNG bytes."""
-    # None of the icons contain <text>, so system fonts are never needed.
-    return resvg_py.svg_to_bytes(svg_string=svg, skip_system_fonts=True)
-
-
-def canvas_size(size_desc: dict) -> tuple:
-    # The original Rust script passed (height, width) to both
-    # usvg::FitTo::Size and tiny_skia::Pixmap::new, so {"width": 16,
-    # "height": 18} produced an 18x16 canvas. Keep that layout.
-    return size_desc["height"], size_desc["width"]
 
 
 def suffix_of(size_desc: dict) -> str:
@@ -85,11 +59,13 @@ def build_theme(colors: dict, icons: dict, sizes: list, theme: str, colorize: bo
             svg = svg.replace("#FFFFFF", colors[color_name])
 
         for size_desc in sizes:
-            canvas_w, canvas_h = canvas_size(size_desc)
+            canvas_w, canvas_h = size_desc["height"], size_desc["width"]
             full_output_path = theme_dir / f"{name}{suffix_of(size_desc)}.png"
 
             print(f"Building {full_icon_path} to {full_output_path}")
-            full_output_path.write_bytes(render(normalize_svg(svg, canvas_w, canvas_h)))
+            full_output_path.write_bytes(
+                # Icons are just paths, so system fonts are never needed.
+                resvg_py.svg_to_bytes(normalize_svg(svg, canvas_w, canvas_h), skip_system_fonts=True))
             built += 1
 
     return built
