@@ -82,7 +82,6 @@ def build_theme(colors: dict, icons: dict, sizes: list, theme: str, colorize: bo
         svg = full_icon_path.read_text(encoding="utf-8")
 
         if colorize:
-            # colorize the absolute hack way
             svg = svg.replace("#FFFFFF", colors[color_name])
 
         for size_desc in sizes:
