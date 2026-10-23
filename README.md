@@ -98,6 +98,8 @@ To add an icon:
 - open a PR
 - 💃
 
+If the `Solarized Color Scheme` package is installed next to this one, `make` also regenerates its icons, using the palette in `build/solarized.json`.
+
 The `color` and `mono` branches of this repository contain the older, now considered legacy, approach to building an icon theme.
 
 ## Buy me a coffee 

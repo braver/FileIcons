@@ -6,50 +6,24 @@ Usage:
 """
 
 import json
+import struct
 import sys
 import time
-import xml.etree.ElementTree as ET
 from pathlib import Path
 
 import resvg_py
-
-if sys.version_info < (3, 10):
-    sys.exit("generate_icons.py requires Python 3.10 or newer (resvg_py wheels).")
 
 BUILD_DIR = Path(__file__).resolve().parent
 ROOT_DIR = BUILD_DIR.parent
 ASSETS_DIR = BUILD_DIR / "assets"
 
-# Namespace prefixes used by the svg assets; keep them stable when reserializing.
-ET.register_namespace('', 'http://www.w3.org/2000/svg')
-ET.register_namespace('xlink', 'http://www.w3.org/1999/xlink')
-ET.register_namespace('serif', 'http://www.serif.com/')
-
-# Output canvas sizes as (width, height, filename suffix).
-# 18x16 is Sublime's default icon size.
-SIZES = [
-    (18, 16, ""),
-    (36, 32, "@2x"),
-    (54, 48, "@3x"),
-]
+# Output sizes as (zoom, filename suffix). The assets carry an 18x16 viewport
+# on disk; 18x16 is Sublime's default icon size.
+SIZES = [(1, ""), (2, "@2x"), (3, "@3x")]
 
 
-def normalize_svg(svg: str, canvas_width: int, canvas_height: int) -> str:
-    """Return the svg with an explicit canvas_width x canvas_height viewport.
-    """
-    try:
-        root = ET.fromstring(svg)
-    except ET.ParseError as e:
-        sys.exit(f"invalid svg: {e}")
-    root.set('width', str(canvas_width))
-    root.set('height', str(canvas_height))
-    root.set('preserveAspectRatio', 'xMinYMin meet')
-    return ET.tostring(root, encoding='unicode')
-
-
-def build_theme(colors: dict, icons: dict, theme: str, colorize: bool) -> int:
-    theme_dir = ROOT_DIR / theme / "icons"
-    theme_dir.mkdir(parents=True, exist_ok=True)
+def build_theme(out_dir: Path, icons: dict, palette: dict | None) -> int:
+    out_dir.mkdir(parents=True, exist_ok=True)
 
     built = 0
     for name, color_name in icons.items():
@@ -58,16 +32,22 @@ def build_theme(colors: dict, icons: dict, theme: str, colorize: bool) -> int:
             sys.exit(f"Failed to read icon file {full_icon_path} (missing)")
         svg = full_icon_path.read_text(encoding="utf-8")
 
-        if colorize:
-            svg = svg.replace("#FFFFFF", colors[color_name])
+        if palette:
+            svg = svg.replace("#FFFFFF", palette[color_name])
+        if 'preserveAspectRatio="xMinYMin meet"' not in svg:
+            sys.exit(f"{full_icon_path.name} must have an 18x16 viewport with "
+                     'preserveAspectRatio="xMinYMin meet" (see README)')
 
-        for canvas_w, canvas_h, suffix in SIZES:
-            full_output_path = theme_dir / f"{name}{suffix}.png"
+        for zoom, suffix in SIZES:
+            full_output_path = out_dir / f"{name}{suffix}.png"
 
             print(f"Building {full_icon_path} to {full_output_path}")
-            full_output_path.write_bytes(
-                # Icons are just paths, so system fonts are never needed.
-                resvg_py.svg_to_bytes(normalize_svg(svg, canvas_w, canvas_h), skip_system_fonts=True))
+            # Icons are just paths, so system fonts are never needed.
+            png = resvg_py.svg_to_bytes(svg, zoom=zoom, skip_system_fonts=True)
+            if struct.unpack('>II', png[16:24]) != (18 * zoom, 16 * zoom):
+                sys.exit(f"{full_icon_path.name} does not render to an "
+                         f"{18 * zoom}x{16 * zoom} canvas (check its viewport)")
+            full_output_path.write_bytes(png)
             built += 1
 
     return built
@@ -77,9 +57,21 @@ def main() -> None:
     colors = json.loads((BUILD_DIR / "colors.json").read_text(encoding="utf-8"))
     icons = json.loads((BUILD_DIR / "icons.json").read_text(encoding="utf-8"))
 
+    themes = [
+        (ROOT_DIR / "mono" / "icons", None),
+        (ROOT_DIR / "color" / "icons", colors),
+    ]
+
+    # if the Solarized package is present, also generate icons for it
+    solarized = json.loads((BUILD_DIR / "solarized.json").read_text(encoding="utf-8"))
+    solarized_pkg = ROOT_DIR.parent / "Solarized Color Scheme"
+    if solarized_pkg.is_dir():
+        themes.append((solarized_pkg / "icons", solarized))
+
     started = time.time()
-    built = build_theme(colors, icons, "mono", colorize=False)
-    built += build_theme(colors, icons, "color", colorize=True)
+    built = 0
+    for out_dir, palette in themes:
+        built += build_theme(out_dir, icons, palette)
 
     print(f"Built {built} icons in {time.time() - started:.1f}s")
 
