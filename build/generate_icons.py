@@ -25,6 +25,14 @@ ET.register_namespace('', 'http://www.w3.org/2000/svg')
 ET.register_namespace('xlink', 'http://www.w3.org/1999/xlink')
 ET.register_namespace('serif', 'http://www.serif.com/')
 
+# Output canvas sizes as (width, height, filename suffix).
+# 18x16 is Sublime's default icon size.
+SIZES = [
+    (18, 16, ""),
+    (36, 32, "@2x"),
+    (54, 48, "@3x"),
+]
+
 
 def normalize_svg(svg: str, canvas_width: int, canvas_height: int) -> str:
     """Return the svg with an explicit canvas_width x canvas_height viewport.
@@ -39,12 +47,7 @@ def normalize_svg(svg: str, canvas_width: int, canvas_height: int) -> str:
     return ET.tostring(root, encoding='unicode')
 
 
-def suffix_of(size_desc: dict) -> str:
-    suffix = size_desc.get("suffix")
-    return suffix if isinstance(suffix, str) else ""
-
-
-def build_theme(colors: dict, icons: dict, sizes: list, theme: str, colorize: bool) -> int:
+def build_theme(colors: dict, icons: dict, theme: str, colorize: bool) -> int:
     theme_dir = ROOT_DIR / theme / "icons"
     theme_dir.mkdir(parents=True, exist_ok=True)
 
@@ -58,9 +61,8 @@ def build_theme(colors: dict, icons: dict, sizes: list, theme: str, colorize: bo
         if colorize:
             svg = svg.replace("#FFFFFF", colors[color_name])
 
-        for size_desc in sizes:
-            canvas_w, canvas_h = size_desc["height"], size_desc["width"]
-            full_output_path = theme_dir / f"{name}{suffix_of(size_desc)}.png"
+        for canvas_w, canvas_h, suffix in SIZES:
+            full_output_path = theme_dir / f"{name}{suffix}.png"
 
             print(f"Building {full_icon_path} to {full_output_path}")
             full_output_path.write_bytes(
@@ -74,11 +76,10 @@ def build_theme(colors: dict, icons: dict, sizes: list, theme: str, colorize: bo
 def main() -> None:
     colors = json.loads((BUILD_DIR / "colors.json").read_text(encoding="utf-8"))
     icons = json.loads((BUILD_DIR / "icons.json").read_text(encoding="utf-8"))
-    sizes = json.loads((BUILD_DIR / "sizes.json").read_text(encoding="utf-8"))
 
     started = time.time()
-    built = build_theme(colors, icons, sizes, "mono", colorize=False)
-    built += build_theme(colors, icons, sizes, "color", colorize=True)
+    built = build_theme(colors, icons, "mono", colorize=False)
+    built += build_theme(colors, icons, "color", colorize=True)
 
     print(f"Built {built} icons in {time.time() - started:.1f}s")
 
