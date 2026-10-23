@@ -89,6 +89,7 @@ To add an icon:
 
 - add an svg asset with the correct name
 - check that the svg matches the format of the other icons:
+	- the root svg element has an explicit 18x16 viewport: `width="18" height="16" preserveAspectRatio="xMinYMin meet"`
 	- all shapes are combined into a single path
 	- the path has a style attribute applying the color
 - add an entry to `build/icons.json` and assign it a color
