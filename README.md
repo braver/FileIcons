@@ -81,14 +81,15 @@ Icons are 18x16 to work well withe Sublime's default themes. To adjust dimension
 
 ## Contributing
 
-The "build" directory contains svg assets. Each icon is assigned a color in icons.json, available colors are listed in colors.json. 
+The "build" directory contains the svg assets. Each icon is assigned a color in icons.json, available colors are listed in colors.json.
 
-PNG icons are built using a small app written in [Rust](https://www.rust-lang.org).
+PNG icons are generated with Python (>= 3.10), rendering is done by [resvg](https://github.com/RazrFalcon/resvg) through the `resvg_py` wheel. `make` creates the virtualenv in `.venv` and installs the pinned requirements automatically.
 
 To add an icon:
 
 - add an svg asset with the correct name
 - check that the svg matches the format of the other icons:
+	- the root svg element has an explicit 18x16 viewport: `width="18" height="16" preserveAspectRatio="xMinYMin meet"`
 	- all shapes are combined into a single path
 	- the path has a style attribute applying the color
 - add an entry to `build/icons.json` and assign it a color
@@ -96,6 +97,8 @@ To add an icon:
 - commit the files
 - open a PR
 - 💃
+
+If the `Solarized Color Scheme` package is installed next to this one, `make` also regenerates its icons, using the palette in `build/solarized.json`.
 
 The `color` and `mono` branches of this repository contain the older, now considered legacy, approach to building an icon theme.
 
