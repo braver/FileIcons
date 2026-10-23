@@ -39,3 +39,8 @@ Thumbs.db
 # Node installed packages #
 ###########################
 node_modules/*
+
+# Python installed packages #
+#############################
+.venv/
+__pycache__/
