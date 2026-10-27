@@ -1,4 +1,4 @@
-# FileIcons Theme
+# Icons - FileIcons
 
 Adds specific icons for most file types for the sidebar in Sublime Text, in both color and monochrome, for any theme.
 
